@@ -10,8 +10,8 @@ Opencast 4.0 focuses on end user ease-of-use to make the day-to-day lives of Ado
 
 The new features for this release are:
 
-- Asset Manager – The Archive service has been enhanced to support properties that can be attached to episodes. This allows services to store their data centrally and thus reducing the overall system complexity and the same time avoiding data being duplicated across multiple services (and many of the problems related with that). The Asset Manager provides a query language for easy manipulation of properties. To have a more appropriate name, the Archive service has then been renamed to Asset Manager service.
-- Scheduler – The Scheduler service has been rewritten to take advantage of the Asset Manager service. The new Scheduler service provides full support for extended metadata for scheduled events and adds a transactional API for integrating external scheduling sources. A new tab in the event detail modal helps to more clearly separate bibliographic metadata from technical metadata
+- **Asset Manager** – The Archive service has been enhanced to support properties that can be attached to episodes. This allows services to store their data centrally and thus reducing the overall system complexity and the same time avoiding data being duplicated across multiple services (and many of the problems related with that). The Asset Manager provides a query language for easy manipulation of properties. To have a more appropriate name, the Archive service has then been renamed to Asset Manager service.
+- **Scheduler** – The Scheduler service has been rewritten to take advantage of the Asset Manager service. The new Scheduler service provides full support for extended metadata for scheduled events and adds a transactional API for integrating external scheduling sources. A new tab in the event detail modal helps to more clearly separate bibliographic metadata from technical metadata
 
 - **Theodul Player Improvements** – The Theodul player now supports MPEG-DASH and HLS. To improve the user experience when navigating in a video, preview images are shown when hovering over the timeline
 - **Flexible Asset Upload** – This new facility allows Adopters to fully configure the upload dialog of Opencast as well as to configure arbitrary assets that can be uploaded and managed trough the user interface.
@@ -36,3 +36,25 @@ Manually retry failed operations – It is now possible to make failing workflow
 A full list of changes can be found in the [official release notes](https://docs.opencast.org/r/4.x/admin/releasenotes/).
 
 Visit the [download section](http://www.opencast.org/software/download) for more information on how to get Opencast 4.0.
+
+
+# Features
+
+![Schedule](http://www.opencast.org/wp-content/uploads/2015/03/schedule.png)
+## Schedule
+Schedule events to automatically record based on a pre-defined timetable and, capture both video of the presenter and the PC screen.
+
+## Edit
+Bulk edit and trim video recordings. The editor provides graphical visualization of elements such as audio can significantly reduce editing time.
+
+## Process
+A scalable infrastructure to encode video, generate metadata and preview images, create captioning and bulk edit to support video processing at scale.
+
+## Distribute
+Publish recordings for download or on-demand viewing via YouTube, RSS, Atom-feeds or with OAI-PMH.
+
+## Playback
+The media player is a standalone application or embedded on blogs, wikis or a content management system.
+
+## Manage
+A robust dashboard to manage, configure and track the status and performance of video content and distribution channels.
