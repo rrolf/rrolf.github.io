@@ -81,3 +81,7 @@ The media player is a standalone application or embedded on blogs, wikis or a co
 ## Manage
 A robust dashboard to manage, configure and track the status and performance of video content and distribution channels.
 </p>
+
+# Trusted by a Collection of Innovative Organizations
+<img class="feature-image-right" src="http://www.opencast.org/wp-content/uploads/2015/02/opencast-homepage-logos-rev2-1024x286.png">
+
