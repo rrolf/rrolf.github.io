@@ -16,6 +16,7 @@
   height: auto;
   vertical-align: middle;
   margin-top: -12px;
+  float: left;
 }
 
 .feature-image-left {
@@ -29,4 +30,9 @@
 }
 
 .center-image {
+}
+
+.navigation {
+  float: right;
+  padding: 10px;
 }
