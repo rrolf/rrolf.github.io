@@ -4,10 +4,15 @@
 @import "{{ site.theme }}";
 
 .main-menu {
+  max-width: 64rem;
+  padding: 2rem 6rem;
+  margin: 0 auto;
+  font-size: 1.1rem;  
   height: 80px;
 }
 
 .opencast-logo {
   width: 200px;
-  height: 40px;
+  height: auto;
+  vertical-align: middle;
 }
