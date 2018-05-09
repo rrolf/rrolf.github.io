@@ -48,7 +48,7 @@ Schedule events to automatically record based on a pre-defined timetable and, ca
 </p>
 
 <p>
-<img class="feature-image-right" http://www.opencast.org/wp-content/uploads/2015/03/edit.png">
+<img class="feature-image-right" src="http://www.opencast.org/wp-content/uploads/2015/03/edit.png">
   
 ## Edit
 Bulk edit and trim video recordings. The editor provides graphical visualization of elements such as audio can significantly reduce editing time.
