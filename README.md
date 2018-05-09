@@ -1,9 +1,9 @@
-# Opencast is a flexible and customizable video capture and distribution system for modern institutions. Opencast is built by a growing community of developers in collaboration with leading universities and organizations worldwide.
+**Opencast is a flexible and customizable video capture and distribution system for modern institutions. Opencast is built by a growing community of developers in collaboration with leading universities and organizations worldwide.**
 
-## Introduction video
-{% include videoplayer.html id=57a2b005-fe70-4566-a234-aa864faf1e29 %}
+# Introduction video
+{% include videoplayer.html id="57a2b005-fe70-4566-a234-aa864faf1e29" %}
 
-## Opencast 4.3 has been released
+# Opencast 4.3 has been released
 _March, 28th 2018_
 
 Opencast 4.0 focuses on end user ease-of-use to make the day-to-day lives of Adopters easier. This release has an updated asset management core enabling centralized property storage, as well as many user interface tweaks and performance improvements.
