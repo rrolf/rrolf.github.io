@@ -47,17 +47,37 @@ Visit the [download section](http://www.opencast.org/software/download) for more
 Schedule events to automatically record based on a pre-defined timetable and, capture both video of the presenter and the  PC screen.
 </p>
 
+<p>
+<img class="feature-image-right" http://www.opencast.org/wp-content/uploads/2015/03/edit.png">
+  
 ## Edit
 Bulk edit and trim video recordings. The editor provides graphical visualization of elements such as audio can significantly reduce editing time.
+</p>
 
+<p>
+<img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2015/03/events.png">
+  
 ## Process
 A scalable infrastructure to encode video, generate metadata and preview images, create captioning and bulk edit to support video processing at scale.
+</p>
 
+<p>
+<img class="feature-image-right" src="http://www.opencast.org/wp-content/uploads/2015/03/distribute.png">
+  
 ## Distribute
 Publish recordings for download or on-demand viewing via YouTube, RSS, Atom-feeds or with OAI-PMH.
+</p>
 
+<p>
+<img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2015/03/playback.png">
+  
 ## Playback
 The media player is a standalone application or embedded on blogs, wikis or a content management system.
+</p>
 
+<p>
+<img class="feature-image-right" src="http://www.opencast.org/wp-content/uploads/2015/03/manage.png">
+  
 ## Manage
 A robust dashboard to manage, configure and track the status and performance of video content and distribution channels.
+</p>
