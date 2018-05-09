@@ -40,11 +40,9 @@ Visit the [download section](http://www.opencast.org/software/download) for more
 
 # Features
 
-<p>
-  <img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2015/03/schedule.png">
+<img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2015/03/schedule.png">
 ## Schedule
 Schedule events to automatically record based on a pre-defined timetable and, capture both video of the presenter and the  PC screen.
-</p>
 
 ## Edit
 Bulk edit and trim video recordings. The editor provides graphical visualization of elements such as audio can significantly reduce editing time.
