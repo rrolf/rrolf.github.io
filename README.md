@@ -41,6 +41,7 @@ Visit the [download section](http://www.opencast.org/software/download) for more
 # Features
 
 <img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2015/03/schedule.png">
+
 ## Schedule
 Schedule events to automatically record based on a pre-defined timetable and, capture both video of the presenter and the  PC screen.
 
