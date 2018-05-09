@@ -3,6 +3,8 @@
 # Introduction video
 {% include videoplayer.html id="57a2b005-fe70-4566-a234-aa864faf1e29" %}
 
+---
+
 # Opencast 4.3 has been released
 _March, 28th 2018_
 
@@ -37,6 +39,7 @@ A full list of changes can be found in the [official release notes](https://docs
 
 Visit the [download section](http://www.opencast.org/software/download) for more information on how to get Opencast 4.0.
 
+---
 
 # Features
 
@@ -64,6 +67,7 @@ The media player is a standalone application or embedded on blogs, wikis or a co
 ## Manage
 A robust dashboard to manage, configure and track the status and performance of video content and distribution channels.
 
+---
 
 # Trusted by a Collection of Innovative Organizations
 <img class="center-image" src="http://www.opencast.org/wp-content/uploads/2015/02/opencast-homepage-logos-rev2-1024x286.png">
