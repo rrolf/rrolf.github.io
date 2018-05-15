@@ -11,6 +11,16 @@
   height: 80px;
 }
 
+li a.menu-item {
+ display: block; 
+}
+
+ul.navigation-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 .menu-item {
     margin: 10px;
     font-weight: 700;
