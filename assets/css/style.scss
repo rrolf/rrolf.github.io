@@ -12,13 +12,12 @@
 }
 
 li a.menu-item {
- display: block; 
+ display: inline;
+ float: right;
 }
 
 ul.navigation-list {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 .menu-item {
