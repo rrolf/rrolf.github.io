@@ -11,13 +11,22 @@
   height: 80px;
 }
 
+li.menu-item {
+ float: left;
+}
+
 li a.menu-item {
- display: inline;
- float: right;
+ display: block;
+ text-align: center;
+ text-decoration: none;
+ padding: 14px 16px;
 }
 
 ul.navigation-list {
   list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
 }
 
 .menu-item {
