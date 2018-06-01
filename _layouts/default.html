@@ -10,12 +10,20 @@
   </head>
   <body>
     <section class="main-menu">
-       <nav class="navbar navbar-expand-lg navbar-light bg-light navigation">       
-         <a href="/navbar-brand" class=""><img src="img/opencast.svg" alt="Opencast Logo" class="opencast-logo"/></a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation">
-           <span class="navbar-toggler-icon"></span>
-         </button>
-         <ul class="navbar-nav navigation-list">
+       <nav class="navbar navbar-default navigation">
+         
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="/"><img src="img/opencast.svg" alt="Opencast Logo" class="opencast-logo"/></a>
+              <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#opencastNav" aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>    
+             </button>
+           </div>
+         <div class="collapse navbar-collapse" id="opencastNav">
+         <ul class="nav navbar-nav navigation-list">
            <li class="nav-item menu-item"><a class="nav-link" href="software">Software</a></li>
            <li class="nav-item menu-item"><a class="nav-link" href="benefits">Benefits</a></li>
            <li class="nav-item menu-item"><a class="nav-link" href="users">Users</a></li>
