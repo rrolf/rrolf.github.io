@@ -64,3 +64,25 @@ Opencast Manage provides a dashboard for administrators to configure the system,
 - Manual media upload (e.g. user-generated or production video)
 - Bulk editing; media trimming and recording search/filtering
 - Monitoring dashboard; status, performance statistics and technical details
+
+| <img class="feature-image-zebra-grey" src="http://www.opencast.org/wp-content/uploads/2015/07/large-playback.jpg">img class="feature-image-zebra-grey" src="http://www.opencast.org/wp-content/uploads/2015/07/large-manage.jpg"> | The Opencast player can be used as a standalone application, or embedded inside other applications like blogs, wikis or content management systems. Opencast Playback enables slide segmentation and in-video text search. All player functionality is fully accessible, supporting assistive technology across multiple platforms.
+
+- Split-screen player for viewing video and slide content simultaneously
+- Heat maps indicate sections of content most often watched
+- REST APIs make it easy to extend to or integrate players
+- Easy customization and localization of the player interface
+- Customizable permissions settings
+- User directory integration (LDAP, CAS etc.)
+- Adaptive Streaming support with HTTP Live Streaming (HLS) |
+|-----|------|
+| <img class="feature-image-zebra-grey" src="http://www.opencast.org/wp-content/uploads/2015/07/large-manage.jpg">
+ | Opencast Manage provides a dashboard for administrators to configure the system, make bulk edits to content and metadata, track the status and performance of content and configure distribution of video content.
+
+- Metadata entry and editing for related recordings
+- Distribution to supported channels (i.e. iTunes, YouTube, RSS, Opencast Playback)
+- Manual media upload (e.g. user-generated or production video)
+- Bulk editing; media trimming and recording search/filtering
+- Monitoring dashboard; status, performance statistics and technical details |
+| img | text |
+| img | text |
+| img | text |
