@@ -3,7 +3,7 @@ title: Opencast Sponsors
 description: Opencast as an Open Source product lives on the support of its community. We’re grateful to every committer, contributor and community member providing feedback. And to our sponsors:
 ---
 
-<img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2015/02/mancherster-logo.png">
+<img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2017/06/Wolfvision-sponsor_gross.jpg">
 ## WolfVision
 
 WolfVision is a developer and manufacturer of innovative systems and services enabling efficient transfer of knowledge. Leading universities, businesses, and other organisations worldwide, use WolfVision Visualizer systems and the multi-functional Cynap collaboration and presentation solution, to optimise information handling and knowledge sharing throughout their organizations.
