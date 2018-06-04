@@ -1,6 +1,7 @@
 ---
 title: Tools for Opencast
 description: The Opencast community offers several tools, mostly open source, that work together with Opencast to increase the functionality. These tools can improve the capture, offer a export or integration into other systems, can give you a choice of different players and much more.
+---
 
 # Tools
 
