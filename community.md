@@ -118,8 +118,8 @@ Feel free to use the [webchat webinterface](http://webchat.freenode.net/?channel
 # Committers Emeritus
 The following people were committers at one time and have contributed to the project, but are no longer active committers.
 
--Chris Brooks, University of Saskatchewan
--David Horwitz, University of Cape Town
+- Chris Brooks, University of Saskatchewan
+- David Horwitz, University of Cape Town
 - Edmore Moyo, University of Cape Town
 - Eduardo Alonso, University of Vigo
 - Jaime Gago, Entwine
