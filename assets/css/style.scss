@@ -20,6 +20,13 @@ li a.menu-item {
  text-align: center;
  text-decoration: none;
  padding: 14px 16px;
+ color: #41474c;
+}
+
+li a.menu-item:hover {
+  color: #1e6bb8;
+  text-decoration: none;
+  font-weight: 900;
 }
 
 ul.navigation-list {
@@ -27,10 +34,11 @@ ul.navigation-list {
   margin: 0px;
   padding: 0px;
   overflow: hidden;
+  float: right;
 }
 
 .menu-item {
-    margin: 10px;
+    margin-left: 10px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -39,11 +47,15 @@ ul.navigation-list {
     font-size: 12px;
 }
 
+a.menu-item:hover {
+    text-decoration: none;
+  
+}
+
 .opencast-logo {
   width: 200px;
   height: auto;
   vertical-align: middle;
-  margin-top: -12px;
   float: left;
 }
 
@@ -62,8 +74,3 @@ ul.navigation-list {
 .center-image {
 }
 
-.navigation {
-  float: right;
-  padding: 10px;
-  margin-top: -17px;
-}
