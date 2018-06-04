@@ -93,5 +93,5 @@ Every year there are two major releases to Opencast. Throughout the year, mainte
 
 ## Get Started Now
 
-{% include button.html url="/downloads" %}
+{% include button.html url="/download" %}
 {% include button.html url="/documentation" %}
