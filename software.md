@@ -3,8 +3,6 @@ title: About Opencast Software
 description: Opencast is an open source solution for automated video capture and distribution at scale. Build custom capture, processing, scheduling and distribution solutions for your organization with one flexible platform.
 ---
 
-# Software
-
 <img class="feature-image-zebra-white" src="http://www.opencast.org/wp-content/uploads/2015/07/large-schedule.jpg">
 ## Schedule
 Opencast Schedule lets you schedule an event to be automatically recorded on specific days and times of the week, and the distribution channel to which the recordings will be published.
