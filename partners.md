@@ -2,9 +2,6 @@
 title: Opencast Partners
 description: Opencast has a group of partners that can help you make the most informed decisions when designing and deploying your custom video capture solution. We strive to build a healthy ecosystem of consultants and technology providers all of which have been vetted by the community and validated by its users.
 
-{% include button.html url="/marketplace#sponsors" %}
-{% include button.html url="/marketplace#vendors" %}
-{% include button.html url="/marketplace#support" %}
 ---
 
 # Sponsors

@@ -12,7 +12,7 @@ These are the official mailing lists of the Opencast Community. If you are seeki
 - For all matters related to academic video (technical, didactical) in general and Opencast in particular; announcements
 - More a newsletter, as users cannot post to this list
 - Highly recommended for everybody interested in the Opencast software and community
-- {% include button.html url="https://groups.google.com/a/opencast.org/forum/?fromgroups#!forum/announcements" %}
+- 
 
 ## Opencast Users
 [users@opencast.org](users@opencast.org)
@@ -23,7 +23,6 @@ These are the official mailing lists of the Opencast Community. If you are seeki
 - Before posting, cf. archive
 
 **NOTE: As a community support group, all subscribers are encouraged to help out with any support needs that come across the list.**
-{% include button.html url="https://groups.google.com/a/opencast.org/forum/?fromgroups#!forum/users" %}
 
 ## Opencast Development List
 [dev@opencast.org](dev@opencast.org)
@@ -34,15 +33,12 @@ These are the official mailing lists of the Opencast Community. If you are seeki
 - Before posting, cf. [https://groups.google.com/a/opencast.org/forum/#!forum/dev](https://groups.google.com/a/opencast.org/forum/#!forum/dev)
 
 **NOTE: You should also be subscribed to the Community list, as some important announcements about Opencast will only be sent to the Community list. We assume everyone on the dev@ list is also on the announcements@ list**
-{% include button.html url="https://groups.google.com/a/opencast.org/forum/#!forum/dev" %}
 
 ## Opencast Security Notices
 [security-notices@opencast.org](security-notices@opencast.org)
 
 - For notices relating to security issues in Opencast
 - Recommended for all Opencast development team members, anyone running a Opencast instance
-
-{% include button.html url="https://groups.google.com/a/opencast.org/forum/?fromgroups#!forum/security-notices" %}
 
 ## Opencast Security
 [security@opencast.org](security@opencast.org)
@@ -65,7 +61,6 @@ These are the official mailing lists of the Opencast Community. If you are seeki
 - For anyone feeling more comfortable discussing Opencast-related issues in German
 
 **NOTE: You should also be subscribed to the Community list, as some important announcements about Opencast will only be sent to the Community list. We assume everyone on the anwender@ list is also on the announcements@ list**
-{% include button.html url="https://groups.google.com/a/opencast.org/forum/?fromgroups#!forum/anwender" %}
 
 ## IRC Channel #opencast
 On irc.freenode.net, the chat group #opencast is used around the clock for real-time assistance by both users and develoeprs.
