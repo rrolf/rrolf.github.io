@@ -1,9 +1,13 @@
+var md = require('markdown-it')()
+            .use(markdown-it-container)
+);
+            
 ---
 title: About Opencast Software
 description: Opencast is an open source solution for automated video capture and distribution at scale. Build custom capture, processing, scheduling and distribution solutions for your organization with one flexible platform.
 ---
 
-<img class="feature-image-zebra-white" src="http://www.opencast.org/wp-content/uploads/2015/07/large-schedule.jpg">
+<img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2015/07/large-schedule.jpg">
 ## Schedule
 Opencast Schedule lets you schedule an event to be automatically recorded on specific days and times of the week, and the distribution channel to which the recordings will be published.
 
@@ -14,7 +18,7 @@ Opencast Schedule lets you schedule an event to be automatically recorded on spe
 - Integrates with open source and proprietary capture hardware
 - Tools for disaster recovery
 
-<img class="feature-image-zebra-grey" src="http://www.opencast.org/wp-content/uploads/2015/07/large-process.jpg">
+<img class="feature-image-right" src="http://www.opencast.org/wp-content/uploads/2015/07/large-process.jpg">
 ## Process
 
 Opencast Process is a workflow-based system that provides a scalable infrastructure for encoding and enriching video with metadata, preview images, brands, captioning and text analysis to make the media more discoverable and accessible.
@@ -26,7 +30,7 @@ Opencast Process is a workflow-based system that provides a scalable infrastruct
 - Powerful search capabilities for static, dynamic, and user-generated metadata
 - Administrative dashboard for monitoring and management of media life cycle
 
-<img class="feature-image-zebra-grey" src="http://www.opencast.org/wp-content/uploads/2015/07/large-distribute.jpg">
+<img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2015/07/large-distribute.jpg">
 ## Distribute
 
 With Opencast Distribute enables you to publish recordings for on-demand viewing or download. Learning tools interoperability (LTI) and RSS/Atom feeds are available for integration with other systems, and publishing to iTunes U and YouTube can be automated.
@@ -38,7 +42,7 @@ With Opencast Distribute enables you to publish recordings for on-demand viewing
 - Automated publishing to iTunes U and YouTube
 - Custom workflows to enable distribution and archiving to local or distribution servers
 
-<img class="feature-image-zebra-grey" src="http://www.opencast.org/wp-content/uploads/2015/07/large-playback.jpg">
+<img class="feature-image-right" src="http://www.opencast.org/wp-content/uploads/2015/07/large-playback.jpg">
 ## Playback
 
 The Opencast player can be used as a standalone application, or embedded inside other applications like blogs, wikis or content management systems. Opencast Playback enables slide segmentation and in-video text search. All player functionality is fully accessible, supporting assistive technology across multiple platforms.
@@ -52,7 +56,7 @@ The Opencast player can be used as a standalone application, or embedded inside 
 - Adaptive Streaming support with HTTP Live Streaming (HLS)
 
 
-<img class="feature-image-zebra-grey" src="http://www.opencast.org/wp-content/uploads/2015/07/large-manage.jpg">
+<img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2015/07/large-manage.jpg">
 ## Manage
 
 Opencast Manage provides a dashboard for administrators to configure the system, make bulk edits to content and metadata, track the status and performance of content and configure distribution of video content.
