@@ -65,6 +65,3 @@ Stuart Phillipson, University of Manchester
 Rüdiger Rolf, University of Osnabrück
 
 ## Get Started Now
-
-{% include button.html url="/download" %}
-{% include button.html url="/documentation" %}
