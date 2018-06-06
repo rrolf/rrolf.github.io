@@ -1,10 +1,8 @@
 ---
-layout: post
 title: Opencast Release
 date: 2018-03-28
 description: Opencast 4.3 has been released
 category: release
-
 ---
 
 Opencast 4.0 focuses on end user ease-of-use to make the day-to-day lives of Adopters easier. This release has an updated asset management core enabling centralized property storage, as well as many user interface tweaks and performance improvements.
@@ -37,37 +35,4 @@ Manually retry failed operations – It is now possible to make failing workflow
 A full list of changes can be found in the [official release notes](https://docs.opencast.org/r/4.x/admin/releasenotes/).
 
 Visit the [download section](http://www.opencast.org/software/download) for more information on how to get Opencast 4.0.
-
----
-
-# Features
-
-<img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2015/03/schedule.png">
-## Schedule
-Schedule events to automatically record based on a pre-defined timetable and, capture both video of the presenter and the  PC screen.
-
-<img class="feature-image-right" src="http://www.opencast.org/wp-content/uploads/2015/03/edit.png">
-## Edit
-Bulk edit and trim video recordings. The editor provides graphical visualization of elements such as audio can significantly reduce editing time.
-
-<img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2015/03/events.png">
-## Process
-A scalable infrastructure to encode video, generate metadata and preview images, create captioning and bulk edit to support video processing at scale.
-
-<img class="feature-image-right" src="http://www.opencast.org/wp-content/uploads/2015/03/distribute.png">  
-## Distribute
-Publish recordings for download or on-demand viewing via YouTube, RSS, Atom-feeds or with OAI-PMH.
-
-<img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2015/03/playback.png">
-## Playback
-The media player is a standalone application or embedded on blogs, wikis or a content management system.
-
-<img class="feature-image-right" src="http://www.opencast.org/wp-content/uploads/2015/03/manage.png">
-## Manage
-A robust dashboard to manage, configure and track the status and performance of video content and distribution channels.
-
----
-
-# Trusted by a Collection of Innovative Organizations
-<img class="center-image" src="http://www.opencast.org/wp-content/uploads/2015/02/opencast-homepage-logos-rev2-1024x286.png">
 
