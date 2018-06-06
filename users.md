@@ -31,6 +31,22 @@ linkurl="/users/adopter-highlight-university-of-manchester"
 linktext="Learn More"
 %}
 
+{% include box.html 
+title="University of Vigo/Campus do Mar"
+description="An excellent example on how Opencast can be used in educational projects and how the software can be integrated with other portals."
+image="http://www.opencast.org/wp-content/uploads/2015/02/cdm-logo.png"
+linkurl="/users/adopter-highlight-university-of-vigocampus-do-mar"
+linktext="Learn More"
+%}
+
+{% include box.html 
+title="Universitat Politécnica de Valencia"
+description="The Universitat Politécnica de Valencia provides with the Paella Player an alternative engage player for Opencast. They are also initiated the Capture Agent Dashboard software."
+image="http://www.opencast.org/wp-content/uploads/2015/02/upv-logo.png"
+linkurl="/users/adopter-highlight-universitat-politecnica-de-valencia"
+linktext="Learn More"
+%}
+
 {% include box-group-end.html %}
 
 <img class="feature-image-right" src="http://www.opencast.org/wp-content/uploads/2015/02/eth-logo.png">
