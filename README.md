@@ -1,3 +1,11 @@
+---
+layout: post
+title: Opencast Release
+date: 2018-03-28
+discription: Opencast 4.3 has been released
+category: release
+--- 
+
 **Opencast is a flexible and customizable video capture and distribution system for modern institutions. Opencast is built by a growing community of developers in collaboration with leading universities and organizations worldwide.**
 
 # Introduction video
