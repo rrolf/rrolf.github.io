@@ -7,11 +7,7 @@
 
 {% for post in site.posts %}
 ## [{{ post.title }}]({{ post.url }})
-
-  {{ post.excerpt }}
-
-  _{{ post.date | date_to_long_string }}_
-
+  _{{ post.date | date_to_long_string }}_: {{ post.excerpt }}
   [Read more...]({{ post.url }})
 {% endfor %}
 
