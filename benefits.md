@@ -6,6 +6,9 @@ description: Learn and collaborate with leading organizations and universities w
 # Benefits
 
 <img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2015/02/community.jpg">
+<img class="feature-image-right" src="http://www.opencast.org/wp-content/uploads/2015/02/integrates.jpg">
+<img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2015/02/custom.jpg">
+
 ## Community-based
 Opencast is an open source technology built by a community of innovators worldwide. Leveraging Opencast as your video capture solution gives you access to a community of users and enables you to collaborate with some of the brightest minds in the space. New features are continuously deployed and community members benefit from the learnings of their peers.
 [Learn More](/benefits/its-community-based "Learn More")
