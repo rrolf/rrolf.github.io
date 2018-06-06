@@ -6,12 +6,12 @@
 ---
 
 {% for post in site.posts %}
-### [{{ post.title }}]({{ post.url }})
-
-  _{{post.date}}_
+## [{{ post.title }}]({{ post.url }})
 
   {{ post.excerpt }}
-  
+
+  _{{ post.date | date_to_long_string }}_
+
   [Read more...]({{ post.url }})
 {% endfor %}
 ---
