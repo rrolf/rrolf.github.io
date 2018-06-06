@@ -78,10 +78,13 @@ a.menu-item:hover {
     color:white!important;
 }
 
-#schedule, #process, #distribute, #playback, #manage, #getting-started-with-opencast, h4 {
+#schedule, #process, #distribute, #playback, #manage, #getting-started-with-opencast,
+#how-much-does-it-cost, #how-long-does-it-take-to-setup-an-opencast-system, #how-well-will-it-integrate-with-what-we-already-have,
+#how-does-opencast-compare-to-proprietary-solutions, #will-students-and-professors-like-it, #why-is-open-source-the-best-option,
+#how-often-are-new-features-rolled-out-by-the-community, #get-started-now {
     color: black;
 }
 
-.embed-container p li {
+.embed-container p {
     color: black;
 }
