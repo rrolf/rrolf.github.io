@@ -85,7 +85,14 @@ a.menu-item:hover {
     color: black;
 }
 
+.image-left {
+    width: 50%;
+    float: left;
+}
+
+
 .embed-container  {
+    background-color:white;
     color: black;
     width: 865px;
     padding: 30px;    
@@ -98,12 +105,8 @@ a.menu-item:hover {
     padding: 30px;    
 }
 
-.image-left {
-    width: 50%;
-    float: left;
-}
-
 .embed-container-3  {
+    background-color:white;
     color: black;
     width: 865px;
     padding: 30px;    
@@ -117,6 +120,7 @@ a.menu-item:hover {
 }
 
 .embed-container-5 {
+    background-color:white;
     color: black;
     width: 865px;
     padding: 30px;    
