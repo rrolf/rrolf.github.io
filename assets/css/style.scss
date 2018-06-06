@@ -87,4 +87,18 @@ a.menu-item:hover {
 
 .embed-container p {
     color: black;
+    box-sizing: border-box;
+    width: 600px;
+    height: 100px;
+    padding: 30px;    
+    border: 10px solid blue;
+}
+
+.embed-container-2 {
+    color: lightgrey;
+    box-sizing: border-box;
+    width: 600px;
+    height: 100px;
+    padding: 30px;    
+    border: 10px solid blue;
 }
