@@ -128,9 +128,9 @@ a.menu-item:hover {
 .imagebox {
   max-width: 16rem;
   padding: 1rem;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
-  float: left;
+  display: inline-block;
+  margin: 0.5rem 0.2rem;
+  border: 1px solid;
 }
 
 .imagebox-content {
