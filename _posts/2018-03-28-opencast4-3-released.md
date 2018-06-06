@@ -1,12 +1,11 @@
 ---
+layout: post
 title: Opencast Release
-discription: Opencast 4.3 has been released
+date: 2018-03-28
+description: Opencast 4.3 has been released
 category: release
 
 ---
-
-# Opencast 4.3 has been released
-_{{post.date}}_
 
 Opencast 4.0 focuses on end user ease-of-use to make the day-to-day lives of Adopters easier. This release has an updated asset management core enabling centralized property storage, as well as many user interface tweaks and performance improvements.
 
