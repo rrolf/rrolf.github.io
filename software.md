@@ -3,28 +3,8 @@ title: About Opencast Software
 description: Opencast is an open source solution for automated video capture and distribution at scale. Build custom capture, processing, scheduling and distribution solutions for your organization with one flexible platform.
 ---
 
-## Schedule
 {% include text.html id="57a2b005-fe70-4566-a234-aa864faf1e29" %}
 
-
-## Process
-
-## Distribute
-
-## Playback
-
-
-
-<img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2015/07/large-manage.jpg">
-## Manage
-
-Opencast Manage provides a dashboard for administrators to configure the system, make bulk edits to content and metadata, track the status and performance of content and configure distribution of video content.
-
-- Metadata entry and editing for related recordings
-- Distribution to supported channels (i.e. iTunes, YouTube, RSS, Opencast Playback)
-- Manual media upload (e.g. user-generated or production video)
-- Bulk editing; media trimming and recording search/filtering
-- Monitoring dashboard; status, performance statistics and technical details
 
 ## Getting Started with Opencast
 Here are some frequently asked questions regarding Opencast. This will help you determine if it’s the right solution for your organization.
