@@ -74,10 +74,14 @@ a.menu-item:hover {
 .center-image {
 }
 
-h2 {
+.project-tagline h2 {
+    color:white!important;
+}
+
+#schedule, #process, #distribute, #playback, #manage, #getting-started-with-opencast, h4 {
     color: black;
 }
 
-.embed-container p {
+.embed-container p li {
     color: black;
 }
