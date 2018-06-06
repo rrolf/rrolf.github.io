@@ -90,7 +90,9 @@ a.menu-item:hover {
     float: left;
 }
 
-
+.main-content {
+    background-color: lightgrey;
+}
 .embed-container  {
     background-color:white;
     color: black;
@@ -99,7 +101,6 @@ a.menu-item:hover {
 }
 
 .embed-container-2 {
-    background-color: lightgrey;
     color: black;
     width: 865px;
     padding: 30px;    
@@ -113,7 +114,6 @@ a.menu-item:hover {
 }
 
 .embed-container-4  {
-    background-color: lightgrey;
     color: black;
     width: 865px;
     padding: 30px;    
