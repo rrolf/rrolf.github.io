@@ -78,6 +78,10 @@ a.menu-item:hover {
     color:white!important;
 }
 
+.main-content h2 {
+    color: black;
+}
+
 #getting-started-with-opencast,
 #how-much-does-it-cost, #how-long-does-it-take-to-setup-an-opencast-system, #how-well-will-it-integrate-with-what-we-already-have,
 #how-does-opencast-compare-to-proprietary-solutions, #will-students-and-professors-like-it, #why-is-open-source-the-best-option,
@@ -109,25 +113,8 @@ a.menu-item:hover {
     padding: 30px;    
 }
 
-.embed-container-3  {
-    background-color:white;
-    color: black;
-    width: 1024px;
-    padding: 30px;    
-}
 
-.embed-container-4  {
-    color: black;
-    padding: 30px;    
-}
-
-.embed-container-5 {
-    background-color:white;
-    color: black;
-    width: 1024px;
-    padding: 30px;    
-}
-
-.embed-container h2 {
+.embed-container
+.embed-container-2 h2 {
     color: black;
 }
