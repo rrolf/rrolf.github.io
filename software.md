@@ -5,14 +5,7 @@ description: Opencast is an open source solution for automated video capture and
 
 <img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2015/07/large-schedule.jpg">
 ## Schedule
-Opencast Schedule lets you schedule an event to be automatically recorded on specific days and times of the week, and the distribution channel to which the recordings will be published.
-
-- Based on open standard iCal format
-- Manual or automated capture based on schedule
-- Configurable capture encoding specifications
-- iCalendar import from external scheduling source
-- Integrates with open source and proprietary capture hardware
-- Tools for disaster recovery
+{% include text.html id="57a2b005-fe70-4566-a234-aa864faf1e29" %}
 
 <img class="feature-image-right" src="http://www.opencast.org/wp-content/uploads/2015/07/large-process.jpg">
 ## Process
