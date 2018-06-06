@@ -5,7 +5,7 @@
 
 ---
 
-{% for post in site.posts %}
+{% for post in site.categories[page.category] %}
 ## [{{ post.title }}]({{ post.url }})
   _{{ post.date | date_to_long_string }}_ 
   {{ post.excerpt }}
