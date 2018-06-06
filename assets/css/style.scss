@@ -127,13 +127,15 @@ a.menu-item:hover {
 
 .imagebox {
   max-width: 15rem;
-  padding: 2rem;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
   float: left;
 }
 
 .imagebox-content {
   width: 90%;
-  height: 30rem;
+  height: 32rem;
   margin: 0 auto;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -145,7 +147,7 @@ a.menu-item:hover {
 }
 
 .imagebox-link {
-  width: 90%;
-  height: 4rem;
+  height: 3rem;
+  padding-top: 1rem;
   vertical-align: middle;
 }
