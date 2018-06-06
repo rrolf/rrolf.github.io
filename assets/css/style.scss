@@ -124,3 +124,28 @@ a.menu-item:hover {
 #get-started-now {
     text-align: center;
 }
+
+.imagebox {
+  max-width: 15rem;
+  padding: 2rem;
+  float: left;
+}
+
+.imagebox-content {
+  width: 90%;
+  height: 30rem;
+  margin: 0 auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.imagebox-image {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.imagebox-link {
+  width: 90%;
+  height: 4rem;
+  vertical-align: middle;
+}
