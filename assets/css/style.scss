@@ -85,7 +85,7 @@ a.menu-item:hover {
     color: black;
 }
 
-.embed-container p {
+.embed-container  {
     color: black;
     box-sizing: border-box;
     width: 600px;
@@ -97,9 +97,5 @@ a.menu-item:hover {
 .embed-container-2 {
     background-color: lightgrey;
     color: black;
-    box-sizing: border-box;
-    width: 600px;
-    height: 100px;
     padding: 30px;    
-    border: 10px solid blue;
 }
