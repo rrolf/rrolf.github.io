@@ -4,7 +4,7 @@
     <a href="{{ include.linkurl }}">
 {% endif %}       
       <img class="fullsizebox-image" src="{{ include.image }}" alt="{{ include.title }} logo" 
-           style="float:{{ include.align | default: 'left' }}; {% if  include.width %}width: {{include.width}};{% endif %}">
+           style="float:{{ include.align | default: 'left' }}; {% if  include.imagewidth %}width: {{include.imagewidth}};{% endif %}">
 {% if  include.linkurl %}       
     </a>
 {% endif %}     
