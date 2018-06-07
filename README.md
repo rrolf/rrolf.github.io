@@ -19,32 +19,56 @@
 
 # Features
 
-<img class="feature-image-left" src="/assets/img/schedule.png">
-## Schedule
-Schedule events to automatically record based on a pre-defined timetable and, capture both video of the presenter and the  PC screen.
+{% include fullsizebox.html 
+title="Schedule"
+description="Schedule events to automatically record based on a pre-defined timetable and, capture both video of the presenter and the  PC screen."
+image="/assets/img/schedule.png"
+linkurl="/software"
+align="left"
+%}
 
-<img class="feature-image-right" src="/assets/img/edit.png">
-## Edit
-Bulk edit and trim video recordings. The editor provides graphical visualization of elements such as audio can significantly reduce editing time.
+{% include fullsizebox.html 
+title="Edit"
+description="Bulk edit and trim video recordings. The editor provides graphical visualization of elements such as audio can significantly reduce editing time."
+image="/assets/img/edit.png"
+linkurl="/software"
+align="right"
+%}
 
-<img class="feature-image-left" src="/assets/img/events.png">
-## Process
-A scalable infrastructure to encode video, generate metadata and preview images, create captioning and bulk edit to support video processing at scale.
+{% include fullsizebox.html 
+title="Process"
+description="A scalable infrastructure to encode video, generate metadata and preview images, create captioning and bulk edit to support video processing at scale."
+image="/assets/img/events.png"
+linkurl="/software"
+align="left"
+%}
 
-<img class="feature-image-right" src="/assets/img/distribute.png">  
-## Distribute
-Publish recordings for download or on-demand viewing via YouTube, RSS, Atom-feeds or with OAI-PMH.
+{% include fullsizebox.html 
+title="Distribute"
+description="Publish recordings for download or on-demand viewing via YouTube, RSS, Atom-feeds or with OAI-PMH."
+image="/assets/img/edit.png"
+linkurl="/software"
+align="right"
+%}
 
-<img class="feature-image-left" src="/assets/img/playback.png">
-## Playback
-The media player is a standalone application or embedded on blogs, wikis or a content management system.
+{% include fullsizebox.html 
+title="Playback"
+description="The media player is a standalone application or embedded on blogs, wikis or a content management system."
+image="/assets/img/playback.png"
+linkurl="/software"
+align="left"
+%}
 
-<img class="feature-image-right" src="/assets/img/manage.png">
-## Manage
-A robust dashboard to manage, configure and track the status and performance of video content and distribution channels.
+{% include fullsizebox.html 
+title="Manage"
+description="A robust dashboard to manage, configure and track the status and performance of video content and distribution channels."
+image="/assets/img/manage.png"
+linkurl="/software"
+align="right"
+%}
 
 ---
 
 # Trusted by a Collection of Innovative Organizations
-<img class="center-image" src="/assets/img/opencast-homepage-logos-rev2.png">
+[<img class="center-image" src="/assets/img/opencast-homepage-logos-rev2.png">](/users)
 
