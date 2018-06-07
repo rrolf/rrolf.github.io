@@ -140,5 +140,5 @@ backgroundcolor="{{site.box-color}}"
 {% include fullsizebox.html 
 title="How often are new features rolled out by the community?"
 description="Every year there are two major releases to Opencast. Throughout the year, maintenance releases, bug fixes and new features are deployed on an on-going basis."
-backgroundcolor="{{site.box-color}}""
+backgroundcolor="{{site.box-color}}"
 %}
