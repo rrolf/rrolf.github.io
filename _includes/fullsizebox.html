@@ -3,7 +3,12 @@
 {% if  include.linkurl %}     
     <a href="{{ include.linkurl }}">
 {% endif %}       
-      <img class="fullsizebox-image" src="{{ include.image }}" alt="{{ include.title }} logo" style="float:{{ include.align | default: 'left' }};">
+      <img class="fullsizebox-image" src="{{ include.image }}" alt="{{ include.title }} logo" 
+           style="float:{{ include.align | default: 'left' }};
+           {% if  include.width %}
+             width: include.width;       
+           {% endif %}  
+             ">
 {% if  include.linkurl %}       
     </a>
 {% endif %}     
