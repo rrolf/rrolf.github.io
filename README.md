@@ -25,6 +25,7 @@ description="Schedule events to automatically record based on a pre-defined time
 image="/assets/img/schedule.png"
 linkurl="/software"
 align="left"
+backgroundcolor="#dfe6ed"
 %}
 
 {% include fullsizebox.html 
@@ -41,6 +42,7 @@ description="A scalable infrastructure to encode video, generate metadata and pr
 image="/assets/img/events.png"
 linkurl="/software"
 align="left"
+backgroundcolor="#dfe6ed"
 %}
 
 {% include fullsizebox.html 
@@ -57,6 +59,7 @@ description="The media player is a standalone application or embedded on blogs, 
 image="/assets/img/playback.png"
 linkurl="/software"
 align="left"
+backgroundcolor="#dfe6ed"
 %}
 
 {% include fullsizebox.html 
