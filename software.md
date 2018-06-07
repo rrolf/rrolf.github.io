@@ -17,6 +17,7 @@ description="Opencast Schedule lets you schedule an event to be automatically re
 - Tools for disaster recovery"
 image="/assets/img/large-schedule.jpg"
 align="left"
+width="40%"
 %}
 
 {% include fullsizebox.html 
