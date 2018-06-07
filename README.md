@@ -45,5 +45,5 @@ A robust dashboard to manage, configure and track the status and performance of 
 ---
 
 # Trusted by a Collection of Innovative Organizations
-<img class="center-image" src="http://www.opencast.org/wp-content/uploads/2015/02/opencast-homepage-logos-rev2-1024x286.png">
+<img class="center-image" src="/assets/img/opencast-homepage-logos-rev2.png">
 
