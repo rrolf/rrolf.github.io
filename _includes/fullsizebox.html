@@ -2,9 +2,11 @@
   <div class="fullsizebox-content">
 {% if  include.linkurl %}     
     <a href="{{ include.linkurl }}">
-{% endif %}       
+{% endif %}
+{% if  include.image %}      
       <img class="fullsizebox-image" src="{{ include.image }}" alt="{{ include.title }} logo" 
            style="float:{{ include.align | default: 'left' }}; {% if  include.imagewidth %}width: {{include.imagewidth}};{% endif %}">
+{% endif %}
 {% if  include.linkurl %}       
     </a>
 {% endif %}     
