@@ -7,8 +7,7 @@
 
 # News
 
-{% for post in site.posts %}
-{% if post.categories contains "release" %}
+{% for post in site.posts limit:5 %}
 ## [{{ post.title }}]({{ post.url }})
   _{{ post.date | date_to_long_string }}_ 
   {{ post.excerpt }}
@@ -16,7 +15,6 @@
   
 ---
 
-{% endif %}    
 {% endfor %}
 
 # Features
