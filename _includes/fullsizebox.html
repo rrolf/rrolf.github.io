@@ -1,8 +1,12 @@
 <div class="fullsizebox" style="color: {{ include.textcolor | default: '#606c71' }}; background-color: {{ include.backgroundcolor | default: '#ffffff' }}">
   <div class="fullsizebox-content">
+{% if  include.linktext %}     
     <a href="{{ include.linkurl }}">
+{% endif %}       
       <img class="fullsizebox-image" src="{{ include.image }}" alt="{{ include.title }} logo" style="align={{ include.align | default: 'left' }};">
+{% if  include.linktext %}       
     </a>
+{% endif %}     
     <h3> {{ include.title }} </h3>
     <p>
       {{ include.description }}
