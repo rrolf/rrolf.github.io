@@ -10,7 +10,7 @@
     <div class="fullsizebox-text">
       <h3> {{ include.title }} </h3>
       <p>
-        {{ include.description }}
+        {{ include.description | markdownify }}
       </p>
     </div>
   </div>
