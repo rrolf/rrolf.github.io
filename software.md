@@ -32,6 +32,7 @@ description="Opencast Process is a workflow-based system that provides a scalabl
 image="/assets/img/large-process.jpg"
 align="left"
 backgroundcolor="#dfe6ed"
+width="40%"
 %}
 
 ---------------------------------------
