@@ -163,11 +163,12 @@ a.menu-item:hover {
 }
 
 .fullsizebox-image {
-  margin: 1rem
+  margin: 1rem;
 }
 
 .fullsizebox-text {
-  margin: 1rem
+  margin: 1rem;
+  display: table;
 }
 
 .fullsizebox-link {
