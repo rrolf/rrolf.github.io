@@ -5,11 +5,13 @@
 
 ---
 
-{% for post in site.categories[page.category] %}
+{% for post in site.posts %}
+{% if post.categories contains "release" %}
 ## [{{ post.title }}]({{ post.url }})
   _{{ post.date | date_to_long_string }}_ 
   {{ post.excerpt }}
   [Read more...]({{ post.url }})
+{% endif %}    
 {% endfor %}
 
 ---
