@@ -151,6 +151,30 @@ a.menu-item:hover {
   padding-top: 1rem;
 }
 
+.fullsizebox {
+  width: 100%;
+  overflow: auto;
+  padding: 1rem;
+  display: inline-block;
+  margin: 0.5rem 0.2rem;
+  border: 1px solid;
+}
+
+.fullsizebox-content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.fullsizebox-image {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.fullsizebox-link {
+  height: 3rem;
+  padding-top: 1rem;
+}
+
 .boxgroup {
   width: 100%;
   padding: 1rem;
