@@ -11,10 +11,10 @@ Some adopters of Opencast were able to provide some feedback on how they use Ope
 {% for post in site.posts %}
 {% if post.categories contains "user" %}
 {% include imagebox.html 
-title="{{post.title}}"
-description="{{post.description}}"
-image="{{post.logo}}"
-linkurl="{{post.url}}"
+title=post.title
+description=post.description
+image=post.logo
+linkurl=post.url
 linktext="Learn More"
 %}
 {% endif %}
