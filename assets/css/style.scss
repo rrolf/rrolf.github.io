@@ -129,19 +129,33 @@ a.menu-item:hover {
 }
 
 .imagebox {
-  max-width: 16rem;
   padding: 1rem;
   display: inline-block;
   margin: 0.5rem 0.2rem;
   border: 1px solid;
 }
 
+.imagebox-regular {
+  max-width: 16rem;
+}
+
+.imagebox-large {
+  max-width: 25rem;
+}
+
 .imagebox-content {
   width: 100%;
-  height: 34rem;
   margin: 0 auto;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.imagebox-content-regular {
+  height: 34rem;
+}
+
+.imagebox-content-large {
+  height: 40rem;
 }
 
 .imagebox-image {
