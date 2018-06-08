@@ -10,7 +10,6 @@ image="/assets/img/community.jpg"
 linkurl="/benefits/community"
 linktext="Learn More"
 backgroundcolor=site.data.colors.box
-textcolor="white"
 %}
 
 {% include imagebox.html 
