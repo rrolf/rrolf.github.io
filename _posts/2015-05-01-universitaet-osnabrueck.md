@@ -1,42 +1,55 @@
 ---
-title: ETH Zürich
+title: Universität Osnabrück
 date: 2015-05-01
-description: The ETH Zürich has always been one of the driving forces of the Opencast project. A high degree on integration into their campus infrastructure is important to them.
+description: Osnabrück was the first university to run an Opencast installation in production. They are leading the Opencast Player development. Opencast is extensively integrated into their LMS Stud.IP.
 category: user
 tags: [user]
-logo: /assets/img/eth-logo.png
+logo: /assets/img/uos-logo.png
 ---
 
-Opencast 4.0 focuses on end user ease-of-use to make the day-to-day lives of Adopters easier. This release has an updated asset management core enabling centralized property storage, as well as many user interface tweaks and performance improvements.
+# University of Osnabrück
+*Last update: August, 1st 2015*
 
-<!--more-->
+## About the University of Osnabrück
+<img src="http://www.opencast.uni-osnabrueck.de/wp-content/uploads/2015/07/uos-logo-small.gif">
+Osnabrück University, founded in 1974, is a young, vibrant university in northwest Germany that is renowned for its research and teaching in the areas of Humanities, Social Sciences, Science, Law and Business Administration/Economics. The University provides ideal conditions for over 11.000 students and PhD students to learn and conduct research.
+Its Center for Information Management and virtual Teaching (virtUOS) is managing the universities e-learning activities. Because of this virtUOS is engaged in several open source projects, with the LMS Stud.IP and Opencast as the larger ones among these.
 
-The new features for this release are:
+The virtUOS started a homegrown lecture recording software back in 2003. In 2008 the homegrown software was dropped to contribute to Opencast. Much of the know how around the player development has been transferred to the Opencast Player. It was very appealing to contribute to a larger project that would become a more flexible and reliable base for future developments.
 
-- **Asset Manager** – The Archive service has been enhanced to support properties that can be attached to episodes. This allows services to store their data centrally and thus reducing the overall system complexity and the same time avoiding data being duplicated across multiple services (and many of the problems related with that). The Asset Manager provides a query language for easy manipulation of properties. To have a more appropriate name, the Archive service has then been renamed to Asset Manager service.
-- **Scheduler** – The Scheduler service has been rewritten to take advantage of the Asset Manager service. The new Scheduler service provides full support for extended metadata for scheduled events and adds a transactional API for integrating external scheduling sources. A new tab in the event detail modal helps to more clearly separate bibliographic metadata from technical metadata
+The University of Osnabrück was the first institution with a production system based on Opencast 1.0 back in 2010. Usually the University of Osnabrück is piloting at least some new features of upcoming Opencast releases (like the video-editor, or the new player).
 
-- **Theodul Player Improvements** – The Theodul player now supports MPEG-DASH and HLS. To improve the user experience when navigating in a video, preview images are shown when hovering over the timeline
-- **Flexible Asset Upload** – This new facility allows Adopters to fully configure the upload dialog of Opencast as well as to configure arbitrary assets that can be uploaded and managed trough the user interface.
-- **Monitoring Service** – The UI has been enhanced with a monitoring service that provides a visual indication of both the ActiveMQ status and the services status. In case of problems with Opencast services, a single click navigates the user to the Systems->Services page with an appropriate filter already set
-- **IBM Watson Transcription Service** – The integration of the IBN Watson Speech-to-Text service allows Adopters to easily integrate speech-to-text into their existing workflows.
-- **Wowza Adaptive Streaming** – The Wowza adaptive streaming distribution service is now included in the official Opencast release which relieves Adopters from the need to include this functionality from a separate code repository.
-Manually retry failed operations – It is now possible to make failing workflow operations pause the workflow, leaving the user the choice to manually retry or abort the failed operation.
-- **User Interface Improvements** – Various improvements in the user interface further improve the user experiences of Opencast. Just to name a few:
--- A new datetimer picker makes entering start time more efficient
--- Cross page links allow the user to navigate to a different table with useful filters enabled by a single click
--- The video editor now opens much faster
--- The start date of an upload can be directly set in the upload dialog
--- The new view Location Details allows users to see the configuration and capabilities as reported by capture agents which simplifies the management of capture agents
-- **OAI-PMH Improvements** – The addition of support for automatically publishing changes to the OAI-PMH server relieves users from the need to re-publish to OAI-PMH after changes to metadata. The metadata prefix matterhorn-inlined now provides support for extended metadata catalogs. Last but not least, the performance of the publication and retraction workflow operation handlers for OAI-PMH has been significantly improved by supporting bulk operations.
-- **Workflow Operation Improvements**
--- WOH series can now apply series metadata to event metadata
--- WOH timelinepreview has been added. This workflow operation handler generates a single image that contains a large configurable number of preview images which allows players to implement highly efficient timeline previews. The Theodul player timeline preview features relies on this new workflow operation handler
--- WOH execute-once can now set workflow properties
-- **Scalability Improvements** – Several problems considering the scalability of Opencast in large-scale scenarios have been addressed. In particular, Opencast 4.0 performs much better in the presence of thousands of series
-- **Language Support** – Added support for Slovenian and Hebrew
+Additionally the ELAN e.V. that is closely related to the virtUOS, is providing Opencast support for its member institutions and offers also commercial support and development services to other german universities.
 
-A full list of changes can be found in the [official release notes](https://docs.opencast.org/r/4.x/admin/releasenotes/).
+## Local setup
+<img src="http://www.opencast.org/wp-content/uploads/2015/07/schloss-uos-300x110.jpg">
 
-Visit the [download section](http://www.opencast.org/software/download) for more information on how to get Opencast 4.0.
+The university is recording around 35 lectures per week currently. That subsumes to around 2000 hours of recordings per semester. In total there are over 4000 recordings within their Opencast system.
 
+Current CentOS 6 server infrastructure:
+
+- 1 x Admin VM (4 cores, 12 GB RAM)
+- 4 x Worker VMs (12 cores, 8 GB RAM)
+- 1 x Engage VM (1 core, 4GB RAM)
+- 1 x MariaDB Database VM (4 cores, 8GB RAM)
+- 1 x Wowza Streaming Server VM (2 cores, 4GB RAM)
+- 25TB shared storage
+- 13 rooms with capture agents in various versions (Reference CA, Galicaster, NCast, Extron)
+- 8 rooms additionally equipped with Raspberry Pi backup capture agents.
+
+The Opencast system integrates into the Stud.IP LMS, where local developers have created a very powerful plugin that does not only allow to watch the recordings within the LMS, but also allows to upload and schedule recordings, including an import of the metadata from the LMS course and session description. Additionally even the embedding of recordings in forums and other text-areas is possible.
+
+## How has your work benefitted the Opencast community?
+Since the beginning of the project the lead of the Opencast player development has been in Osnabrück. The new very modular HTML5 player in Opencast 2.0 has been developed by developers in Osnabrück. And there is currently still much afford to improve the player with a new functions and a better usability.
+
+The QA manager for Opencast is since 2014 from Osnabrück.
+
+The developers in Osnabrück are also interested in capture solutions. TheRec is a capture software for Windows PCs and PyCA is a software that is intended to record with a Raspberry Pi, but it has also proven that it can work on other devices too.
+
+The Osnabrück Opencast team was among the initiators of the german-speaking Opencast community branch that is usually meeting once a year.
+
+## Contact
+Rüdiger Rolf, Project lead (rrolf@uni-osnabrueck.de, +49 541 969 6511)
+Lars Kiesow, Opencast QA manager (lkiesow@uni-osnabrueck.de, +49 541 969 6533)
+Christian Greweling, Opencast Administrator (cgreweling@uni-osnabrueck.de, +49 541 969 6520)
+Waldemar Smirnow, TheRec Developer (wsmirnow@uni-osnabrueck.de)

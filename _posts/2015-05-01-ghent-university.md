@@ -1,42 +1,64 @@
 ---
-title: ETH Zürich
+title: Ghent University
 date: 2015-05-01
-description: The ETH Zürich has always been one of the driving forces of the Opencast project. A high degree on integration into their campus infrastructure is important to them.
+description: Ghent University is a top 100 university and one of the major universities in Belgium counting over 41,000 students and 9,000 employees. Our 11 faculties offer a wide range of courses and conduct in-depth research in both exact and social sciences.
 category: user
 tags: [user]
-logo: /assets/img/eth-logo.png
+logo: /assets/img/logo-ugent.png
 ---
 
-Opencast 4.0 focuses on end user ease-of-use to make the day-to-day lives of Adopters easier. This release has an updated asset management core enabling centralized property storage, as well as many user interface tweaks and performance improvements.
+# Ghent University
 
-<!--more-->
+## Project Goals
+ 
 
-The new features for this release are:
+Provide an easy to use, flexible and cost effective lecture capture solution to our teachers. Prior to this project no lecture capture solution was available and individual efforts with video recordings were made available on a central streaming server ( Darwin streaming server ).
 
-- **Asset Manager** – The Archive service has been enhanced to support properties that can be attached to episodes. This allows services to store their data centrally and thus reducing the overall system complexity and the same time avoiding data being duplicated across multiple services (and many of the problems related with that). The Asset Manager provides a query language for easy manipulation of properties. To have a more appropriate name, the Archive service has then been renamed to Asset Manager service.
-- **Scheduler** – The Scheduler service has been rewritten to take advantage of the Asset Manager service. The new Scheduler service provides full support for extended metadata for scheduled events and adds a transactional API for integrating external scheduling sources. A new tab in the event detail modal helps to more clearly separate bibliographic metadata from technical metadata
+In order to accommodate students that couldn’t attend lectures a solution was found in Opencast to provide lecture recordings. The project started in 2012 and gradually grew to our current scale. In addition to our initial goal to provide lecture capture for absent students we found out that the project was equally useful as study material for all students and proved a valuable tool to create short knowledge clips in addition to full lecture captures.
 
-- **Theodul Player Improvements** – The Theodul player now supports MPEG-DASH and HLS. To improve the user experience when navigating in a video, preview images are shown when hovering over the timeline
-- **Flexible Asset Upload** – This new facility allows Adopters to fully configure the upload dialog of Opencast as well as to configure arbitrary assets that can be uploaded and managed trough the user interface.
-- **Monitoring Service** – The UI has been enhanced with a monitoring service that provides a visual indication of both the ActiveMQ status and the services status. In case of problems with Opencast services, a single click navigates the user to the Systems->Services page with an appropriate filter already set
-- **IBM Watson Transcription Service** – The integration of the IBN Watson Speech-to-Text service allows Adopters to easily integrate speech-to-text into their existing workflows.
-- **Wowza Adaptive Streaming** – The Wowza adaptive streaming distribution service is now included in the official Opencast release which relieves Adopters from the need to include this functionality from a separate code repository.
-Manually retry failed operations – It is now possible to make failing workflow operations pause the workflow, leaving the user the choice to manually retry or abort the failed operation.
-- **User Interface Improvements** – Various improvements in the user interface further improve the user experiences of Opencast. Just to name a few:
--- A new datetimer picker makes entering start time more efficient
--- Cross page links allow the user to navigate to a different table with useful filters enabled by a single click
--- The video editor now opens much faster
--- The start date of an upload can be directly set in the upload dialog
--- The new view Location Details allows users to see the configuration and capabilities as reported by capture agents which simplifies the management of capture agents
-- **OAI-PMH Improvements** – The addition of support for automatically publishing changes to the OAI-PMH server relieves users from the need to re-publish to OAI-PMH after changes to metadata. The metadata prefix matterhorn-inlined now provides support for extended metadata catalogs. Last but not least, the performance of the publication and retraction workflow operation handlers for OAI-PMH has been significantly improved by supporting bulk operations.
-- **Workflow Operation Improvements**
--- WOH series can now apply series metadata to event metadata
--- WOH timelinepreview has been added. This workflow operation handler generates a single image that contains a large configurable number of preview images which allows players to implement highly efficient timeline previews. The Theodul player timeline preview features relies on this new workflow operation handler
--- WOH execute-once can now set workflow properties
-- **Scalability Improvements** – Several problems considering the scalability of Opencast in large-scale scenarios have been addressed. In particular, Opencast 4.0 performs much better in the presence of thousands of series
-- **Language Support** – Added support for Slovenian and Hebrew
+## Why Opencast?
 
-A full list of changes can be found in the [official release notes](https://docs.opencast.org/r/4.x/admin/releasenotes/).
+### Scalability
+A lecture capture solution that is reasonably easy to scale without major financial implications. We can scale up our processing power on short notice, without system downtime.
 
-Visit the [download section](http://www.opencast.org/software/download) for more information on how to get Opencast 4.0.
+### Flexibility
+The ability to do fully automated lecture capture in addition to manual captures.
+
+### Openness
+Open Source software and open design make integrations and alternatives as galicaster and paella player easy to integrate.
+
+## System Overview
+
+### Infrastructure
+We run a distributed opencast installation with 7 VM’s, excluding the database servers. All our VM’s run Debian and we use Percona Mysql for a database server.
+
+- 1 Admin server, 2 cores – 24G RAM
+- 1 Engage server, 2 cores – 12G RAM
+- 2 Worker servers, 8 cores – 8G RAM
+- 2 Ingest-Distribution servers, 4 cores – 4G RAM
+- 1 Download server, 4 cores – 8G RAM ( Apache static file server )
+
+In addition we have 3 SOLR database servers for the search, series and workflow index and centralized storage via NFS.
+
+Monitoring of the system is managed via zabbix for incidents, grafana for metrics, kibana for log retention and extra metrics and piwik for user statistics.
+
+### Capture agents
+We build our own galicaster and galicaster pro capture agents based on Dell Optiplex desktop PC’s. We use datapath capture cards in all our installations.
+
+- 28 Lecture halls equipped with galicaster capture agent
+- 6 Mobile capture agents
+<img src="http://www.opencast.org/wp-content/uploads/2016/04/IMG1-225x300.jpg">
+
+### Integrations
+Our Opencast installation is integrated with our LMS system so that students can view lectures directly in the LMS. We are using the Paella engage player for viewing all lectures.
+
+The integration is currently limited to viewing lectures but we are planning further integration to enable scheduling and managing of lectures within the LMS.
+
+### Usage
+We are seeing a steady increase of general usage each semester. The number of unique viewers, lectures viewed and lectures captured increase each semester with an increase before exams and decrease after exams and during the holidays.
+
+<img src="http://www.opencast.org/wp-content/uploads/2016/04/Opencast-Viewer-statistics.png">
+
+### Contact
+You can find more detailed information on https://icto.ugent.be/en/content/team-multimedia .
 

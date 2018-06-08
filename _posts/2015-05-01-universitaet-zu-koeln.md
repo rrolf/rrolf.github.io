@@ -1,42 +1,59 @@
 ---
-title: ETH Zürich
+title: Universität zu Köln
 date: 2015-05-01
-description: The ETH Zürich has always been one of the driving forces of the Opencast project. A high degree on integration into their campus infrastructure is important to them.
+description: Opencast is a central media service at the University of Cologne that unifies the management of automatic recorded lectures, educational media and blended learning material.
 category: user
 tags: [user]
-logo: /assets/img/eth-logo.png
+logo: /assets/img/uni-zu-koeln.png
 ---
 
-Opencast 4.0 focuses on end user ease-of-use to make the day-to-day lives of Adopters easier. This release has an updated asset management core enabling centralized property storage, as well as many user interface tweaks and performance improvements.
+# University of Cologne
+*Last update: October, 5th 2015*
 
-<!--more-->
+## About the University of Cologne
+Universität zu Köln Logo
 
-The new features for this release are:
+The university was founded in 1388 by the townspeople of Cologne. Hence, the University of Cologne is still today a city university and with nearly 50.000 students the largest university in Germany.
 
-- **Asset Manager** – The Archive service has been enhanced to support properties that can be attached to episodes. This allows services to store their data centrally and thus reducing the overall system complexity and the same time avoiding data being duplicated across multiple services (and many of the problems related with that). The Asset Manager provides a query language for easy manipulation of properties. To have a more appropriate name, the Archive service has then been renamed to Asset Manager service.
-- **Scheduler** – The Scheduler service has been rewritten to take advantage of the Asset Manager service. The new Scheduler service provides full support for extended metadata for scheduled events and adds a transactional API for integrating external scheduling sources. A new tab in the event detail modal helps to more clearly separate bibliographic metadata from technical metadata
+## Project Goals
+In summer 2014 the Computing Center (RRZK) started a two years project to set up a unified infrastructure on the campus for recording scheduled lectures and make the results available for students in the learning management system ILIAS. The access to those lectures is restricted to the students of that course.
+Our goal is to provide Opencast as a regular service for managing educational content and facilitating the automatic recording of lectures. Additionally we will gradually expand the number of lecture halls with the needed capture hardware. For all participants – lecturers, students and technical staff – we see a great potential to increase efficiency by offering unified video management tools to the campus.
+In the summer semester 2015 we already recorded 22 courses with an average of 40 hours/week.
 
-- **Theodul Player Improvements** – The Theodul player now supports MPEG-DASH and HLS. To improve the user experience when navigating in a video, preview images are shown when hovering over the timeline
-- **Flexible Asset Upload** – This new facility allows Adopters to fully configure the upload dialog of Opencast as well as to configure arbitrary assets that can be uploaded and managed trough the user interface.
-- **Monitoring Service** – The UI has been enhanced with a monitoring service that provides a visual indication of both the ActiveMQ status and the services status. In case of problems with Opencast services, a single click navigates the user to the Systems->Services page with an appropriate filter already set
-- **IBM Watson Transcription Service** – The integration of the IBN Watson Speech-to-Text service allows Adopters to easily integrate speech-to-text into their existing workflows.
-- **Wowza Adaptive Streaming** – The Wowza adaptive streaming distribution service is now included in the official Opencast release which relieves Adopters from the need to include this functionality from a separate code repository.
-Manually retry failed operations – It is now possible to make failing workflow operations pause the workflow, leaving the user the choice to manually retry or abort the failed operation.
-- **User Interface Improvements** – Various improvements in the user interface further improve the user experiences of Opencast. Just to name a few:
--- A new datetimer picker makes entering start time more efficient
--- Cross page links allow the user to navigate to a different table with useful filters enabled by a single click
--- The video editor now opens much faster
--- The start date of an upload can be directly set in the upload dialog
--- The new view Location Details allows users to see the configuration and capabilities as reported by capture agents which simplifies the management of capture agents
-- **OAI-PMH Improvements** – The addition of support for automatically publishing changes to the OAI-PMH server relieves users from the need to re-publish to OAI-PMH after changes to metadata. The metadata prefix matterhorn-inlined now provides support for extended metadata catalogs. Last but not least, the performance of the publication and retraction workflow operation handlers for OAI-PMH has been significantly improved by supporting bulk operations.
-- **Workflow Operation Improvements**
--- WOH series can now apply series metadata to event metadata
--- WOH timelinepreview has been added. This workflow operation handler generates a single image that contains a large configurable number of preview images which allows players to implement highly efficient timeline previews. The Theodul player timeline preview features relies on this new workflow operation handler
--- WOH execute-once can now set workflow properties
-- **Scalability Improvements** – Several problems considering the scalability of Opencast in large-scale scenarios have been addressed. In particular, Opencast 4.0 performs much better in the presence of thousands of series
-- **Language Support** – Added support for Slovenian and Hebrew
+<img src="http://www.opencast.uni-osnabrueck.de/wp-content/uploads/2015/02/uni-zu-koeln.png">
 
-A full list of changes can be found in the [official release notes](https://docs.opencast.org/r/4.x/admin/releasenotes/).
+## Local setup
+We build our own RPMs with Jenkins, use Cobbler to setup the VM servers and recording units and with Ansible we deploy needed software for server and capture clients. The configuration of a new VM server node takes about 20 minutes.
 
-Visit the [download section](http://www.opencast.org/software/download) for more information on how to get Opencast 4.0.
+CAPTURE AGENTS:
+To ease the maintenance of the recording systems we homogeneously use Galicaster units (http://wiki.teltek.es/display/Galicaster/Galicaster+project+Home). In autumn 2015 version 1.4.2 is installed. On units that are also used for live streaming events we installed the licensed Pro version.
+Our Galicaster unit is a Dell 7010 SFF/XE2 SFF computer equipped with an I7 processor, 16GB RAM and two 500GB HDD. For capturing we use a Datapath Vision RGB-E1S (beamer signal) and a Blackmagic Decklink Mini (camera signal). Both signals were recorded as H.264 streams in an AVI container. The audio is recorded in a separate stream.
+In large lecture rooms (> 300 seats) we use Sony EVI-H100S PTZ cameras. Our mobile units are equipped with consumer camcorders.
 
+OPENCAST SERVERS:
+We operate a production system (6 nodes, version 1.6.2), a pre-production system (3 nodes, version 1.6.2) and a development system (3 nodes, version 2.0.x).
+Each system has its own database (Maria DB), shared file system (NetApp) and application on the Wowza streaming server.
+This is a list of our current CentOS 6 production server infrastructure:
+
+- 1 x Admin VM (4 cores, 8 GB RAM)
+- 4 x Worker VMs (4 cores, 8 GB RAM)
+- 1 x Engage VM (2 core, 2 GB RAM)
+- 1 x MariaDB Database VM
+- 1 x Wowza Streaming Server VM (2 cores , 8 GB RAM)
+- 10 TB shared NAS storage
+
+DISTRIBUTION:
+Finished recordings are distributed and available using the LMS ILIAS. Only students who are registered in a course can access and watch the videos. It is up to the teacher whether a student can see all recordings of a course, or only the last one and how long a student has access to the videos. No download is offered, only streaming using the Wowza server.
+
+## Next Steps
+- Stabilizing the recording service – currently up to 5% recording are lost
+- Deploying Opencast version 2.1 for the academic year 2016
+- Introducing the advanced features of the Galicaster Pro Version
+- Integration of the new Opencast External API
+- Integration of the new ILIAS Opencast Plugin
+
+## Contact information
+For more information please feel free to contact us:
+
+- Ruth Lang (langr@uni-koeln.de)
+- Rubén Pérez Vázquez (ruben.perez@uni-koeln.de)
