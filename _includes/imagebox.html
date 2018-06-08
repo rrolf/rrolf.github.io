@@ -1,5 +1,5 @@
-<div class="imagebox imagebox-{{include.size | default: 'regular'}}" style="color: {{ include.textcolor | default: '#606c71' }}; background-color: {{ include.backgroundcolor | default: '#ffffff' }}">
-  <div class="imagebox-content imagebox-content-{{include.size | default: 'regular'}}">
+<div class="imagebox imagebox-{{include.format | default: 'regular'}}" style="color: {{ include.textcolor | default: '#606c71' }}; background-color: {{ include.backgroundcolor | default: '#ffffff' }}">
+  <div class="imagebox-content imagebox-content-{{include.format | default: 'regular'}}">
 {% if  include.linkurl %}    
     <a href="{{ include.linkurl }}">
 {% endif %}       
