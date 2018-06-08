@@ -11,10 +11,10 @@ Some adopters of Opencast were able to provide some feedback on how they use Ope
 {% for post in site.posts %}
 {% if post.categories contains "user" %}
 {% include imagebox.html 
-title="ETH Zürich"
-description="The ETH Zürich has always been one of the driving forces of the Opencast project. A high degree on integration into their campus infrastructure is important to them."
-image="http://www.opencast.org/wp-content/uploads/2015/02/eth-logo.png"
-linkurl="/_posts/2015-05-01-eth-zuerich.md "Learn More"
+title="{{post.title}}"
+description="{{post.description}}"
+image="{{post.logo}}"
+linkurl="{{post.url}}"
 linktext="Learn More"
 %}
 {% endfor %}
