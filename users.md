@@ -17,6 +17,7 @@ image="{{post.logo}}"
 linkurl="{{post.url}}"
 linktext="Learn More"
 %}
+{% endif %}
 {% endfor %}
 
 {% include box-end.html %}
