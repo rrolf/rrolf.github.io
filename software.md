@@ -8,3 +8,4 @@ description: Opencast is an open source solution for automated video capture and
 ---------------------------------------
 
 ## Get Started Now
+{% include footer.html %}
