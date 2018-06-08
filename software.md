@@ -81,6 +81,8 @@ align="left"
 imagewidth="40%"
 %}
 
+---
+
 # Getting Started with Opencast
 
 Here are some frequently asked questions regarding Opencast. This will help you determine if it’s the right solution for your organization.
