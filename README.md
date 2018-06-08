@@ -1,5 +1,6 @@
 ---
-
+title: Opencast Video Solution
+description: The free and open source solution for automated video capture and distribution at scale.
 ---
 # Introduction 
 
