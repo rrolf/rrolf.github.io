@@ -10,6 +10,7 @@ image="/assets/img/community.jpg"
 linkurl="/benefits/community"
 linktext="Learn More"
 backgroundcolor=site.data.colors.greenbox
+size="large"
 %}
 
 {% include imagebox.html 
@@ -19,6 +20,7 @@ image="/assets/img/integrates.jpg"
 linkurl="/benefits/integration"
 linktext="Learn More"
 backgroundcolor=site.data.colors.greenbox
+size="large"
 %}
 
 {% include imagebox.html 
@@ -28,6 +30,7 @@ image="/assets/img/custom.jpg"
 linkurl="/benefits/customizable"
 linktext="Learn More"
 backgroundcolor=site.data.colors.greenbox
+size="large"
 %}
 
 {% include imagebox.html 
@@ -37,6 +40,7 @@ image="/assets/img/scale.jpg"
 linkurl="/benefits/scaleable"
 linktext="Learn More"
 backgroundcolor=site.data.colors.greenbox
+size="large"
 %}
 
 {% include imagebox.html 
@@ -46,6 +50,7 @@ image="/assets/img/trusted.jpg"
 linkurl="/benefits/trusted"
 linktext="Learn More"
 backgroundcolor=site.data.colors.greenbox
+size="large"
 %}
 
 # 3 Reasons University of Manchester Chose Opencast
