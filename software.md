@@ -87,21 +87,15 @@ imagewidth="40%"
 
 Here are some frequently asked questions regarding Opencast. This will help you determine if it’s the right solution for your organization.
 
-{% include box-start.html backgroundcolor=site.data.colors.box %}
+{% include simplebox.html backgroundcolor=site.data.colors.box 
+content="## How much does it cost?
 
-## How much does it cost?
+Opencast is a free, open source software. There is no direct cost associated with downloading and deploying the software. As an open source software, there is free support from the community on the Opencast mailing lists and the Opencast IRC channel. If you require enterprise-level support, there are commercial vendors that provide that service. Keep in mind, for production use you will need several servers and staff to maintain your system." %}
 
-Opencast is a free, open source software. There is no direct cost associated with downloading and deploying the software. As an open source software, there is free support from the community on the Opencast mailing lists and the Opencast IRC channel. If you require enterprise-level support, there are commercial vendors that provide that service. Keep in mind, for production use you will need several servers and staff to maintain your system.
+{% include simplebox.html backgroundcolor=site.data.colors.box 
+content="## How long does it take to setup an Opencast system?
 
-{% include box-end.html %}
-
-{% include box-start.html backgroundcolor=site.data.colors.box %}
-
-## How long does it take to setup an Opencast system?
-
-Setting up a basic Opencast server can be done in a few hours. But Opencast is typically a building block within a larger video capture ecosystem and it is highly customizable. Generally it’s best to plan for a 1-3 month deployment depending on the complexity of your project. For Universities, there is often a small pilot rolled-out and tested before a campus-wide solution is developed.
-
-{% include box-end.html %}
+Setting up a basic Opencast server can be done in a few hours. But Opencast is typically a building block within a larger video capture ecosystem and it is highly customizable. Generally it’s best to plan for a 1-3 month deployment depending on the complexity of your project. For Universities, there is often a small pilot rolled-out and tested before a campus-wide solution is developed."%}
 
 
 {% include simplebox.html backgroundcolor=site.data.colors.box 
