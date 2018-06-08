@@ -48,7 +48,7 @@ backgroundcolor="{{site.box-color}}"
 {% include fullsizebox.html 
 title="Distribute"
 description="Publish recordings for download or on-demand viewing via YouTube, RSS, Atom-feeds or with OAI-PMH."
-image="/assets/img/edit.png"
+image="/assets/img/distribute.png"
 linkurl="/software"
 align="right"
 %}

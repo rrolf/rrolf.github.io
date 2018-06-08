@@ -7,36 +7,42 @@ tags: [user]
 logo: /assets/img/eth-logo.png
 ---
 
-Opencast 4.0 focuses on end user ease-of-use to make the day-to-day lives of Adopters easier. This release has an updated asset management core enabling centralized property storage, as well as many user interface tweaks and performance improvements.
+# ETH Zurich
+## Using Opencast as a video asset management system to your CMS – introducing OAI-PMH
 
-<!--more-->
+### Summary
+ETH Zürich is using Opencast to support the local content management system (Adobe Experience Manager, a.k.a. CQ5) in video management and distribution. Metadata from Opencast is being harvested by the CMS, with CQ5 subsequently using the media package information to allocate video assets (including search functionalities) and present media using the JW Player. A variety of formats and resolutions is being used to serve video to different devices, browsers and OS, primarily as HTML5 video, with Flash as fallback; different resolutions are being called upon in different scenarios (embed, full screen, manual selection).
 
-The new features for this release are:
+### Background
+Plans to introduce Opencast as a lecture capture system at ETH Zürich overlapped with the launch of a new CMS late in 2013. Adobe’s CQ5 was selected as a successor to our outdated CMS; however, the appendant DAM was not implemented. Video asset management was instead delegated to Opencast in order to benefit from an existing infrastructure and expertise in video distribution.
 
-- **Asset Manager** – The Archive service has been enhanced to support properties that can be attached to episodes. This allows services to store their data centrally and thus reducing the overall system complexity and the same time avoiding data being duplicated across multiple services (and many of the problems related with that). The Asset Manager provides a query language for easy manipulation of properties. To have a more appropriate name, the Archive service has then been renamed to Asset Manager service.
-- **Scheduler** – The Scheduler service has been rewritten to take advantage of the Asset Manager service. The new Scheduler service provides full support for extended metadata for scheduled events and adds a transactional API for integrating external scheduling sources. A new tab in the event detail modal helps to more clearly separate bibliographic metadata from technical metadata
+### OAI-PMH
+The main issue therefore was a connection between Opencast and CQ5 and this is where OAI-PMH came in handy: The Open Archives Initiative Protocol for Metadata Harvesting was created to consolidate metadata from different (library) repositories, thus providing the user with consistent search results across these. ETH had originally implemented OAI-PMH to Opencast in order to aggregate different video repositories as part of an unfinished project for a federated collection of academic video. Instead, OAI-PMH became the “missing link” between Opencast and CQ5, with the former being harvested by the latter for metadata describing video assets in Opencast. Within Opencast, the videos destined to be published in CQ5 have their own workflow “OAI-PMH CQ5” which results in the said harvesting interface being served. As a matter of fact, full media packages are being harvested, with distribution media (media files) being replaced by respective links to the Opencast distribution infrastructure. A handler was crafted in CQ5 to use information contained to display video as assets, including a short description and a preview image:
 
-- **Theodul Player Improvements** – The Theodul player now supports MPEG-DASH and HLS. To improve the user experience when navigating in a video, preview images are shown when hovering over the timeline
-- **Flexible Asset Upload** – This new facility allows Adopters to fully configure the upload dialog of Opencast as well as to configure arbitrary assets that can be uploaded and managed trough the user interface.
-- **Monitoring Service** – The UI has been enhanced with a monitoring service that provides a visual indication of both the ActiveMQ status and the services status. In case of problems with Opencast services, a single click navigates the user to the Systems->Services page with an appropriate filter already set
-- **IBM Watson Transcription Service** – The integration of the IBN Watson Speech-to-Text service allows Adopters to easily integrate speech-to-text into their existing workflows.
-- **Wowza Adaptive Streaming** – The Wowza adaptive streaming distribution service is now included in the official Opencast release which relieves Adopters from the need to include this functionality from a separate code repository.
-Manually retry failed operations – It is now possible to make failing workflow operations pause the workflow, leaving the user the choice to manually retry or abort the failed operation.
-- **User Interface Improvements** – Various improvements in the user interface further improve the user experiences of Opencast. Just to name a few:
--- A new datetimer picker makes entering start time more efficient
--- Cross page links allow the user to navigate to a different table with useful filters enabled by a single click
--- The video editor now opens much faster
--- The start date of an upload can be directly set in the upload dialog
--- The new view Location Details allows users to see the configuration and capabilities as reported by capture agents which simplifies the management of capture agents
-- **OAI-PMH Improvements** – The addition of support for automatically publishing changes to the OAI-PMH server relieves users from the need to re-publish to OAI-PMH after changes to metadata. The metadata prefix matterhorn-inlined now provides support for extended metadata catalogs. Last but not least, the performance of the publication and retraction workflow operation handlers for OAI-PMH has been significantly improved by supporting bulk operations.
-- **Workflow Operation Improvements**
--- WOH series can now apply series metadata to event metadata
--- WOH timelinepreview has been added. This workflow operation handler generates a single image that contains a large configurable number of preview images which allows players to implement highly efficient timeline previews. The Theodul player timeline preview features relies on this new workflow operation handler
--- WOH execute-once can now set workflow properties
-- **Scalability Improvements** – Several problems considering the scalability of Opencast in large-scale scenarios have been addressed. In particular, Opencast 4.0 performs much better in the presence of thousands of series
-- **Language Support** – Added support for Slovenian and Hebrew
+￼<img src="http://www.opencast.org/wp-content/uploads/2015/07/eth1-300x149.png">
 
-A full list of changes can be found in the [official release notes](https://docs.opencast.org/r/4.x/admin/releasenotes/).
 
-Visit the [download section](http://www.opencast.org/software/download) for more information on how to get Opencast 4.0.
+### Video distribution
+Once the user has pulled a video asset into his page, the embedded video is displayed using JW Player. Behind the scenes, a format schedule was established to allow for flexible video distribution: Depending on device, browser and operating system, the appropriate format is being used to display the video. As we speak, this means we have H.264 for most setups, WebM to support older versions of Firefox – and H.264 Flash for those awkward moments where HTML5 video is not supported, which affects older IE versions and Windows XP mainly.
+
+HLS is not supported yet; for this, a manifest is needed to correctly chop and deliver the video. A workflow operation to enable this in Opencast is planned, however, for one of the next releases. Additionally, we switch between two resolutions according to video layout in CQ5: Embedded video uses the respective smaller version, with an “continuous play” switch to the larger resolution in full screen display. The standard would be
+
+- SD: 640×480 (embed), 1024×768 (fullscreen)
+- HD: 640×360 (embed), 1280×720(fullscreen)
+
+Where applicable, users can manually switch to 1080p in fullscreen, thus getting even better video quality (example). The full matrix reads like this:
+
+￼<img src="http://www.opencast.org/wp-content/uploads/2015/07/eth2-300x91.png">
+
+We have a HTTP Apache server for HTML5 videos (webm with vp8 and mp4 with h.264) plus Wowza Streaming Engine 4.0 server for RTMP (mp4 with h.264) distribution. The virtual servers runs on a VMware vSphere.
+
+### Video encoding – FFmpeg settings
+In order to establish the best possible settings in FFmpeg for our content, we contracted an FFmpeg expert to elaborate these based on typical content we have (content only recordings with little fluctuation, mixed recordings video/content, video only, single stream). Against the background of our distribution infrastructure including the CMS, he thus set up a plethora of encoding workflows, the details of which you find in the wiki. One major characteristic of the process we’re using is “two pass encoding”: In this, the first pass analyses the video file and the second one encodes the video into the target resolution according to the characteristics established in the first pass. Time-consuming, yes, but for a better video quality and an agreeable user experience, we decided in favour of quality over time. Mind you, we can use “quick and dirty” workflows once we need a quick publication.
+
+### Problems encountered – and remaining
+We had a number of minor issues in the early stages when ongoing work in both systems (CQ5 and Opencast) caused interferences, OAI-PMH updates failing, publications not working in due time, some Opencast workflows resulted in too many HD options being displayed. All of these we were able to solve and with hindsight, we consider them labour pains. There is an “issue” with the continuous or seamless play when switching to and from fullscreen – it’s not that seamless. You actually get to see first frame of the video for a short moment, which was awkward at first because with most videos/players one is used to seeing “nothing”, a black screen actually. This is done by adding a black frame to the video, something we didn’t want to, so ours is a “real” first frame.
+
+### Future scenarios for OAI-PMH
+There are two additional scenarios we envisage using OAI-PMH. One is for our videos to obtain a digital object identifier (DOI). The official server to provide these at ETH also communicates using OAI-PMH and we hope to connect the two for that purpose. Also, we would like to establish an aggregated Opencast repository at some stage, with participating institutions using OAI-PMH to push metadata from their open video resources to a central video portal, which merely has to read OAI-PMH and display videos coming from institutions across the globe.
+
 
