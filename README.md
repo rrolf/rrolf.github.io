@@ -25,7 +25,7 @@ description="Schedule events to automatically record based on a pre-defined time
 image="/assets/img/schedule.png"
 linkurl="/software"
 align="left"
-backgroundcolor="{{site.box-color}}"
+backgroundcolor="grey"
 %}
 
 {% include fullsizebox.html 
