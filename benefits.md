@@ -9,7 +9,7 @@ description="Opencast is an open source technology built by a community of innov
 image="/assets/img/community.jpg"
 linkurl="/benefits/community"
 linktext="Learn More"
-backgroundcolor=site.data.colors.box
+backgroundcolor=site.data.colors.greenbox
 %}
 
 {% include imagebox.html 
@@ -18,7 +18,7 @@ description="Opencast integrates seamlessly with all your current technology and
 image="/assets/img/integrates.jpg"
 linkurl="/benefits/integration"
 linktext="Learn More"
-backgroundcolor=site.data.colors.box
+backgroundcolor=site.data.colors.greenbox
 %}
 
 {% include imagebox.html 
@@ -27,7 +27,7 @@ description="Opencast is a solution that’s completely customizable to address 
 image="/assets/img/custom.jpg"
 linkurl="/benefits/customizable"
 linktext="Learn More"
-backgroundcolor=site.data.colors.box
+backgroundcolor=site.data.colors.greenbox
 %}
 
 {% include imagebox.html 
@@ -36,7 +36,7 @@ description="Every institution is different and Opencast is built to handle a wi
 image="/assets/img/scale.jpg"
 linkurl="/benefits/scaleable"
 linktext="Learn More"
-backgroundcolor=site.data.colors.box
+backgroundcolor=site.data.colors.greenbox
 %}
 
 {% include imagebox.html 
@@ -45,7 +45,7 @@ description="Opencast is a versatile solution for video management trusted and a
 image="/assets/img/trusted.jpg"
 linkurl="/benefits/trusted"
 linktext="Learn More"
-backgroundcolor=site.data.colors.box
+backgroundcolor=site.data.colors.greenbox
 %}
 
 # 3 Reasons University of Manchester Chose Opencast
