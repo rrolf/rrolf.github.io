@@ -7,7 +7,6 @@ tags: [user]
 logo: /assets/img/eth-logo.png
 ---
 
-# ETH Zurich
 ## Using Opencast as a video asset management system to your CMS – introducing OAI-PMH
 
 ### Summary

@@ -6,7 +6,6 @@ category: user
 tags: [user]
 logo: /assets/img/translectures-logo.png
 ---
-# transLectures – Using Opencast for automated transcription and translation
 
 ## Project Highlights
 

@@ -7,7 +7,6 @@ tags: [user]
 logo: /assets/img/eth-logo.png
 ---
 
-# Universitat Politécnica de Valencia
 Over a one year period ending in June 2013, the Universitat Politécnica de Valencia (UPV) implemented Opencast as a lecture recording solution for their campus. As of June 2013, UPV had installed 36 lecture halls with capture agents, and recorded the lectures of 53 teachers, resulting in 1400 lectures recorded with a peak usage of 150 hours/week.
 
 ## Project Goals

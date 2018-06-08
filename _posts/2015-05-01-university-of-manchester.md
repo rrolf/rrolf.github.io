@@ -7,8 +7,6 @@ tags: [user]
 logo: /assets/img/mancherster-logo.png
 ---
 
-# University of Manchester
-
 ## Project Goals
 During 2011/12 the University of Manchester successfully piloted lecture capture technology on a small scale in 10 locations using Podcast Producer 2. By the end of the pilot in 2012 we had concluded that lecture capture was a great benefit for students and it would be made available in many more locations. We also concluded that Podcast Producer 2 would not be suitable for a large-scale deployment. A new project was commissioned to complete the following objectives:
 

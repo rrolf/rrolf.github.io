@@ -7,7 +7,6 @@ tags: [user]
 logo: /assets/img/uni-zu-koeln.png
 ---
 
-# University of Cologne
 *Last update: October, 5th 2015*
 
 ## About the University of Cologne

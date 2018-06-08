@@ -7,8 +7,6 @@ tags: [user]
 logo: /assets/img/logo-ugent.png
 ---
 
-# Ghent University
-
 ## Project Goals
  
 

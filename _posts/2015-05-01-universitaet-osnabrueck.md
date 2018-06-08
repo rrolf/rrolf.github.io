@@ -7,7 +7,6 @@ tags: [user]
 logo: /assets/img/uos-logo.png
 ---
 
-# University of Osnabrück
 *Last update: August, 1st 2015*
 
 ## About the University of Osnabrück

@@ -7,8 +7,6 @@ tags: [user]
 logo: /assets/img/cdm-logo.png
 ---
 
-# bUniversity of Vigo/Campus do Mar
-
 ## Project Goals
 <img src="http://www.opencast.org/wp-content/uploads/2015/07/CampusDoMarVigo_logo.png">
 Campus Do Mar LogoMain Project goals were:
