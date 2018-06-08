@@ -1,6 +1,6 @@
 ---
-title: Opencast Sponsors
-description: Opencast as an Open Source product lives on the support of its community. We’re grateful to every committer, contributor and community member providing feedback. And to our sponsors:
+title: "Opencast Sponsors"
+description: "Opencast as an Open Source product lives on the support of its community. We’re grateful to every committer, contributor and community member providing feedback. And to our sponsors!"
 ---
 
 <img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2017/06/Wolfvision-sponsor_gross.jpg">
