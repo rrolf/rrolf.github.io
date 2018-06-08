@@ -47,7 +47,7 @@ The modular system design of Opencast meant that Manchester could pick and choos
 Manchester had a compressed timeline for the project which required new functionality to be delivered very quickly. This also made it a requirement that the solution was flexible and adaptive to the changing needs of the University. Because Opencast is open source it allowed Manchester to deliver change swiftly, with direct access to the code base we were free to develop new extensions, functions and fixes with the minimum of time.
 
 # See why leading organizations chose Opencast.
-[<img class="button" src="img/button.png">](http://www.opencast.org/users)"
+[<img class="button" src="img/button.png">](http://www.opencast.org/users)
 backgroundcolor="{{site.box-color}}"
 %}
 
