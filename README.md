@@ -1,7 +1,12 @@
-**Opencast is a flexible and customizable video capture and distribution system for modern institutions. Opencast is built by a growing community of developers in collaboration with leading universities and organizations worldwide.**
+---
+title: Opencast Video Solution
+description: The free and open source solution for automated video capture and distribution at scale.
+---
+# Introduction 
 
-# Introduction video
 {% include videoplayer.html id="57a2b005-fe70-4566-a234-aa864faf1e29" %}
+
+> Opencast is a flexible and customizable video capture and distribution system for modern institutions. Opencast is built by a growing community of developers in collaboration with leading universities and organizations worldwide.
 
 ---
 
@@ -25,7 +30,7 @@ description="Schedule events to automatically record based on a pre-defined time
 image="/assets/img/schedule.png"
 linkurl="/software"
 align="left"
-backgroundcolor="grey"
+backgroundcolor=site.data.colors.box
 %}
 
 {% include fullsizebox.html 
@@ -42,7 +47,7 @@ description="A scalable infrastructure to encode video, generate metadata and pr
 image="/assets/img/events.png"
 linkurl="/software"
 align="left"
-backgroundcolor="grey"
+backgroundcolor=site.data.colors.box
 %}
 
 {% include fullsizebox.html 
@@ -59,7 +64,7 @@ description="The media player is a standalone application or embedded on blogs, 
 image="/assets/img/playback.png"
 linkurl="/software"
 align="left"
-backgroundcolor="grey"
+backgroundcolor=site.data.colors.box
 %}
 
 {% include fullsizebox.html 
