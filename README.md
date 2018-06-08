@@ -2,6 +2,10 @@
 
 Site color: {{site.data.colors.box}},{{site.data.colors[box]}},{{site.data.box}},{{site.box-color}}
 
+{% for col in site.data.colors %}
+- {{col}}
+{% endfor %}
+
 # Introduction video
 {% include videoplayer.html id="57a2b005-fe70-4566-a234-aa864faf1e29" %}
 
