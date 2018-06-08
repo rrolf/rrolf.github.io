@@ -30,8 +30,9 @@ Opencast is a versatile solution for video management trusted and advanced by le
 [Learn More](/benefits/trusted-by-leading-organizations-worldwide "Learn More")
 
 {% include fullsizebox.html 
-title="# 3 Reasons University of Manchester Chose Opencast"
-description="The University of Manchester with the worlds largest lecture recording installation did not have a preference when it came to the use of open-source or commercial system for lecture capture. After thorough research, they found Opencast to be the best solution for the following reasons:
+title="3 Reasons University of Manchester Chose Opencast"
+description="The University of Manchester with the worlds largest lecture recording installation did not have a preference when it came to the use of open-source or commercial system for lecture capture. After thorough research, they found Opencast to be the best solution for the following reasons:"
+%}
 
 <img class="image-left" src="http://www.opencast.org/wp-content/uploads/2015/08/cost-2.jpg">
 ## 1. Cost
