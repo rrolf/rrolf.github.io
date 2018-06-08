@@ -42,7 +42,7 @@ description="A scalable infrastructure to encode video, generate metadata and pr
 image="/assets/img/events.png"
 linkurl="/software"
 align="left"
-backgroundcolor="{{site.box-color}}"
+backgroundcolor="grey"
 %}
 
 {% include fullsizebox.html 
@@ -59,7 +59,7 @@ description="The media player is a standalone application or embedded on blogs, 
 image="/assets/img/playback.png"
 linkurl="/software"
 align="left"
-backgroundcolor="{{site.box-color}}"
+backgroundcolor="grey"
 %}
 
 {% include fullsizebox.html 
