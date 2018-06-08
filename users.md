@@ -13,6 +13,42 @@ Some adopters of Opencast were able to provide some feedback on how they use Ope
 With it’s Webcast program the University of California Berkeley has been among the pioneers of lecture recordings in the form that we know today. UC Berkeley was also the founder of the Opencast project back in 2008.
 [Learn More](/users/adopter-highlight-university-of-california-berkeley "Learn More")
 
+{% include box-start.html backgroundcolor="#dfe6ed" %}
+
+{% include imagebox.html 
+title="ETH Zürich"
+description="The ETH Zürich has always been one of the driving forces of the Opencast project. A high degree on integration into their campus infrastructure is important to them."
+image="http://www.opencast.org/wp-content/uploads/2015/02/eth-logo.png"
+linkurl="/users/adopter-highlight-eth-zurich"
+linktext="Learn More"
+%}
+
+{% include imagebox.html 
+title="University of Manchester"
+description="The University of Manchester has brought lecture capture to a new level. With an opt-out policy for lecturers and more than 300 equipped venues by the end of 2015."
+image="http://www.opencast.org/wp-content/uploads/2015/02/mancherster-logo.png"
+linkurl="/users/adopter-highlight-university-of-manchester"
+linktext="Learn More"
+%}
+
+{% include imagebox.html 
+title="University of Vigo/Campus do Mar"
+description="An excellent example on how Opencast can be used in educational projects and how the software can be integrated with other portals."
+image="http://www.opencast.org/wp-content/uploads/2015/02/cdm-logo.png"
+linkurl="/users/adopter-highlight-university-of-vigocampus-do-mar"
+linktext="Learn More"
+%}
+
+{% include imagebox.html 
+title="Universitat Politécnica de Valencia"
+description="The Universitat Politécnica de Valencia provides with the Paella Player an alternative engage player for Opencast. They are also initiated the Capture Agent Dashboard software."
+image="http://www.opencast.org/wp-content/uploads/2015/02/upv-logo.png"
+linkurl="/users/adopter-highlight-universitat-politecnica-de-valencia"
+linktext="Learn More"
+%}
+
+{% include box-end.html %}
+
 <img class="feature-image-right" src="http://www.opencast.org/wp-content/uploads/2015/02/eth-logo.png">
 ## ETH Zürich
 The ETH Zürich has always been one of the driving forces of the Opencast project. A high degree on integration into their campus infrastructure is important to them.
