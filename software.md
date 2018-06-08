@@ -45,7 +45,7 @@ description="With Opencast Distribute enables you to publish recordings for on-d
 - Distribution via RSS/Atom to learning management systems
 - Automated publishing to iTunes U and YouTube
 - Custom workflows to enable distribution and archiving to local or distribution servers"
-image="/assets/img/large-schedule.jpg"
+image="/assets/img/large-distribute.jpg"
 align="left"
 imagewidth="40%"
 %}
@@ -61,7 +61,7 @@ description="The Opencast player can be used as a standalone application, or emb
 - Customizable permissions settings
 - User directory integration (LDAP, CAS etc.)
 - Adaptive Streaming support with HTTP Live Streaming (HLS)"
-image="/assets/img/large-process.jpg"
+image="/assets/img/large-playback.jpg"
 align="right"
 backgroundcolor="grey"
 imagewidth="40%"
@@ -76,7 +76,7 @@ description="Opencast Manage provides a dashboard for administrators to configur
 - Manual media upload (e.g. user-generated or production video)
 - Bulk editing; media trimming and recording search/filtering
 - Monitoring dashboard; status, performance statistics and technical details"
-image="/assets/img/large-schedule.jpg"
+image="/assets/img/large-manage.jpg"
 align="left"
 imagewidth="40%"
 %}
