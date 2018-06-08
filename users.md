@@ -11,10 +11,10 @@ Some adopters of Opencast were able to provide some feedback on how they use Ope
 {% for post in site.posts %}
 {% if post.categories contains "user" %}
 {% include imagebox.html 
-title="{{post.title}}"
-description="{{post.description}}"
-image="{{post.logo}}"
-linkurl="{{post.url}}"
+title=post.title
+description=post.description
+image=post.logo
+linkurl=post.url
 linktext="Learn More"
 %}
 {% endif %}
@@ -23,9 +23,11 @@ linktext="Learn More"
 {% include box-end.html %}
 
 > Opencast was the only solution that was fully automated and flexible enough to work with our existing audiovisual technology.
+
 Stuart Phillipson, University of Manchester
 
 > Opencast drastically reduces the time it takes to get educational resources online so end users can interact with content in real-time.
+
 Rüdiger Rolf, University of Osnabrück
 
 ## Get Started Now
