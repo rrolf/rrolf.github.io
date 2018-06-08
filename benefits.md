@@ -29,25 +29,37 @@ Every institution is different and Opencast is built to handle a wide variety of
 Opencast is a versatile solution for video management trusted and advanced by leading academic innovators. And carried by a community to collectively support and drive these efforts.
 [Learn More](/benefits/trusted-by-leading-organizations-worldwide "Learn More")
 
+# 3 Reasons University of Manchester Chose Opencast
+The University of Manchester with the worlds largest lecture recording installation did not have a preference when it came to the use of open-source or commercial system for lecture capture. After thorough research, they found Opencast to be the best solution for the following reasons:
+
 {% include fullsizebox.html 
-title="3 Reasons University of Manchester Chose Opencast"
-description="The University of Manchester with the worlds largest lecture recording installation did not have a preference when it came to the use of open-source or commercial system for lecture capture. After thorough research, they found Opencast to be the best solution for the following reasons:"
+title="1. Cost"
+description="Opencast proved to be incredibly cost effective, with no licensing or support fees. It is easy to test without financial commitment and long term, the operating costs are very low."
+image="/assets/img/cost-2.jpg"
+align="left"
+imagewidth="50%"
+backgroundcolor=site.data.colors.box
 %}
 
-<img class="image-left" src="http://www.opencast.org/wp-content/uploads/2015/08/cost-2.jpg">
-## 1. Cost
-Opencast proved to be incredibly cost effective, with no licensing or support fees. It is easy to test without financial commitment and long term, the operating costs are very low.
+{% include fullsizebox.html 
+title="2. Scalability"
+description="The modular system design of Opencast meant that Manchester could pick and choose which elements to leverage for their deployment. This also meant that they could run many instances of high demand services in parallel, such as workers and ingest nodes.
+"
+image="/assets/img/scalability-2.jpg"
+align="right"
+imagewidth="50%"
+%}
 
-<img class="image-right" src="http://www.opencast.org/wp-content/uploads/2015/07/scalability-2.jpg">
-## 2. Scalability
-The modular system design of Opencast meant that Manchester could pick and choose which elements to leverage for their deployment. This also meant that they could run many instances of high demand services in parallel, such as workers and ingest nodes.
+{% include fullsizebox.html 
+title="3. Customization"
+description="Manchester had a compressed timeline for the project which required new functionality to be delivered very quickly. This also made it a requirement that the solution was flexible and adaptive to the changing needs of the University. Because Opencast is open source it allowed Manchester to deliver change swiftly, with direct access to the code base we were free to develop new extensions, functions and fixes with the minimum of time."
+image="/assets/img/custom-2.jpg"
+align="left"
+imagewidth="50%"
+backgroundcolor=site.data.colors.box
+%}
 
-<img class="image-left" src="http://www.opencast.org/wp-content/uploads/2015/08/custom-2.jpg">
-## 3. Customization
-Manchester had a compressed timeline for the project which required new functionality to be delivered very quickly. This also made it a requirement that the solution was flexible and adaptive to the changing needs of the University. Because Opencast is open source it allowed Manchester to deliver change swiftly, with direct access to the code base we were free to develop new extensions, functions and fixes with the minimum of time.
 
 # See why leading organizations chose Opencast.
-[<img class="button" src="img/button.png">](http://www.opencast.org/users)
-backgroundcolor="{{site.box-color}}"
-%}
+Visit our [Users](/users) page for more report from institutions that use Opencast.
 
