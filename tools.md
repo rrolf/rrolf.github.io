@@ -65,7 +65,7 @@ imagewidth="50%"
 title="Paella Player"
 description="The Paella Player is a free and open-source alternative player for Opencast. It is an alternative to the player included within Opencast and offers an appealing design and some unique features like virtual trimming. It is using HTML5 video with a fallback to Flash. The Paella Player can also be embedded into edX.
 
-[Paella Player Homepage](http://paellaplayer.upv.es/ "Paella Player Homepage)"
+[Paella Player Homepage](http://paellaplayer.upv.es/)"
 image="/assets/img/paellaplayer.png"
 linkurl="https://wiki.teltek.es/display/Galicaster/Galicaster+Dashboard"
 align="left"
@@ -76,9 +76,9 @@ imagewidth="50%"
 title="Annotating Academic Video Tool"
 description="Annotating Academic Video is a free and open-source annotation tool. The aim of this software is provide teacher and learners with an easy to use tool to annotate videos.
 
-[Annotating Academic Video Tool Homepage](https://bitbucket.org/opencast-community/annotation-tool "Annotating Academic Video Tool Homepage)"
+[Annotating Academic Video Tool Homepage](https://bitbucket.org/opencast-community/annotation-tool)"
 image="/assets/img/annotationtool.png"
-linkurl="https://bitbucket.org/opencast-community/annotation-tool "Annotating Academic Video Tool Homepage"
+linkurl="https://bitbucket.org/opencast-community/annotation-tool"
 align="left"
 imagewidth="50%"
 %}
@@ -89,8 +89,8 @@ description="Opencast supports URL signing to provide additional protection of r
 
 Currently, there are two Opencast Stream Security plugins available:
 
-- [Apache HTTP Stream Security Plugin](https://bitbucket.org/opencast-community/apache-httpd-stream-security-plugin "Apache HTTP Stream Security Plugine)
-- [Wowza Stream Security Plugin](https://bitbucket.org/opencast-community/wowza-stream-security-plugin/src "Wowza Stream Security Plugin)"
+- [Apache HTTP Stream Security Plugin](https://bitbucket.org/opencast-community/apache-httpd-stream-security-plugin)
+- [Wowza Stream Security Plugin](https://bitbucket.org/opencast-community/wowza-stream-security-plugin/src)"
 image="/assets/img/login-1203603_960_720.png"
 linkurl="https://bitbucket.org/opencast-community/apache-httpd-stream-security-plugin"
 align="left"
