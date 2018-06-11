@@ -3,8 +3,6 @@ title: Tools for Opencast
 description: The Opencast community offers several tools, mostly open source, that work together with Opencast to increase the functionality. These tools can improve the capture, offer a export or integration into other systems, can give you a choice of different players and much more.
 ---
 
-# Tools
-
 {% include fullsizebox.html 
 title="LectureSight"
 description="LectureSight is a free and open-source tracking tool that allows to steer a pan-tilt camera based on data gathered by a separate webcam. The aim of this project is to offer a more vivid video of the lecture and show more details of what is going on in the classroom. This will enable an automated recording of a lecture that uses the blackboard, i.e.
