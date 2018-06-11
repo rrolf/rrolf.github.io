@@ -68,46 +68,46 @@ Feel free to use the [webchat webinterface](http://webchat.freenode.net/?channel
 
 # Opencast Committers
 
-<img class="feature-image-left" src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
+<img  src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
 [Christian Greweling](https://opencast.jira.com/wiki/display/~cgreweling)
 
-<img class="feature-image-left" src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
+<img src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
 [Greg Logan](https://opencast.jira.com/wiki/display/~greg_logan)
 
-<img class="feature-image-left" src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
+<img src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
 [James Perrin](https://opencast.jira.com/wiki/display/~james.perrin)
 
-<img class="feature-image-left" src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
+<img src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
 [Karen Dolan](https://opencast.jira.com/wiki/display/~karen)
 
-<img class="feature-image-left" src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
+<img src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
 [Lars Kiesow](https://opencast.jira.com/wiki/display/~lkiesow)
 
-<img class="feature-image-left" src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
+<img src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
 [Matjaz Rihtar](https://opencast.jira.com/wiki/display/~matjaz)
 
-<img class="feature-image-left" src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
+<img src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
 [Michael Stypa](https://opencast.jira.com/wiki/display/~mstypa)
 
-<img class="feature-image-left" src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
+<img src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
 [Rubén Pérez](https://opencast.jira.com/wiki/display/~ruben.perez)
 
-<img class="feature-image-left" src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
+<img src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
 [Rute Santos](https://opencast.jira.com/wiki/display/~rsantos)
 
-<img class="feature-image-left" src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
+<img src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
 [Rüdiger Rolf](https://opencast.jira.com/wiki/display/~rrolf)
 
-<img class="feature-image-left" src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
+<img src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
 [Stephen Marquard](https://opencast.jira.com/wiki/display/~smarquard)
 
-<img class="feature-image-left" src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
+<img src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
 [Sven Stauber](https://opencast.jira.com/wiki/display/~staubesv)
 
-<img class="feature-image-left" src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
+<img src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
 [Tobias Schiebeck](https://opencast.jira.com/wiki/display/~ts23)
 
-<img class="feature-image-left" src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
+<img src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
 [Waldmar Smirnow](https://opencast.jira.com/wiki/display/~waldemarsmirnow)
 
 # Committers Emeritus

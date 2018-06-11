@@ -48,7 +48,7 @@ With the fixed equipped rooms we have recorded and published 20 courses, with a 
 With the mobile Galicaster units we have recorded 19 meetings and conferences, with a total of 584 videos or 218 hour of recorded presentations, roundtables, etc… By February 2013, there have been more than 63,000 downloads. Almost 100% of these recordings are open. (the downloading figures include only the direct Opencast downloads, not the Youtube or iTunes U downloads).
 
 ## Integration with external systems
-<img src="http://www.opencast.org/wp-content/uploads/2015/07/CampusDoMar2.jpg2">
+<img src="http://www.opencast.org/wp-content/uploads/2015/07/CampusDoMar2.jpg">
 The platform built for this pilot project is, in fact, an integration of Opencast with Galicaster and PuMuKIT, another two open tools:
 
 galicaster screen Galicaster is an Opencast-compatible capture agent. It has been developed by Teltek Video Research following the needs and goals of the agents for the Opencast deployment, namely: Graphical User Interface (touchscreen-oriented); live visual feedback of what is being recorded, including a red “recording light” and a vu-meter for audio monitoring; remote monitoring of the recording, via VNC; basic, in-place control of the recording (start, pause, stop buttons); a Media Manager for finished recordings (browse, play and delete) and full compatibility with the Opencast scheduling system. (www.galicaster.org)
