@@ -205,7 +205,7 @@ imagewidth="40%"
 %}
 
 {% include fullsizebox.html 
-image="/http://www.opencast.org/wp-content/uploads/2015/03/jira.png"
+image="http://www.opencast.org/wp-content/uploads/2015/03/jira.png"
 align="left"
 imagewidth="40%"
 %}
