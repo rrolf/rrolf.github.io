@@ -139,7 +139,7 @@ size="large"
 
 {% include imagebox.html 
 title="Teltek"
-description="TELTEK Video Research provides "on premises" and cloud hosted solutions based on Opencast. TELTEK offers to combine Opencast with PuMuKIT (an Open Video oriented CMS) to build end-to-end Campus-wide video solutions."
+description="TELTEK Video Research provides \"on premises\" and cloud hosted solutions based on Opencast. TELTEK offers to combine Opencast with PuMuKIT (an Open Video oriented CMS) to build end-to-end Campus-wide video solutions."
 image="/assets/img/teltek.png"
 linkurl="http://teltek.es"
 linktext="Learn More"
