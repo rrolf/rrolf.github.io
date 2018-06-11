@@ -1,9 +1,8 @@
+Opencast is a flexible and customizable video capture and distribution system for modern institutions. Opencast is built by a growing community of developers in collaboration with leading universities and organizations worldwide.
 
 # Introduction 
 
 {% include videoplayer.html id="57a2b005-fe70-4566-a234-aa864faf1e29" %}
-
-> Opencast is a flexible and customizable video capture and distribution system for modern institutions. Opencast is built by a growing community of developers in collaboration with leading universities and organizations worldwide.
 
 ---
 
