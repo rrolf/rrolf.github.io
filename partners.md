@@ -20,7 +20,7 @@ description="AREC is a manufacturer specializes in the networking audio-visual t
 image="/assets/img/arec.png"
 linkurl="http://www.arec.com/index-en.html"
 linktext="Learn More"
-backgroundcolor=site.data.colors.greenbox
+backgroundcolor=site.data.colors.box
 size="large"
 %}
 
@@ -30,7 +30,7 @@ description="Arrive provides a full range of displays, cameras and microphones â
 image="http://www.opencast.org/wp-content/uploads/2015/03/arrive.png"
 linkurl="https://arrivesys.com"
 linktext="Learn More"
-backgroundcolor=site.data.colors.greenbox
+backgroundcolor=site.data.colors.box
 size="large"
 %}
 
@@ -40,7 +40,7 @@ description="The MediaStar suite of products has been developed to manage, commu
 image="http://www.opencast.org/wp-content/uploads/2015/03/cabletime.png"
 linkurl="http://www.cabletime.com"
 linktext="Learn More"
-backgroundcolor=site.data.colors.greenbox
+backgroundcolor=site.data.colors.box
 size="large"
 %}
 
@@ -50,7 +50,7 @@ description="Datapath is a leading innovator in the field of video graphics, vid
 image="http://www.opencast.org/wp-content/uploads/2015/03/datapath1.png"
 linkurl="http://www.datapath.co.uk"
 linktext="Learn More"
-backgroundcolor=site.data.colors.greenbox
+backgroundcolor=site.data.colors.box
 size="large"
 %}
 
@@ -60,7 +60,7 @@ description="Epiphan provides a line of hardware audio video solutions to captur
 image="http://www.opencast.org/wp-content/uploads/2015/03/epiphan.png"
 linkurl="https://www.epiphan.com"
 linktext="Learn More"
-backgroundcolor=site.data.colors.greenbox
+backgroundcolor=site.data.colors.box
 size="large"
 %}
 
@@ -70,7 +70,7 @@ description="Extron Electronics is a leading manufacturer of professional AV sys
 image="http://www.opencast.org/wp-content/uploads/2015/03/extron.png"
 linkurl="http://www.extronclassroom.com/index.aspx?returned=1"
 linktext="Learn More"
-backgroundcolor=site.data.colors.greenbox
+backgroundcolor=site.data.colors.box
 size="large"
 %}
 
@@ -80,7 +80,7 @@ description="NCast provides effective, scalable, and cost-effective methods for 
 image="http://www.opencast.org/wp-content/uploads/2015/03/ncast1.png"
 linkurl="https://www.ncast.com"
 linktext="Learn More"
-backgroundcolor=site.data.colors.greenbox
+backgroundcolor=site.data.colors.box
 size="large"
 %}
 
@@ -90,7 +90,7 @@ description="TELTEK provides profesional services related with Galicaster and se
 image="/assets/img/teltek.png"
 linkurl="http://teltek.es"
 linktext="Learn More"
-backgroundcolor=site.data.colors.greenbox
+backgroundcolor=site.data.colors.box
 size="large"
 %}
 
@@ -100,7 +100,7 @@ description="WolfVision is a developer and manufacturer of innovative systems an
 image="/assets/img/Wolfvision-sponsor_gross.jpg"
 linkurl="https://wolfvision.com/vsolution/index.php/de"
 linktext="Learn More"
-backgroundcolor=site.data.colors.greenbox
+backgroundcolor=site.data.colors.box
 size="large"
 %}
 
@@ -113,7 +113,7 @@ description="ELAN e.V. is a nonprofit association, which offers commercial suppo
 image="/assets/img/elan.png"
 linkurl="https://www.elan-ev.de"
 linktext="Learn More"
-backgroundcolor=site.data.colors.greenbox
+backgroundcolor=site.data.colors.box
 size="large"
 %}
 
@@ -123,7 +123,7 @@ description="A startup that offers software development for Opencast and consult
 image="/assets/img/plapadoo.png"
 linkurl="https://en.plapadoo.com/blog"
 linktext="Learn More"
-backgroundcolor=site.data.colors.greenbox
+backgroundcolor=site.data.colors.box
 size="large"
 %}
 
@@ -133,7 +133,7 @@ description="ssystems! offer support in integrating Opencast with other campus s
 image="/assets/img/ssystems.png"
 linkurl="https://www.ssystems.de"
 linktext="Learn More"
-backgroundcolor=site.data.colors.greenbox
+backgroundcolor=site.data.colors.box
 size="large"
 %}
 
@@ -143,6 +143,6 @@ description="TELTEK Video Research provides \"on premises\" and cloud hosted sol
 image="/assets/img/teltek.png"
 linkurl="http://teltek.es"
 linktext="Learn More"
-backgroundcolor=site.data.colors.greenbox
+backgroundcolor=site.data.colors.box
 size="large"
 %}
