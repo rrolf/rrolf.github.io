@@ -47,6 +47,7 @@ description="TheRec is a free and open-source recording software for Windows 7+.
 image="/assets/img/therec.png"
 linkurl="https://elan-ev.de/produkte_av_therec_english.php"
 align="left"
+backgroundcolor=site.data.colors.box
 imagewidth="50%"
 %}
 
@@ -69,6 +70,7 @@ description="The Paella Player is a free and open-source alternative player for 
 image="/assets/img/paellaplayer.png"
 linkurl="https://wiki.teltek.es/display/Galicaster/Galicaster+Dashboard"
 align="left"
+backgroundcolor=site.data.colors.box
 imagewidth="50%"
 %}
 
@@ -94,5 +96,6 @@ Currently, there are two Opencast Stream Security plugins available:
 image="/assets/img/login-1203603_960_720.png"
 linkurl="https://bitbucket.org/opencast-community/apache-httpd-stream-security-plugin"
 align="left"
+backgroundcolor=site.data.colors.box
 imagewidth="50%"
 %}
