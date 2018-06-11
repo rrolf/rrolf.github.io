@@ -169,7 +169,7 @@ imagewidth="40%"
 %}
 
 {% include fullsizebox.html 
-image="/assets/img/osnabruk.png"
+image="http://www.opencast.org/wp-content/uploads/2015/03/osnabruk.png"
 align="left"
 imagewidth="40%"
 %}
@@ -187,7 +187,7 @@ imagewidth="40%"
 %}
 
 {% include fullsizebox.html 
-image="/assets/img/blindside.png"
+image="http://www.opencast.org/wp-content/uploads/2015/03/blindside.png"
 align="left"
 imagewidth="40%"
 %}
@@ -205,14 +205,14 @@ imagewidth="40%"
 %}
 
 {% include fullsizebox.html 
-image="/assets/img/jira.png"
+image="/http://www.opencast.org/wp-content/uploads/2015/03/jira.png"
 align="left"
 imagewidth="40%"
 %}
 
 
-% include fullsizebox.html 
-image="/assets/img/Harvard600x400.jpg"
+{% include fullsizebox.html 
+image="http://www.opencast.org/wp-content/uploads/2018/01/Harvard600x400.jpg"
 align="left"
 imagewidth="40%"
 %}
