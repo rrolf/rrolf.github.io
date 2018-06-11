@@ -50,5 +50,6 @@ There is also a weekly **technical meeting** for developers and sysops on Tuesda
 The Sakai Teaching and Learning group has opened up for other Apereo projects as an open forum. They meet [http://opencast.blindsidenetworks.net](https://confluence.sakaiproject.org/display/PED/Sakai+Teaching+and+Learning+Conference+Calls)(password: welcome)."
 image="http://www.opencast.org/wp-content/uploads/2015/02/bbb-conf.png"
 align="left"
+backgroundcolor=site.data.colors.box
 imagewidth="40%"
 %}
