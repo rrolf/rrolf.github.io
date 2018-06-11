@@ -5,7 +5,6 @@ title: Opencast Community Meetings
 # Upcoming Events
 Here are the conferences and workshops organized by the Opencast community and/or with participation by / relevance for the Opencast community.
 
-
 {% include simplebox.html backgroundcolor=site.data.colors.box 
 content="## Opencast D/A/CH Meeting 2018
 
@@ -19,7 +18,7 @@ As usually the event has more an un-conference style and the participants can co
 [Contact us](http://www.opencast.org/events) for more information or questions." %}
 
 {% include fullsizebox.html 
-title="## 2018 Opencast summit"
+title="2018 Opencast summit"
 description="The website has recording of most of the sessions of this years conference.
 *Thanks to Austria’s Academic Moodle Cooperation for hosting the 2018 Opencast Summit at the University of Vienna.*"
 image="/assets/img/opencast2018wien.jpg"
@@ -27,17 +26,6 @@ align="right"
 backgroundcolor=site.data.colors.box
 imagewidth="40%"
 %}
-
-{% include fullsizebox.html 
-title="## Conferences and Workshops"
-description="The website has recording of most of the sessions of this years conference.
-*Thanks to Austria’s Academic Moodle Cooperation for hosting the 2018 Opencast Summit at the University of Vienna.*"
-image="/assets/img/opencast2018wien.jpg"
-align="right"
-backgroundcolor=site.data.colors.box
-imagewidth="40%"
-%}
-
 
 {% include fullsizebox.html 
 title="Conferences and Workshops"
