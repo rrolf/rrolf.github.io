@@ -18,32 +18,41 @@ The [website](https://www.opencast.fau.de/) has all the information for planning
 As usually the event has more an un-conference style and the participants can contribute to the agenda in the [Opencast Wiki](https://opencast.jira.com/wiki/spaces/MHDE/pages/368607233/Themen+f+r+das+Treffen+der+DACH+Community+2018).
 [Contact us](http://www.opencast.org/events) for more information or questions." %}
 
-
-{% include simplebox.html backgroundcolor=site.data.colors.box 
-content="## 2018 Opencast summit
-
-The [website](http://opencast2018.univie.ac.at/programme-and-recordings/) has recording of most of the sessions of this years conference.
-<img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2018/03/opencast2018wien.jpg">
-*Thanks to Austria’s Academic Moodle Cooperation for hosting the 2018 Opencast Summit at the University of Vienna.*" %}
+{% include fullsizebox.html 
+title="## 2018 Opencast summit"
+description="The website has recording of most of the sessions of this years conference.
+*Thanks to Austria’s Academic Moodle Cooperation for hosting the 2018 Opencast Summit at the University of Vienna.*"
+image="/assets/img/opencast2018wien.jpg"
+align="right"
+backgroundcolor=site.data.colors.box
+imagewidth="40%"
+%}
 
 {% include fullsizebox.html 
-title="Conferences and Workshops"
-description="<img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2017/03/opencast-summit-2017.jpg">
-
-There is one major annual meeting, the Opencast Summit. While this used to be an unconference with an open agenda, we are trying to mix planned sessions with open slots these days, based on feedback we got from the community. Usually, there will be a call for participation to the community with a selection of presentations submitted (if necessary) so that a programme is set a couple of weeks before the event. To maintain the “unconference style” there will be empty slots for ad hoc sessions or open discussions. Besides the presentation slot(s) we usually organize a vendor showcase for the latest capture agent technology and service provider offerings.
-
-Plus, there are regional **Opencast meetings**. The German-speaking community for example meets once or twice a year for a workshop.
-
-Last but not least, there is the annual **Open Apereo Conference**, with members of the Opencast Community joining and – ideally – presenting or organizing seminars and workshops to inform the larger Apereo community about Opencast."
-align="left"
+title="## Conferences and Workshops"
+description="The website has recording of most of the sessions of this years conference.
+*Thanks to Austria’s Academic Moodle Cooperation for hosting the 2018 Opencast Summit at the University of Vienna.*"
+image="/assets/img/opencast2018wien.jpg"
+align="right"
+backgroundcolor=site.data.colors.box
 imagewidth="40%"
 %}
 
 
 {% include fullsizebox.html 
+title="Conferences and Workshops"
+description="There is one major annual meeting, the Opencast Summit. While this used to be an unconference with an open agenda, we are trying to mix planned sessions with open slots these days, based on feedback we got from the community. Usually, there will be a call for participation to the community with a selection of presentations submitted (if necessary) so that a programme is set a couple of weeks before the event. To maintain the “unconference style” there will be empty slots for ad hoc sessions or open discussions. Besides the presentation slot(s) we usually organize a vendor showcase for the latest capture agent technology and service provider offerings.
+
+Plus, there are regional Opencast meetings. The German-speaking community for example meets once or twice a year for a workshop.
+
+Last but not least, there is the annual Open Apereo Conference, with members of the Opencast Community joining and – ideally – presenting or organizing seminars and workshops to inform the larger Apereo community about Opencast."
+align="left"
+imagewidth="40%"
+%}
+
+{% include fullsizebox.html 
 title="Frequent Webmeetings"
-description="<img class="feature-image-right" src="http://www.opencast.org/wp-content/uploads/2015/02/bbb-conf.png">
-Best entry point to the community probably is our **Adopters’ meeting** on the last Wednesday of each month. The meeting is at 3pm UTC at [http://opencast.blindsidenetworks.net/ (password: welcome)](http://opencast2018.univie.ac.at/programme-and-recordings/). An agenda for this meeting is usually announced a few days before the meeting on the mailing-lists.
+description="Best entry point to the community probably is our **Adopters’ meeting** on the last Wednesday of each month. The meeting is at 3pm UTC at [http://opencast.blindsidenetworks.net/ (password: welcome)](http://opencast2018.univie.ac.at/programme-and-recordings/). An agenda for this meeting is usually announced a few days before the meeting on the mailing-lists.
 
 There is also a german-speaking **Adopters’ meeting** on the last Wednesday of every even month (February, April, June, August, October). The meeting is at 15:00 CEST at [http://opencast.blindsidenetworks.net/ (password: welcome)](http://opencast2018.univie.ac.at/programme-and-recordings/). An agenda for this meeting is usually announced a few days before the meeting on the german-speaking mailing-lists.
 
