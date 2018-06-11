@@ -41,47 +41,60 @@ align="left"
 imagewidth="50%"
 %}
 
-<img class="feature-image-right" src="http://www.opencast.org/wp-content/uploads/2015/07/mhri.jpg">
-## MHRI
+{% include fullsizebox.html 
+title="TheRec"
+description="TheRec is a free and open-source recording software for Windows 7+. Currently TheRec does not offer all features that a regular capture agent provides, as it does not support scheduling and uploading from Opencast. For an automated upload it relies on MHRI. Unlike other recording tools TheRec is easy to install and to configure. It supports a wide variety of capture cards that are compatible with Microsoft DirectShow. The number of simultanous streams that can be recorded is only limited by the speed of the computer.
 
-The Matterhorn Remote Inbox is a free and open-source tool that was designed to improve the workflow of ingesting content from a desktop PC into Opencast. The user creates a directory structure on a local PC and MHRI watches these directories. Series from Opencast can be assigned to top directories, the name of a subdirectory will be the title of an episode if no further episode information will be provided.
-[MHRI Homepage](http://zentrum.virtuos.uos.de/mhri/ "MHRI Homepage")
+[TheRec Homepage](https://elan-ev.de/produkte_av_therec_english.php)"
+image="/assets/img/therec.png"
+linkurl="https://elan-ev.de/produkte_av_therec_english.php"
+align="left"
+imagewidth="50%"
+%}
 
+{% include fullsizebox.html 
+title="Galicaster Dashboard"
+description="The Galicaster Dashboard is designed to monitor Capture Agents, especially Galicaster Capture Agents. The Tool gives you an overview of your recording devices, with their current status and a preview of the signals that the agent is currently recording.
 
-<img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2015/07/therec.png">
-## TheRec
+[Galicaster Dashboard Homepage](https://wiki.teltek.es/display/Galicaster/Galicaster+Dashboard)"
+image="/assets/img/gc-dashboard.png"
+linkurl="https://wiki.teltek.es/display/Galicaster/Galicaster+Dashboard"
+align="left"
+imagewidth="50%"
+%}
 
-TheRec is a free and open-source recording software for Windows 7+. Currently TheRec does not offer all features that a regular capture agent provides, as it does not support scheduling and uploading from Opencast. For an automated upload it relies on MHRI. Unlike other recording tools TheRec is easy to install and to configure. It supports a wide variety of capture cards that are compatible with Microsoft DirectShow. The number of simultanous streams that can be recorded is only limited by the speed of the computer.
-[TheRec Homepage](https://elan-ev.de/produkte_av_therec_english.php "TheRec Homepage")
+{% include fullsizebox.html 
+title="Paella Player"
+description="The Paella Player is a free and open-source alternative player for Opencast. It is an alternative to the player included within Opencast and offers an appealing design and some unique features like virtual trimming. It is using HTML5 video with a fallback to Flash. The Paella Player can also be embedded into edX.
 
-<img class="feature-image-right" src="http://www.opencast.org/wp-content/uploads/2015/07/gc-dashboard.png">
-## Galicaster Dashboard
+[Paella Player Homepage](http://paellaplayer.upv.es/ "Paella Player Homepage)"
+image="/assets/img/paellaplayer.png"
+linkurl="https://wiki.teltek.es/display/Galicaster/Galicaster+Dashboard"
+align="left"
+imagewidth="50%"
+%}
 
-The Galicaster Dashboard is designed to monitor Capture Agents, especially Galicaster Capture Agents. The Tool gives you an overview of your recording devices, with their current status and a preview of the signals that the agent is currently recording.
-[Galicaster Dashboard Homepage](https://wiki.teltek.es/display/Galicaster/Galicaster+Dashboard "Galicaster Dashboard Homepage")
+{% include fullsizebox.html 
+title="Annotating Academic Video Tool"
+description="Annotating Academic Video is a free and open-source annotation tool. The aim of this software is provide teacher and learners with an easy to use tool to annotate videos.
 
+[Annotating Academic Video Tool Homepage](https://bitbucket.org/opencast-community/annotation-tool "Annotating Academic Video Tool Homepage)"
+image="/assets/img/annotationtool.png"
+linkurl="https://bitbucket.org/opencast-community/annotation-tool "Annotating Academic Video Tool Homepage"
+align="left"
+imagewidth="50%"
+%}
 
-<img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2015/07/paellaplayer.png">
-## Paella Player
-
-The Paella Player is a free and open-source alternative player for Opencast. It is an alternative to the player included within Opencast and offers an appealing design and some unique features like virtual trimming. It is using HTML5 video with a fallback to Flash. The Paella Player can also be embedded into edX.
-[Paella Player Homepage](http://paellaplayer.upv.es/ "Paella Player Homepage")
-
-
-<img class="feature-image-right" src="http://www.opencast.org/wp-content/uploads/2015/07/annotationtool.png">
-## Annotating Academic Video Tool
-
-Annotating Academic Video is a free and open-source annotation tool. The aim of this software is provide teacher and learners with an easy to use tool to annotate videos.
-[Annotating Academic Video Tool Homepage](https://bitbucket.org/opencast-community/annotation-tool "Annotating Academic Video Tool Homepage")
-
-
-<img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2015/07/login-1203603_960_720.png">
-## Opencast Stream Security Plugins
-
-Opencast supports URL signing to provide additional protection of resources against unauthorised access. While the Opencast core provides both facilities to sign URLs and verify signed URLs, additional efforts are required in setups that take advantage of dedicated download and/or streaming servers. Such dedicated distribution servers need to be capable to at least verify signed URLs to offer the same level of protection for distribution artefacts they are providing access to.
+{% include fullsizebox.html 
+title="Opencast Stream Security Plugins"
+description="Opencast supports URL signing to provide additional protection of resources against unauthorised access. While the Opencast core provides both facilities to sign URLs and verify signed URLs, additional efforts are required in setups that take advantage of dedicated download and/or streaming servers. Such dedicated distribution servers need to be capable to at least verify signed URLs to offer the same level of protection for distribution artefacts they are providing access to.
 
 Currently, there are two Opencast Stream Security plugins available:
 
-- [Apache HTTP Stream Security Plugin](https://bitbucket.org/opencast-community/apache-httpd-stream-security-plugin "Apache HTTP Stream Security Plugine")
-- [Wowza Stream Security Plugin](https://bitbucket.org/opencast-community/wowza-stream-security-plugin/src "Wowza Stream Security Plugin")
-
+- [Apache HTTP Stream Security Plugin](https://bitbucket.org/opencast-community/apache-httpd-stream-security-plugin "Apache HTTP Stream Security Plugine)
+- [Wowza Stream Security Plugin](https://bitbucket.org/opencast-community/wowza-stream-security-plugin/src "Wowza Stream Security Plugin)"
+image="/assets/img/login-1203603_960_720.png"
+linkurl="https://bitbucket.org/opencast-community/apache-httpd-stream-security-plugin"
+align="left"
+imagewidth="50%"
+%}
