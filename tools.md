@@ -5,24 +5,41 @@ description: The Opencast community offers several tools, mostly open source, th
 
 # Tools
 
-<img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2015/07/ls-running.png">
-## LectureSight
-LectureSight is a free and open-source tracking tool that allows to steer a pan-tilt camera based on data gathered by a separate webcam. The aim of this project is to offer a more vivid video of the lecture and show more details of what is going on in the classroom. This will enable an automated recording of a lecture that uses the blackboard, i.e.
-[LectureSight Homepage](https://opencast.jira.com/wiki/spaces/LECTURESIGHT/overview "LectureSight Homepage")
+{% include fullsizebox.html 
+title="LectureSight"
+description="LectureSight is a free and open-source tracking tool that allows to steer a pan-tilt camera based on data gathered by a separate webcam. The aim of this project is to offer a more vivid video of the lecture and show more details of what is going on in the classroom. This will enable an automated recording of a lecture that uses the blackboard, i.e.
 
-<img class="feature-image-right" src="http://www.opencast.org/wp-content/uploads/2015/07/galicaster-ui.png">
-## Galicaster
+[LectureSight Homepage](https://opencast.jira.com/wiki/spaces/LECTURESIGHT/overview)"
+image="/assets/img/ls-running.png"
+linkurl="https://opencast.jira.com/wiki/spaces/LECTURESIGHT/overview"
+align="left"
+imagewidth="50%"
+%}
 
-Galicaster, from Teltek, is currently the most popular capture software that works together with Opencast. Additional to recording devices with the Galicaster software that can be purchased from Teltek, this software under a non-commercial open-source licence that allows universities to use the software for free on their computers.
-[Galicaster Homepage](https://wiki.teltek.es/display/Galicaster/Galicaster+project+Home "Galicaster Homepage")
+{% include fullsizebox.html 
+title="Galicaster"
+description="Galicaster, from Teltek, is currently the most popular capture software that works together with Opencast. Additional to recording devices with the Galicaster software that can be purchased from Teltek, this software under a non-commercial open-source licence that allows universities to use the software for free on their computers.
 
-<img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2015/07/Screenshot-from-2017-03-13-17-43-53.png">
-## PyCA
+[Galicaster Homepage](https://wiki.teltek.es/display/Galicaster/Galicaster+project+Home)"
+image="/assets/img/galicaster-ui.png"
+linkurl="https://wiki.teltek.es/display/Galicaster/Galicaster+project+Home"
+align="left"
+imagewidth="50%"
+backgroundcolor=site.data.colors.box
+%}
 
-PyCA is a fully functional Opencast capture agent written in Python. It is free software, licensed under the terms of the GNU Lesser General Public License.
+{% include fullsizebox.html 
+title="PyCA"
+description="PyCA is a fully functional Opencast capture agent written in Python. It is free software, licensed under the terms of the GNU Lesser General Public License.
 
 PyCA can be run on almost any kind of devices: A regular PC equipped with capture cards, a server to capture network streams, small boards or embedded devices like Raspberry Pi, Beagleboard, …
-[PyCA on Github](https://github.com/opencast/pyCA "PyCA on Github")
+
+[PyCA on Github](https://github.com/opencast/pyCA)"
+image="/assets/img/Screenshot-from-2017-03-13-17-43-53.png"
+linkurl="https://github.com/opencast/pyCA"
+align="left"
+imagewidth="50%"
+%}
 
 <img class="feature-image-right" src="http://www.opencast.org/wp-content/uploads/2015/07/mhri.jpg">
 ## MHRI

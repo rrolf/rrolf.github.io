@@ -23,9 +23,11 @@ linktext="Learn More"
 {% include box-end.html %}
 
 > Opencast was the only solution that was fully automated and flexible enough to work with our existing audiovisual technology.
+
 Stuart Phillipson, University of Manchester
 
 > Opencast drastically reduces the time it takes to get educational resources online so end users can interact with content in real-time.
+
 Rüdiger Rolf, University of Osnabrück
 
 ## Get Started Now
