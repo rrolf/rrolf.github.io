@@ -162,16 +162,60 @@ Thank you to the following sponsor(s) for their support to advance the Opencast 
 # Our Supporters
 These institutions have provided financial, technical, or personnel suppport to advance the Opencast project. Thank you!
 
+{% include fullsizebox.html 
+image="/assets/img/eth-logo1.png"
+align="left"
+imagewidth="40%"
+%}
 
-<img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2016/09/eth-logo1.png">
-<img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2015/03/osnabruk.png">
-<img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2018/01/Switch600x400.jpg">
-<img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2016/09/logo-university-of-manchester.png">
-<img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2015/03/blindside.png">
-<img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2018/01/Valencia600x400.jpg">
-<img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2017/07/UCT-round-logo.png">
-<img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2015/03/jira.png">
-<img class="feature-image-left" src="http://www.opencast.org/wp-content/uploads/2018/01/Harvard600x400.jpg">
+{% include fullsizebox.html 
+image="/assets/img/osnabruk.png"
+align="left"
+imagewidth="40%"
+%}
+
+{% include fullsizebox.html 
+image="/assets/img/Switch600x400.jpg"
+align="left"
+imagewidth="40%"
+%}
+
+{% include fullsizebox.html 
+image="/assets/img/logo-university-of-manchester.png"
+align="left"
+imagewidth="40%"
+%}
+
+{% include fullsizebox.html 
+image="/assets/img/blindside.png"
+align="left"
+imagewidth="40%"
+%}
+
+{% include fullsizebox.html 
+image="/assets/img/Valencia600x400.jpg"
+align="left"
+imagewidth="40%"
+%}
+
+{% include fullsizebox.html 
+image="/assets/img/UCT-round-logo.png"
+align="left"
+imagewidth="40%"
+%}
+
+{% include fullsizebox.html 
+image="/assets/img/jira.png"
+align="left"
+imagewidth="40%"
+%}
+
+
+% include fullsizebox.html 
+image="/assets/img/Harvard600x400.jpg"
+align="left"
+imagewidth="40%"
+%}
 
 # Governance
 
