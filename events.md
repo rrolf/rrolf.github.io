@@ -34,7 +34,7 @@ description="There is one major annual meeting, the Opencast Summit. While this 
 Plus, there are regional Opencast meetings. The German-speaking community for example meets once or twice a year for a workshop.
 
 Last but not least, there is the annual Open Apereo Conference, with members of the Opencast Community joining and – ideally – presenting or organizing seminars and workshops to inform the larger Apereo community about Opencast."
-image="/assets/img/opencast-summit-2017.jpg"
+image="http://www.opencast.org/wp-content/uploads/2017/03/opencast-summit-2017.jpg"
 align="left"
 imagewidth="40%"
 %}
@@ -48,7 +48,7 @@ There is also a german-speaking **Adopters’ meeting** on the last Wednesday of
 There is also a weekly **technical meeting** for developers and sysops on Tuesdays at 3pm UTC on [http://opencast.blindsidenetworks.net](http://opencast2018.univie.ac.at/programme-and-recordings)(password: welcome). An agenda is also announced before the meeting on the developers’ mailing-lists.
 
 The Sakai Teaching and Learning group has opened up for other Apereo projects as an open forum. They meet [http://opencast.blindsidenetworks.net](https://confluence.sakaiproject.org/display/PED/Sakai+Teaching+and+Learning+Conference+Calls)(password: welcome)."
-image="/assets/img/bbb-conf.png"
+image="http://www.opencast.org/wp-content/uploads/2015/02/bbb-conf.png"
 align="left"
 imagewidth="40%"
 %}

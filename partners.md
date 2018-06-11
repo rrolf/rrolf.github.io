@@ -27,7 +27,7 @@ size="large"
 {% include imagebox.html 
 title="Arrive"
 description="Arrive provides a full range of displays, cameras and microphones – we integrate with all leading industry manufacturers."
-image="/assets/img/arrive.png"
+image="http://www.opencast.org/wp-content/uploads/2015/03/arrive.png"
 linkurl="https://arrivesys.com"
 linktext="Learn More"
 backgroundcolor=site.data.colors.greenbox
@@ -37,7 +37,7 @@ size="large"
 {% include imagebox.html 
 title="Cabletime"
 description="The MediaStar suite of products has been developed to manage, communicate and display any organization’s visual messages to the right people at the right time."
-image="/assets/img/cabletime.png"
+image="http://www.opencast.org/wp-content/uploads/2015/03/cabletime.png"
 linkurl="http://www.cabletime.com"
 linktext="Learn More"
 backgroundcolor=site.data.colors.greenbox
@@ -47,7 +47,7 @@ size="large"
 {% include imagebox.html 
 title="Datapath"
 description="Datapath is a leading innovator in the field of video graphics, video capture and video wall display technology. Providing video capture cards, graphics cards and multi-screen solutions."
-image="/assets/img/datapath1.png"
+image="http://www.opencast.org/wp-content/uploads/2015/03/datapath1.png"
 linkurl="http://www.datapath.co.uk"
 linktext="Learn More"
 backgroundcolor=site.data.colors.greenbox
@@ -57,7 +57,7 @@ size="large"
 {% include imagebox.html 
 title="Epiphan"
 description="Epiphan provides a line of hardware audio video solutions to capture, synchronize, encode, record, stream and process multiple types of audio video events."
-image="/assets/img/epiphan.png"
+image="http://www.opencast.org/wp-content/uploads/2015/03/epiphan.png"
 linkurl="https://www.epiphan.com"
 linktext="Learn More"
 backgroundcolor=site.data.colors.greenbox
@@ -67,7 +67,7 @@ size="large"
 {% include imagebox.html 
 title="Extron"
 description="Extron Electronics is a leading manufacturer of professional AV system integration products."
-image="/assets/img/extron.png"
+image="http://www.opencast.org/wp-content/uploads/2015/03/extron.png"
 linkurl="http://www.extronclassroom.com/index.aspx?returned=1"
 linktext="Learn More"
 backgroundcolor=site.data.colors.greenbox
@@ -77,7 +77,7 @@ size="large"
 {% include imagebox.html 
 title="NCast"
 description="NCast provides effective, scalable, and cost-effective methods for presenting rich content over IP networks."
-image="/assets/img/extron.png"
+image="http://www.opencast.org/wp-content/uploads/2015/03/ncast1.png"
 linkurl="https://www.ncast.com"
 linktext="Learn More"
 backgroundcolor=site.data.colors.greenbox
