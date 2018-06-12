@@ -39,28 +39,12 @@
         {{ content }}
     </section>
     <footer class="site-footer">
-        {% include footer.html
-          image="/assets/img/twitter.png"
-          linkurl="https://twitter.com/openmatter"
-          align="left"
-          imagewidth="2%"
-          backgroundcolor=site.data.colors.footerbox
-          %}
-
-          {% include footer.html
-            image="/assets/img/facebook.png"
-            linkurl="https://www.facebook.com/opencast"
-            align="left"
-            imagewidth="1.5%"
-            backgroundcolor=site.data.colors.footerbox
-            %}
-
-            {% include footer.html
-              image="/assets/img/youtube.png"
-              linkurl="https://www.youtube.com/channel/UCyKuUY_V_5Em5OSa59AUuVg"
-              align="left" imagewidth="1.5%"
-              backgroundcolor=site.data.colors.footerbox
-              %}
+        <div class="icons">
+        <a href="https://twitter.com/openmatter"><img src="/assets/img/twitter.png"></a>
+            <a href="https://www.facebook.com/opencast"><img src="/assets/img/facebook.png"></a>
+            <a href="https://www.youtube.com/channel/UCyKuUY_V_5Em5OSa59AUuVg"><img src="/assets/img/facebook.png"></a>
+        </div>
+    
 
         <section class="main-menu-footer">
         <nav class="navbar navbar-default navigation">
