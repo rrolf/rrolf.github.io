@@ -1,26 +1,33 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<link rel="stylesheet" href="../assets/css/style.scss">
-</head>
-<body>
-<div class="footer">
-	<ul>
-		<li><a href="README.md">HOME</a></li>
-		<li><a href="README.md">SOFTWARE</a></li>
-		<li><a href="README.md">BENEFITS</a></li>
-		<li><a href="README.md">USERS</a></li>
-		<li><a href="README.md">TOOLS</a></li>
-		<li><a href="README.md">PARTNERS</a></li>
-		<li><a href="README.md">COMMUNITY</a></li>
-		<li><a href="README.md">EVENTS</a></li>
-		<li><a href="README.md">CONTACT</a></li>
-		<li><a href="README.md">SPONSORS</a></li>
-	</ul>
-	<img src="../img/icon_facebook.png">
-	<img src="../img/twitter.jpg">
-	<img src="../img/youtube.png">
+<div class="footer" style="color: {{ include.textcolor | default: '#606c71' }}; background-color: {{ include.backgroundcolor | default: '#ffffff' }}">
+  <div class="footer-content">
+{% if  include.linkurl %}     
+    <a href="{{ include.linkurl }}">
+{% endif %}
+{% if  include.image %}      
+      <img class="footer-image" src="{{ include.image }}" alt="{{ include.title }} logo" 
+           style="float:{{ include.align | default: 'left' }}; {% if  include.imagewidth %}width: {{include.imagewidth}};{% endif %}">
+{% endif %}
+{% if  include.image %}      
+      <img class="footer-image" src="{{ include.image }}" alt="{{ include.title }} logo" 
+           style="float:{{ include.align | default: 'left' }}; {% if  include.imagewidth %}width: {{include.imagewidth}};{% endif %}">
+{% endif %}
+{% if  include.image %}      
+      <img class="footer-image" src="{{ include.image }}" alt="{{ include.title }} logo" 
+           style="float:{{ include.align | default: 'left' }}; {% if  include.imagewidth %}width: {{include.imagewidth}};{% endif %}">
+{% endif %}
+{% if  include.linkurl %}       
+    </a>
+{% endif %}     
+    <div class="footer-text">
+      <h3> {{ include.title }} </h3>
+      <p>
+        {{ include.description | markdownify }}
+      </p>
+    </div>
+  </div>
+{% if  include.linktext %}  
+  <div class="footer-link">
+    <a href="{{ include.linkurl }}"> {{ include.linktext }}</a>
+  </div>
+{% endif %}  
 </div>
-</body>
-</html>
