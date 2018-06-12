@@ -4,7 +4,7 @@ date: 2015-05-01
 description: The Universitat Politécnica de Valencia provides with the Paella Player an alternative engage player for Opencast. They are also initiated the Capture Agent Dashboard software.
 category: user
 tags: [user]
-logo: /assets/img/eth-logo.png
+logo: /assets/img/upv-logo.png
 ---
 
 Over a one year period ending in June 2013, the Universitat Politécnica de Valencia (UPV) implemented Opencast as a lecture recording solution for their campus. As of June 2013, UPV had installed 36 lecture halls with capture agents, and recorded the lectures of 53 teachers, resulting in 1400 lectures recorded with a peak usage of 150 hours/week.
