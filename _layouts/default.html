@@ -44,6 +44,13 @@
       {{ content }}
 
       <footer class="site-footer">
+          {% include fullsizebox.html 
+            image="/assets/img/twitter.jpg"
+            align="left"
+            imagewidth="20%"
+            backgroundcolor=site.data.colors.box
+            %}
+
         {% if site.github.is_project_page %}
           <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
         {% endif %}
