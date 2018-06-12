@@ -36,10 +36,11 @@
                 {{ include.description | markdownify }}
             </p>
         </div>
-    </div>
-    {% if include.linktext %}
+        {% if include.linktext %}
     <div class="footer-link">
         <a href="{{ include.linkurl }}"> {{ include.linktext }}</a>
     </div>
     {% endif %}
+    </div>
+    
 </div>
