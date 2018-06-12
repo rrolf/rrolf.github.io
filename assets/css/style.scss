@@ -209,7 +209,7 @@ a.menu-item:hover {
     color: white;
 }
 .footer-image {
-    width: 50px;
+    width: 2rem;
 }
 
 .main-menu-footer {
@@ -224,6 +224,14 @@ a.menu-item:hover {
 .icons{
     margin-left: 50%;
     margin-top: 40px;
+}
+
+ul.navigation-list {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  float: right;
 }
 /*
 .footer {
