@@ -15,6 +15,9 @@
     {% endif %}
 
 
+        {% if include.linkurl %}
+        </a>
+        {% endif %}
         {% if include.image %}
         <img class="footer-image" src="{{ include.image }}" alt="{{ include.title }} logo" style="float:{{ include.align | default: 'right' }}; {% if  include.imagewidth %}width: {{include.imagewidth}};{% endif %}"> {% endif %} {% if include.linkurl %}
         </a>
@@ -25,17 +28,18 @@
     </div>
     {% endif %}
 
-
+{% if include.linkurl %}
+        </a>
+        {% endif %}
         {% if include.image %}
         <img class="footer-image" src="{{ include.image }}" alt="{{ include.title }} logo" style="float:{{ include.align | default: 'right' }}; {% if  include.imagewidth %}width: {{include.imagewidth}};{% endif %}"> {% endif %} {% if include.linkurl %}
         </a>
         {% endif %}
-        <div class="footer-text">
-            <h3> {{ include.title }} </h3>
-            <p>
-                {{ include.description | markdownify }}
-            </p>
-        </div>
+        {% if include.linktext %}
+    <div class="footer-link">
+        <a href="{{ include.linkurl }}"> {{ include.linktext }}</a>
+    </div>
+    {% endif %}
         {% if include.linktext %}
     <div class="footer-link">
         <a href="{{ include.linkurl }}"> {{ include.linktext }}</a>
