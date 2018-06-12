@@ -205,10 +205,12 @@ a.menu-item:hover {
 .footer {
     background-color: #3e3e3e;
     width: 100%;
+    padding: 2rem;
     height: 200px;
     color: white;
 }
 .footer-image {
+    margin-top: 20px;
     width: 2rem;
 }
 
@@ -231,7 +233,6 @@ ul.navigation-list-footer {
   margin: 0px;
   padding: 0px;
   overflow: hidden;
-  float: right;
 }
 /*
 .footer {
