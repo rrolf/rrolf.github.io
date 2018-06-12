@@ -122,13 +122,6 @@ a.menu-item:hover {
     text-align: center;
 }
 
-.icons {
-    background-color: #3e3e3e;
-    width: 100%;
-    height: 200px;
-    color: white;
-}
-
 .imagebox {
   padding: 1rem;
   display: inline-block;
@@ -209,17 +202,22 @@ a.menu-item:hover {
   margin-bottom: 2rem;
 }
 
+.footer {
+    background-color: #3e3e3e;
+    width: 100%;
+    height: 200px;
+    color: white;
+}
 .footer-image {
     width: 50px;
 }
 
 .main-menu-footer {
     margin-top: -50px;
-    color: white;
     text-decoration: none;
 }
 
-.nav-link-footer li a {
+.menu-item li a {
     color: white;
 }
 /*
