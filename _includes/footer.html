@@ -74,10 +74,24 @@
         <img class="footer-image" src="{{ include.image }}" alt="{{ include.title }} logo" style="float:{{ include.align | default: 'right' }}; {% if  include.imagewidth %}width: {{include.imagewidth}};{% endif %}"> {% endif %} {% if include.linkurl %}
         </a>
         {% endif %}
+        {% if include.linktext %}
+    <div class="footer-link">
+        <a href="{{ include.linkurl }}"> {{ include.linktext }}</a>
+    </div>
+    {% endif %}
+
+
         {% if include.image %}
         <img class="footer-image" src="{{ include.image }}" alt="{{ include.title }} logo" style="float:{{ include.align | default: 'right' }}; {% if  include.imagewidth %}width: {{include.imagewidth}};{% endif %}"> {% endif %} {% if include.linkurl %}
         </a>
         {% endif %}
+        {% if include.linktext %}
+    <div class="footer-link">
+        <a href="{{ include.linkurl }}"> {{ include.linktext }}</a>
+    </div>
+    {% endif %}
+
+    
         {% if include.image %}
         <img class="footer-image" src="{{ include.image }}" alt="{{ include.title }} logo" style="float:{{ include.align | default: 'right' }}; {% if  include.imagewidth %}width: {{include.imagewidth}};{% endif %}"> {% endif %} {% if include.linkurl %}
         </a>
