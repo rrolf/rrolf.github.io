@@ -1,9 +1,4 @@
 theme: jekyll-theme-cayman
 title: Opencast Video Solution
 description: The free and open source solution for automated video capture and distribution at scale.
-image: /assets/img/button.png
-linkurl: opencast.org/software/downloads
-linktext: Download
-backgroundcolor: site.data.colors.box
-size: small
 google_analytics: UA-120509325-1
