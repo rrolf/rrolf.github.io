@@ -7,9 +7,15 @@
       <img class="footer-image" src="{{ include.image }}" alt="{{ include.title }} logo" 
            style="float:{{ include.align | default: 'left' }}; {% if  include.imagewidth %}width: {{include.imagewidth}};{% endif %}">
 {% endif %}
+{% if  include.linkurl %}       
+    </a>
+{% endif %}
 {% if  include.image %}      
       <img class="footer-image" src="{{ include.image }}" alt="{{ include.title }} logo" 
            style="float:{{ include.align | default: 'left' }}; {% if  include.imagewidth %}width: {{include.imagewidth}};{% endif %}">
+{% endif %}
+{% if  include.linkurl %}       
+    </a>
 {% endif %}
 {% if  include.image %}      
       <img class="footer-image" src="{{ include.image }}" alt="{{ include.title }} logo" 
