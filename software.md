@@ -1,6 +1,11 @@
 ---
 title: About Opencast Software
 description: Opencast is an open source solution for automated video capture and distribution at scale. Build custom capture, processing, scheduling and distribution solutions for your organization with one flexible platform.
+image="/assets/img/button.png
+linkurl="http://www.opencast.org/software/download"
+linktext="Download"
+backgroundcolor.size.data.colors.box
+size="small"
 ---
 
 # Features
