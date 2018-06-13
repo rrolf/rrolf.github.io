@@ -1,5 +1,20 @@
 Opencast is a flexible and customizable video capture and distribution system for modern institutions. Opencast is built by a growing community of developers in collaboration with leading universities and organizations worldwide.
 
+{% include community_menu.html 
+title="Try it"
+description="Here you can try it"
+%}
+
+{% include community_menu.html 
+title="Install it"
+description="Here you can install it"
+%}
+
+{% include community_menu.html 
+title="Use it"
+description="Here you learn how to use it"
+%}
+
 # Introduction 
 
 {% include videoplayer.html id="57a2b005-fe70-4566-a234-aa864faf1e29" %}
