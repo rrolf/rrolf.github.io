@@ -3,17 +3,17 @@ title: About Opencast Software
 description: Opencast is an open source solution for automated video capture and distribution at scale. Build custom capture, processing, scheduling and distribution solutions for your organization with one flexible platform.
 ---
 
-{% include community_menu.html 
+{% include buttons_menu.html 
 title="Try it"
 description="This is an official Opencast test server. The server is reset on a daily basis. The credentials are admin / opencast. [Here you can try it](https://develop.opencast.org)"
 %}
 
-{% include community_menu.html 
+{% include buttons.html 
 title="Install it"
 description="These guides will help you to build Opencast, including all necessary third party tools. This method will most likely work on all Unix-like systems. [Installation](https://docs.opencast.org/r/5.x/admin/installation/)"
 %}
 
-{% include community_menu.html 
+{% include buttons.html 
 title="Use it"
 description="The Opencast developer guide contains information for active developers and those who want to become involved in Opencast development. [Usage](https://docs.opencast.org/)"
 %}
