@@ -20,13 +20,7 @@
 {% if  include.linkurl %}     
     <a href="{{ include.linkurl }}">
 {% endif %}
-{% if  include.image %}      
-      <img class="menu_community-image" src="{{ include.image }}" alt="{{ include.title }} logo" 
-           style="float:{{ include.align | default: 'left' }}; {% if  include.imagewidth %}width: {{include.imagewidth}};{% endif %}">
-{% endif %}
-{% if  include.linkurl %}       
-    </a>
-{% endif %}     
+
     <div class="menu_community-text">
       <h3> {{ include.title }} </h3>
       <p>
