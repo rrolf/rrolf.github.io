@@ -1,9 +1,9 @@
-<div class="wolfvision" style="color: {{ include.textcolor | default: '#606c71' }}; background-color: {{ include.backgroundcolor | default: '#ffffff' }}">
-  <div class="wolfvision-content">
+<div class="sponsor" style="color: {{ include.textcolor | default: '#606c71' }}; background-color: {{ include.backgroundcolor | default: '#ffffff' }}">
+  <div class="sponsor-content">
 {% if  include.linkurl %}     
     <a href="{{ include.linkurl }}">
 {% endif %}
 {% if  include.image %}      
-      <img class="wolfvision-image" src="{{ include.image }}" alt="{{ include.title }} logo" 
+      <img class="sponsor-image" src="{{ include.image }}" alt="{{ include.title }} logo" 
            style="float:{{ include.align | default: 'left' }}; {% if  include.imagewidth %}width: {{include.imagewidth}};{% endif %}">
 {% endif %}
