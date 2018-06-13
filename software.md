@@ -8,6 +8,15 @@ title="Try it"
 description="Here you can try it"
 %}
 
+{% include community_menu.html 
+title="Install it"
+description="Here you can install it"
+%}
+
+{% include community_menu.html 
+title="Use it"
+description="Here you learn how to use it"
+%}
 
 # Features
 
