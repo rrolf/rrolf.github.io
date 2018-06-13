@@ -166,8 +166,8 @@ content="## IRC Channel #opencast
 Feel free to use the [webchat webinterface](http://webchat.freenode.net/?channels=opencast) to access this chat directly or [find a client](https://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clientst); in addition, this [IRC primer](http://www.irchelp.org/irchelp/ircprimer.html) should help get you started.
 "%}
 
-
-# Opencast Committers
+# People and Institutions
+## Opencast Committers
 
 <img  src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
 [Christian Greweling](https://opencast.jira.com/wiki/display/~cgreweling)
@@ -211,7 +211,7 @@ Feel free to use the [webchat webinterface](http://webchat.freenode.net/?channel
 <img src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
 [Waldmar Smirnow](https://opencast.jira.com/wiki/display/~waldemarsmirnow)
 
-# Committers Emeritus
+## Committers Emeritus
 The following people were committers at one time and have contributed to the project, but are no longer active committers.
 
 - Chris Brooks, University of Saskatchewan
@@ -243,10 +243,10 @@ The following people were committers at one time and have contributed to the pro
 - Christoph Driessen, Entwine/Extron
 - Basil Brunner, Entwine/Extron
 
-# Opencast Sponsors
+## Opencast Sponsors
 Thank you to the following sponsor(s) for their support to advance the Opencast project. More details can be found [here](http://www.opencast.org/sponsors).
 
-# Our Supporters
+## Our Supporters
 These institutions have provided financial, technical, or personnel suppport to advance the Opencast project. Thank you!
 
 {% include fullsizebox.html 
