@@ -10,12 +10,12 @@ description="This is an official Opencast test server. The server is reset on a 
 
 {% include community_menu.html 
 title="Install it"
-description="Here you can install it [Installation](https://docs.opencast.org/r/5.x/admin/installation/)"
+description="These guides will help you to build Opencast, including all necessary third party tools. This method will most likely work on all Unix-like systems. [Installation](https://docs.opencast.org/r/5.x/admin/installation/)"
 %}
 
 {% include community_menu.html 
 title="Use it"
-description="Here you learn how to use it [Usage](https://docs.opencast.org/)"
+description="The Opencast developer guide contains information for active developers and those who want to become involved in Opencast development. [Usage](https://docs.opencast.org/)"
 %}
 
 # Features
