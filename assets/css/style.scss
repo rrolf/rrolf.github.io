@@ -277,3 +277,34 @@ ul.navigation-list-footer {
 #features {
     float: left;
 }
+
+.sponsor {
+  width: 100%;
+  overflow: auto;
+  display: block;
+  margin: 0.5rem 0.2rem;
+}
+
+.sponsor-content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.sponsor-image {
+  margin: 1rem;
+  padding: 5px;
+  border: 1px solid rgba(0,0,0,0.15);
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  
+}
+
+.sponsor-text {
+  margin: 1rem;
+  display: table;
+}
+
+.sponsor-link {
+  height: 3rem;
+  padding-top: 1rem;
+}
