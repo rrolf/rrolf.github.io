@@ -1,16 +1,16 @@
-<div class="fullsizebox" style="color: {{ include.textcolor | default: '#606c71' }}; background-color: {{ include.backgroundcolor | default: '#ffffff' }}">
-  <div class="fullsizebox-content">
+<div class="menu_community" style="color: {{ include.textcolor | default: '#606c71' }}; background-color: {{ include.backgroundcolor | default: '#ffffff' }}">
+  <div class="menu_community-content">
 {% if  include.linkurl %}     
     <a href="{{ include.linkurl }}">
 {% endif %}
 {% if  include.image %}      
-      <img class="fullsizebox-image" src="{{ include.image }}" alt="{{ include.title }} logo" 
+      <img class="menu_community-image" src="{{ include.image }}" alt="{{ include.title }} logo" 
            style="float:{{ include.align | default: 'left' }}; {% if  include.imagewidth %}width: {{include.imagewidth}};{% endif %}">
 {% endif %}
 {% if  include.linkurl %}       
     </a>
 {% endif %}     
-    <div class="fullsizebox-text">
+    <div class="menu_community-text">
       <h3> {{ include.title }} </h3>
       <p>
         {{ include.description | markdownify }}
@@ -18,7 +18,7 @@
     </div>
   </div>
 {% if  include.linktext %}  
-  <div class="fullsizebox-link">
+  <div class="menu_community-link">
     <a href="{{ include.linkurl }}"> {{ include.linktext }}</a>
   </div>
 {% endif %}  
