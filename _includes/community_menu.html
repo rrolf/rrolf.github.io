@@ -1,9 +1,5 @@
 <div class="menu_community" style="color: {{ include.textcolor | default: 'white' }}; background-color: {{ include.backgroundcolor | default: 'lightseagreen' }}">
   <div class="menu_community-content">
-{% if  include.linkurl %}     
-    <a href="{{ include.linkurl }}">
-{% endif %}
-
     <div class="menu_community-text">
       <h3> {{ include.title }} </h3>
       <p>
@@ -11,6 +7,9 @@
       </p>
     </div>
   </div>
+  {% if  include.linkurl %}     
+    <a href="{{ include.linkurl }}">
+{% endif %}
 {% if  include.linktext %}  
   <div class="menu_community-link">
     <a href="{{ include.linkurl }}"> {{ include.linktext }}</a>
