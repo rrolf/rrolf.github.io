@@ -6,10 +6,7 @@
         {{ include.description | markdownify }}
       </p>
     </div>
-
-  {% if  include.linkurl %}     
-    <a href="{{ include.linkurl }}">
-{% endif %}
+  </div>
 {% if  include.linktext %}  
   <div class="menu_community-link">
     <a href="{{ include.linkurl }}"> {{ include.linktext }}</a>

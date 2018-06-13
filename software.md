@@ -6,18 +6,16 @@ description: Opencast is an open source solution for automated video capture and
 {% include community_menu.html 
 title="Try it"
 description="This is an official Opencast test server. The server is reset on a daily basis. The credentials are admin / opencast. [Here you can try it](https://develop.opencast.org)"
-linkurl="https://develop.opencast.org"
-linktext="Link"
 %}
 
 {% include community_menu.html 
 title="Install it"
-description="Here you can install it"
+description="Here you can install it [Installation](https://docs.opencast.org/r/5.x/admin/installation/)"
 %}
 
 {% include community_menu.html 
 title="Use it"
-description="Here you learn how to use it"
+description="Here you learn how to use it [Usage](https://docs.opencast.org/)"
 %}
 
 # Features
