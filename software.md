@@ -10,19 +10,6 @@ linkurl="https://develop.opencast.org"
 linktext="develop"
 %}
 
-{% include community_menu.html 
-title="Install it"
-description="Here you get to know how to install it"
-linkurl="https://docs.opencast.org/r/5.x/admin/installation/"
-linktext="Installation"
-%}
-
-{% include community_menu.html 
-title="Use it"
-description="Here you learn how to use it."
-linkurl="https://docs.opencast.org/"
-linktext="Usage"
-%}
 
 # Features
 
