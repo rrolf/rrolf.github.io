@@ -6,8 +6,6 @@ description: Opencast is an open source solution for automated video capture and
 {% include community_menu.html 
 title="Try it"
 description="Here you can try it"
-linkurl="https://develop.opencast.org"
-linktext="develop"
 %}
 
 
