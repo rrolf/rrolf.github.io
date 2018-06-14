@@ -261,7 +261,7 @@ ul.navigation-list-footer {
     color: white;
 }
 
-.menu_community {
+.software-button {
     float: left;
     padding: 1rem;
     color: white;
@@ -276,17 +276,17 @@ ul.navigation-list-footer {
     box-shadow: 3px 3px 8px rgba(0,0,0,0.3);
 }
 
-.menu_community:hover {
+.software-button:hover {
     background-image: linear-gradient(120deg, darken({{ site.data.colors.header-green }}, 10%), darken({{ site.data.colors.header-blue }}, 10%));
 }
 
-.menu_community h3 {
+.software-button h3 {
     color: white;
     font-weight: bolder;
     margin-bottom: 0rem;
 }
 
-.menu_community h3:hover {
+.software-button h3:hover {
     color: darken(white, 10%);
 }
 
@@ -325,14 +325,14 @@ ul.navigation-list-footer {
   padding-top: 1rem;
 }
 
-.software-block {
+.content-block {
   display: block;
   overflow: auto;
   width: 100%;
 }
 
 
-.software-more {
+.content-more {
   display: block;
   align: right;
   overflow: auto;
