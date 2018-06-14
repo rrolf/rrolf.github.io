@@ -269,6 +269,7 @@ ul.navigation-list-footer {
     width: 15.3rem;
     margin-right: 2rem;
     border-radius: 1rem;
+    border-color: black;
 }
 
 .menu_community h3 {
@@ -312,10 +313,14 @@ ul.navigation-list-footer {
 
 .software-block {
   display: block;
+  overflow: auto;
+  width: 100%;
 }
 
 
 .software-more{
   display: block;
   align: right;
+  overflow: auto;
+  width: 100%;
 }
