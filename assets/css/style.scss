@@ -20,16 +20,33 @@ li.sub-menu {
   font-weight: 200;
 }
 
+sub-menu-divider {
+  margin: 0px;
+}
+
 a.nav-link {
  display: block;
  text-align: center;
  text-decoration: none;
- padding: 14px 16px;
+ padding-left: 1rem;
+ padding-top: 16px;
  color: #41474c;
 }
 
-
 a.nav-link:hover {
+  color: #1e6bb8;
+  text-decoration: none;
+}
+
+a.sub-nav-link {
+ display: block;
+ text-align: center;
+ text-decoration: none;
+ padding-left: 1rem;
+ color: #41474c;
+}
+
+a.sub-nav-link:hover {
   color: #1e6bb8;
   text-decoration: none;
 }
