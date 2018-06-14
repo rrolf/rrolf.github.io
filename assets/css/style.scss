@@ -12,8 +12,11 @@
 }
 
 li.menu-item {
- float: left;
-    padding-right: 3rem;
+ display: inline-block; 
+}
+
+li.sub-menu {
+  font-size: 1.3rem;
 }
 
 a.nav-link {
