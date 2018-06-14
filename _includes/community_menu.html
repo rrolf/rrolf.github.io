@@ -1,25 +1,13 @@
-<div class="menu_community" style="color: {{ include.textcolor | default: 'white' }}; background-color: {{ include.backgroundcolor | default: 'lightseagreen' }}">
-  <div class="menu_community-content">
-{% if  include.linkurl %}     
-    <a href="{{ include.linkurl }}">
-{% endif %}
-{% if  include.image %}      
-      <img class="menu_community-image" src="{{ include.image }}" alt="{{ include.title }} logo" 
-           style="float:{{ include.align | default: 'left' }}; {% if  include.imagewidth %}width: {{include.imagewidth}};{% endif %}">
-{% endif %}
-{% if  include.linkurl %}       
-    </a>
-{% endif %}     
-    <div class="menu_community-text">
-      <h3> {{ include.title }} </h3>
-      <p>
-        {{ include.description | markdownify }}
-      </p>
-    </div>
-  </div>
-{% if  include.linktext %}  
-  <div class="menu_community-link">
-    <a href="{{ include.linkurl }}"> {{ include.linktext }}</a>
-  </div>
-{% endif %}  
+<div class="content-block">
+        <nav class="navbar navbar-default navigation">
+            <div class="navigation-bar">
+                <ul class="nav navbar-nav navigation-list">
+                    <li class="nav-item menu-item"><a class="nav-link" href="/users">Users</a></li>
+                    <li class="nav-item menu-item"><a class="nav-link" href="/communication">Communication</a></li>
+                    <li class="nav-item menu-item"><a class="nav-link" href="/marketplace">Marketplace</a></li>
+                    <li class="nav-item menu-item"><a class="nav-link" href="/events">Events</a></li>
+                    <li class="nav-item menu-item"><a class="nav-link" href="/people">People</a></li>
+                </ul>
+            </div>
+        </nav>
 </div>
