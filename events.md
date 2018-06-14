@@ -2,6 +2,8 @@
 title: Opencast Community Meetings
 ---
 
+{% include community-menu.html %}
+
 # Upcoming Events
 Here are the conferences and workshops organized by the Opencast community and/or with participation by / relevance for the Opencast community.
 
