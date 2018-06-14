@@ -2,7 +2,7 @@
 title: Opencast Community
 description: "The Opencast Project thrives off of community engagement, sharing and contributions. It’s a community of institutions, individuals, and corporate organizations interested in open media for learning. Opencast was created to solve the need identified with academic institutions to run an affordable, flexible and enterprise-ready video management systems, and has grown into a robust community of innovators worldwide."
 ---
-{% include community-menu.html %}
+{% include community_menu.html %}
 
 # Institutions that use Opencast
 As an open-source project, it is hard to tell how many institutions are using Opencast. The software does not have to be licensed and the users do not need to register.But from registrations to the repositories we can say that at over 300 different institutions worldwide have downloaded Opencast. In this area we want to highlight some of the institutions that use Opencast in production.
