@@ -270,7 +270,7 @@ ul.navigation-list-footer {
     width: 15.3rem;
     margin-right: 2rem;
     border-radius: 1rem;
-    border: 4px solid darkslategrey;
+    border: 1px solid black;
     text-align: center;
 }
 
@@ -319,10 +319,11 @@ ul.navigation-list-footer {
   display: block;
   overflow: auto;
   width: 100%;
+  margin-bottom: 1rem;
 }
 
 
-.software-more{
+.software-more {
   display: block;
   align: right;
   overflow: auto;
