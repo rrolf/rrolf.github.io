@@ -1,5 +1,5 @@
 ---
-title: Frequently Ased Questions
+title: Frequently Asked Questions
 description: Here are some frequently asked questions regarding Opencast. This will help you determine if it’s the right solution for your organization.
 ---
 {% include software_menu.html %}
