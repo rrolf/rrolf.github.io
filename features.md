@@ -79,3 +79,5 @@ image="/assets/img/large-manage.jpg"
 align="left"
 imagewidth="40%"
 %}
+
+{% include software.html %}
