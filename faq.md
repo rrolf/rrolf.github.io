@@ -44,3 +44,5 @@ Open source is a great way to highlight your organization’s drive for innovati
 content="## How often are new features rolled out by the community?
 
 Every year there are two major releases to Opencast. Throughout the year, maintenance releases, bug fixes and new features are deployed on an on-going basis." %}
+
+{% include software.html %}
