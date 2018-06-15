@@ -4,8 +4,6 @@ description: Here are some frequently asked questions regarding Opencast. This w
 ---
 {% include software_menu.html %}
 
-{% include software.html %}
-
 {% include simplebox.html backgroundcolor=site.data.colors.box 
 content="## How much does it cost?
 
