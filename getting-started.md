@@ -21,7 +21,9 @@ There are a few demo videos included by default that can be seen by everybody in
 # [Use it!](https://docs.opencast.org/){:target="_blank"}
 
 The Opencast documentation consist of three documents for each release: 
-An Admin Do
+* The Admin documentation provides information on how to install, setup and configure Opencast.
+* The User documentation explains the UI and processes of Opencast.
+* The Developer UI contains information on the general development process and the technologies used in Opencast.
 
 [Opencast Documentation](https://docs.opencast.org/){:target="_blank"}
 
