@@ -4,8 +4,7 @@ description: "These developers, committers and institutions are actively working
 ---
 {% include community_menu.html %}
 
-# People and Institutions
-## Opencast Committers
+# Opencast Committers
 
 <img  src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
 [Christian Greweling](https://opencast.jira.com/wiki/display/~cgreweling)
@@ -81,10 +80,10 @@ The following people were committers at one time and have contributed to the pro
 - Christoph Driessen, Entwine/Extron
 - Basil Brunner, Entwine/Extron
 
-## Opencast Sponsors
+# Opencast Sponsors
 Thank you to the following sponsor(s) for their support to advance the Opencast project. More details can be found [here](http://www.opencast.org/sponsors).
 
-## Our Supporters
+# Our Supporters
 These institutions have provided financial, technical, or personnel suppport to advance the Opencast project. Thank you!
 
 {% include fullsizebox.html 
