@@ -82,8 +82,7 @@ The following people were committers at one time and have contributed to the pro
 - Christoph Driessen, Entwine/Extron
 - Basil Brunner, Entwine/Extron
 
-<a id="opencast-board" name="opencast-board"/>
-# Opencast Board Members
+<h1 id="board">Opencast Board Members</h1>
 The Opencast Community elects a board that looks after the overall status and direction of the project and the community. The board organizes events like the Opencast Summit and takes care of the marketing of Opencast as a product. It also manages the funds of the projects.
 
 - Olaf A. Schulte, ETH Zurich, Chair
