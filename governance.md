@@ -2,6 +2,7 @@
 title: Governance
 description: Rules and regulations how the Opencast community is organized.
 ---
+{% include community_menu.html %}
 
 Opencast as a community and the related software development project have their rules and regulations.
 The community elects a board that should care about the health and status of the project and the community. The board organizes events like the Opencast conference or cares for the marketing. It also manages to funds of the projects.
