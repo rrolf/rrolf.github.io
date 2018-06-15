@@ -4,8 +4,6 @@ description: Opencast offers a rich set of features to support educators, learne
 ---
 {% include software_menu.html %}
 
-{% include software.html %}
-
 {% include fullsizebox.html 
 title="Schedule"
 description="Opencast Schedule lets you schedule an event to be automatically recorded on specific days and times of the week, and the distribution channel to which the recordings will be published.
