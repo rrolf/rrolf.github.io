@@ -6,6 +6,8 @@ description: "These developers, committers and institutions are actively working
 
 # Opencast Committers
 
+Committers are active developers or other active contributors that help with their activities to keep the software alive.
+
 <img  src="https://opencast.jira.com/wiki/images/icons/user_bw_16.gif">
 [Christian Greweling](https://opencast.jira.com/wiki/display/~cgreweling)
 
@@ -80,6 +82,17 @@ The following people were committers at one time and have contributed to the pro
 - Christoph Driessen, Entwine/Extron
 - Basil Brunner, Entwine/Extron
 
+# [Opencast Board Members](#opencast-board)
+The Opencast Community elects a board that looks after the overall status and direction of the project and the community. The board organizes events like the Opencast Summit and takes care of the marketing of Opencast as a product. It also manages the funds of the projects.
+
+- Olaf A. Schulte, ETH Zurich, Chair
+- Jody Fanto, Harvard University DCE
+- Vicente Goyanes, University of Vigo
+- Greg Logan, Opencast Consultant (voted representative of the committers)
+- Stephen Marquard, University of Cape Town
+- Carlos Turró Ribalta, Universitat Politécnica de Valencia (selected member)
+- Rüdiger Rolf, University of Osnabruck (selected member)
+
 # Opencast Sponsors
 Thank you to the following sponsor(s) for their support to advance the Opencast project. More details can be found [here](http://www.opencast.org/sponsors).
 
@@ -141,13 +154,3 @@ align="left"
 imagewidth="40%"
 %}
 
-# [Opencast Board Members](#opencast-board)
-The Opencast Community elects a board that looks after the overall status and direction of the project and the community. The board organizes events like the Opencast Summit and takes care of the marketing of Opencast as a product. It also manages the funds of the projects.
-
-- Olaf A. Schulte, ETH Zurich, Chair
-- Jody Fanto, Harvard University DCE
-- Vicente Goyanes, University of Vigo
-- Greg Logan, Opencast Consultant (voted representative of the committers)
-- Stephen Marquard, University of Cape Town
-- Carlos Turró Ribalta, Universitat Politécnica de Valencia (selected member)
-- Rüdiger Rolf, University of Osnabruck (selected member)
