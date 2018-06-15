@@ -89,4 +89,6 @@ backgroundcolor=site.data.colors.box
 # See why leading organizations chose Opencast.
 Visit our [Users](/users) page for more report from institutions that use Opencast.
 
+[<img class="center-image" src="/assets/img/opencast-homepage-logos-rev2.png">](/users)
+
 {% include software.html %}
