@@ -5,8 +5,6 @@ description: Learn and collaborate with leading organizations and universities w
 
 {% include software_menu.html %}
 
-{% include software.html %}
-
 {% include imagebox.html 
 title="Community-based"
 description="Opencast is an open source technology built by a community of innovators worldwide. Leveraging Opencast as your video capture solution gives you access to a community of users and enables you to collaborate with some of the brightest minds in the space. New features are continuously deployed and community members benefit from the learnings of their peers."
@@ -91,3 +89,4 @@ backgroundcolor=site.data.colors.box
 # See why leading organizations chose Opencast.
 Visit our [Users](/users) page for more report from institutions that use Opencast.
 
+{% include software.html %}
