@@ -1,12 +1,10 @@
 ---
 title: Opencast 5.0 has been released
 date: 2018-06-12
-description:
+description: This new release includes the popular Paella Player, a new Animate service to create exciting trailers, a Live Streaming Scheduler and many more improvements.
 category: release
 tags: [release, paella, player, animate, live, scheduler, OAI-PMH, moodle]
 ---
-
-<!--more-->
 
 The new features for this release are:
 
