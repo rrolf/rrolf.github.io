@@ -5,16 +5,16 @@ description: "The Opencast Project thrives off of community engagement, sharing 
 {% include community_menu.html %}
 
 # [Users](/users)
-As we are an free and open-source project, we cannot tell exactly how many institutions are using Opencast wordwide. But we have some reference users that are sharing their story how they use Opencast.
+As we are an free and open-source project, we cannot tell exactly how many institutions are using Opencast wordwide. But we have some reference users that are sharing their story how they use Opencast. [Read more...](/users)
  
 # [Communication](/communication) 
-Find out how to get in contact with the project to get support from the community or even get involved in the project.
+Find out how to get in contact with the project to get support from the community or even get involved in the project. [Read more...](/communication)
  
 # [Events](/events)
-These are the upcoming Events around Opencast. You can also find recordings from past conferences here.
+These are the upcoming Events around Opencast. You can also find recordings from past conferences here. [Read more...](/events)
  
 # [People](/people)
-These are the people that keep the Opencast community and software alive.
+These are the people that keep the Opencast community and software alive. [Read more...](/people)
  
-# [Governence](/governance)
-The rules and regulations of our community.
+# [Governance](/governance)
+The rules and regulations of our community. [Read more](/governance)
