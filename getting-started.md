@@ -15,8 +15,9 @@ There are a few demo videos included by default that can be seen by everybody in
 [Media Module](https://develop.opencast.org/engage/ui){:target="_blank"}
 
 # [Install it!](https://docs.opencast.org/r/5.x/admin/installation/){:target="_blank"}
+The Opencast software runs on Linux or MacOS servers. There are repositories with binaries available for CentOS (RPM) and Debian (DEB) like distributions. There are also Docker images available. If none of this works for you, you also find a detailed guide on how to build Opencast yourself.
 
-[Install it!](https://docs.opencast.org/r/5.x/admin/installation/){:target="_blank"}
+[Installation guide](https://docs.opencast.org/r/5.x/admin/installation/){:target="_blank"}
 
 # [Use it!](https://docs.opencast.org/){:target="_blank"}
 
