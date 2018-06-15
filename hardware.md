@@ -13,7 +13,7 @@ image="/assets/img/arec.png"
 linkurl="http://www.arec.com/index-en.html"
 linktext="Learn More"
 backgroundcolor=site.data.colors.box
-size="large"
+format="large"
 %}
 
 {% include imagebox.html 
@@ -23,7 +23,7 @@ image="http://www.opencast.org/wp-content/uploads/2015/03/arrive.png"
 linkurl="https://arrivesys.com"
 linktext="Learn More"
 backgroundcolor=site.data.colors.box
-size="large"
+format="large"
 %}
 
 {% include imagebox.html 
@@ -33,7 +33,7 @@ image="http://www.opencast.org/wp-content/uploads/2015/03/cabletime.png"
 linkurl="http://www.cabletime.com"
 linktext="Learn More"
 backgroundcolor=site.data.colors.box
-size="large"
+format="large"
 %}
 
 {% include imagebox.html 
@@ -43,7 +43,7 @@ image="http://www.opencast.org/wp-content/uploads/2015/03/datapath1.png"
 linkurl="http://www.datapath.co.uk"
 linktext="Learn More"
 backgroundcolor=site.data.colors.box
-size="large"
+format="large"
 %}
 
 {% include imagebox.html 
@@ -53,7 +53,7 @@ image="http://www.opencast.org/wp-content/uploads/2015/03/epiphan.png"
 linkurl="https://www.epiphan.com"
 linktext="Learn More"
 backgroundcolor=site.data.colors.box
-size="large"
+format="large"
 %}
 
 {% include imagebox.html 
@@ -63,7 +63,7 @@ image="http://www.opencast.org/wp-content/uploads/2015/03/extron.png"
 linkurl="http://www.extronclassroom.com/index.aspx?returned=1"
 linktext="Learn More"
 backgroundcolor=site.data.colors.box
-size="large"
+format="large"
 %}
 
 {% include imagebox.html 
@@ -73,7 +73,7 @@ image="http://www.opencast.org/wp-content/uploads/2015/03/ncast1.png"
 linkurl="https://www.ncast.com"
 linktext="Learn More"
 backgroundcolor=site.data.colors.box
-size="large"
+format="large"
 %}
 
 {% include imagebox.html 
@@ -83,7 +83,7 @@ image="/assets/img/teltek.png"
 linkurl="http://teltek.es"
 linktext="Learn More"
 backgroundcolor=site.data.colors.box
-size="large"
+format="large"
 %}
 
 {% include imagebox.html 
@@ -93,6 +93,6 @@ image="/assets/img/Wolfvision-sponsor_gross.jpg"
 linkurl="https://wolfvision.com/vsolution/index.php/de"
 linktext="Learn More"
 backgroundcolor=site.data.colors.box
-size="large"
+format="large"
 %}
 
