@@ -10,15 +10,17 @@ description: Opencast is an open source solution for automated video capture and
 
 {% for post in site.posts limit:3 %}
 {% if post.categories contains "release" %}
-## [{{ post.title }}]({{ post.url }})
+
+{% include simplebox.html backgroundcolor=site.data.colors.greenbox 
+content="## [{{ post.title }}]({{ post.url }})
   _{{ post.date | date_to_long_string }}_ 
   {{ post.description }}
-  [Read more...]({{ post.url }})
+  [Read more...]({{ post.url }})" %}
   
----
 {% endif %}
 {% endfor %}
 
+---
 
 # [Install Opencast](/install)
 Here you will find a test server, installation instructions and the general documenation for Opencast. [Read more...](/install)
