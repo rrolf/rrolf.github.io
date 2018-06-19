@@ -21,6 +21,7 @@ Additional to the features there are more reasons why Opencast is a reasonable c
 # [Frequently Asked Questions](/faq)
 Here are some frequently asked questions regarding Opencast. This will help you determine if it’s the right solution for your organization. [Read more...](/faq)
 
+---
 
 # See why leading organizations chose Opencast.
 Visit our [Users](/users) page in the community section for more report from institutions that use Opencast.
