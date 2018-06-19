@@ -217,6 +217,26 @@ a.menu-item:hover {
   padding-top: 1rem;
 }
 
+.fullsizebox-rechts {
+  width: 100%;
+  display: block;
+  margin: 0.5rem 0.2rem;
+}
+
+.fullsizebox-content-rechts {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.fullsizebox-image-rechts {
+  margin: 1rem;
+  padding: 5px;
+  border: 1px solid rgba(0,0,0,0.15);
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  
+}
+
 .boxgroup {
   width: 100%;
   padding: 1rem;

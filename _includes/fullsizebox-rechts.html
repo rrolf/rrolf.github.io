@@ -1,10 +1,10 @@
-<div class="fullsizebox" style="color: {{ include.textcolor | default: '#606c71' }}; background-color: {{ include.backgroundcolor | default: '#ffffff' }}">
-  <div class="fullsizebox-content">
+<div class="fullsizebox-rechts" style="color: {{ include.textcolor | default: '#606c71' }}; background-color: {{ include.backgroundcolor | default: '#ffffff' }}">
+  <div class="fullsizebox-content-rechts">
 {% if  include.linkurl %}     
     <a href="{{ include.linkurl }}">
 {% endif %}
 {% if  include.image %}      
-      <img class="fullsizebox-image" src="{{ include.image }}" alt="{{ include.title }} logo" 
+      <img class="fullsizebox-image-rechts" src="{{ include.image }}" alt="{{ include.title }} logo" 
            style="float:{{ include.align | default: 'right' }}; {% if  include.imagewidth %}width: {{include.imagewidth}};{% endif %}">
 {% endif %}
 {% if  include.linkurl %}       
