@@ -11,11 +11,14 @@ description: Opencast is an open source solution for automated video capture and
 {% for post in site.posts limit:3 %}
 {% if post.categories contains "release" %}
 
-{% include simplebox.html backgroundcolor=site.data.colors.greenbox 
-content='## [{{ post.title }}]({{ post.url }})
+{% include box-start.html backgroundcolor=site.data.colors.greenbox %}
+
+## [{{ post.title }}]({{ post.url }})
   _{{ post.date | date_to_long_string }}_ 
   {{ post.description }}
-  [Read more...]({{ post.url }})' %}
+  [Read more...]({{ post.url }})
+  
+{% include box-end.html %}
   
 {% endif %}
 {% endfor %}
