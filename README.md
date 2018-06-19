@@ -21,6 +21,10 @@ Opencast is a flexible and customizable video capture and distribution system fo
 
 {% endfor %}
 
+[News Archive...](/news)
+
+---
+
 # Features
 
 {% include fullsizebox.html 
