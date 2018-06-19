@@ -107,7 +107,7 @@ imagewidth="40%"
 
 {% include fullsizebox.html 
 image="http://www.opencast.org/wp-content/uploads/2015/03/osnabruk.png"
-align="left"
+align="right"
 imagewidth="40%"
 %}
 
@@ -119,7 +119,7 @@ imagewidth="40%"
 
 {% include fullsizebox.html 
 image="/assets/img/logo-university-of-manchester.png"
-align="left"
+align="right"
 imagewidth="40%"
 %}
 
@@ -131,7 +131,7 @@ imagewidth="40%"
 
 {% include fullsizebox.html 
 image="/assets/img/Valencia600x400.jpg"
-align="left"
+align="right"
 imagewidth="40%"
 %}
 
@@ -143,7 +143,7 @@ imagewidth="40%"
 
 {% include fullsizebox.html 
 image="http://www.opencast.org/wp-content/uploads/2015/03/jira.png"
-align="left"
+align="right"
 imagewidth="40%"
 %}
 
