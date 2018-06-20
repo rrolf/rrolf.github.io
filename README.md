@@ -80,6 +80,6 @@ align="right"
 
 ---
 
-# Trusted by a Collection of Innovative Organizations
+# Trusted by a Collection of Innovative Organizations including these 6 Institutions
 [<img class="center-image" src="/assets/img/opencast-homepage-logos-rev2.png">](/users)
 
