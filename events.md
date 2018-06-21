@@ -36,8 +36,18 @@ description="There is one major annual meeting, the Opencast Summit. While this 
 Plus, there are regional Opencast meetings. The German-speaking community for example meets once or twice a year for a workshop.
 
 Last but not least, there is the annual Open Apereo Conference, with members of the Opencast Community joining and – ideally – presenting or organizing seminars and workshops to inform the larger Apereo community about Opencast."
-image="http://www.opencast.org/wp-content/uploads/2017/03/opencast-summit-2017.jpg"
+image="/assets/img/opencast-summit-2017.jpg"
 align="left"
+imagewidth="40%"
+%}
+
+{% include fullsizebox.html 
+title="Conference Recordings"
+description="There are recordings from the annual Opencast Summit since 2012 in the [video archive of the ETH Zürich](https://www.video.ethz.ch/events/opencast.html). "
+image="/assets/img/recording.jpg"
+align="left"
+linktext="Conference Recordings"
+linkurl="https://www.video.ethz.ch/events/opencast.html"
 imagewidth="40%"
 %}
 
