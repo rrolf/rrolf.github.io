@@ -17,6 +17,20 @@ align="left"
 imagewidth="50%"
 %}
 
+{% include fullsizebox.html 
+title="Track4K"
+description="Modern cameras can capture up to 4K resultion. This offers more detail than most current displays can show. Track4K analyses the high-res video and crops videos based on the actions within the video. There is also an interactive mode for the Paella player that automatically zooms in but allows the user to change the viewing area manually.
+
+[Track4K Homepage](http://track4k.co.za/index.html)"
+image="/assets/img/track4k.jpg"
+linkurl="http://track4k.co.za/index.html"
+align="left"
+imagewidth="50%"
+backgroundcolor=site.data.colors.box
+%}
+
+---
+
 # Recording
 
 {% include fullsizebox.html 
@@ -28,7 +42,6 @@ image="/assets/img/galicaster-ui.png"
 linkurl="https://wiki.teltek.es/display/Galicaster/Galicaster+project+Home"
 align="left"
 imagewidth="50%"
-backgroundcolor=site.data.colors.box
 %}
 
 {% include fullsizebox.html 
@@ -42,6 +55,7 @@ image="/assets/img/Screenshot-from-2017-03-13-17-43-53.png"
 linkurl="https://github.com/opencast/pyCA"
 align="left"
 imagewidth="50%"
+backgroundcolor=site.data.colors.box
 %}
 
 {% include fullsizebox.html 
@@ -52,7 +66,6 @@ description="TheRec is a free and open-source recording software for Windows 7+.
 image="/assets/img/therec.png"
 linkurl="https://elan-ev.de/produkte_av_therec_english.php"
 align="left"
-backgroundcolor=site.data.colors.box
 imagewidth="50%"
 %}
 
@@ -67,6 +80,7 @@ image="/assets/img/gc-dashboard.png"
 linkurl="https://wiki.teltek.es/display/Galicaster/Galicaster+Dashboard"
 align="left"
 imagewidth="50%"
+backgroundcolor=site.data.colors.box
 %}
 
 # Player
@@ -75,11 +89,13 @@ imagewidth="50%"
 title="Paella Player"
 description="The Paella Player is a free and open-source alternative player for Opencast. It is an alternative to the player included within Opencast and offers an appealing design and some unique features like virtual trimming. It is using HTML5 video with a fallback to Flash. The Paella Player can also be embedded into edX.
 
+## Now included in Opencast 5
+
 [Paella Player Homepage](http://paellaplayer.upv.es/)"
 image="/assets/img/paellaplayer.png"
 linkurl="https://wiki.teltek.es/display/Galicaster/Galicaster+Dashboard"
 align="left"
-backgroundcolor=site.data.colors.box
+backgroundcolor=site.data.colors.greenbox
 imagewidth="50%"
 %}
 
@@ -92,6 +108,7 @@ image="/assets/img/annotationtool.png"
 linkurl="https://bitbucket.org/opencast-community/annotation-tool"
 align="left"
 imagewidth="50%"
+backgroundcolor=site.data.colors.box
 %}
 
 # Security
@@ -107,6 +124,5 @@ Currently, there are two Opencast Stream Security plugins available:
 image="/assets/img/login-1203603_960_720.png"
 linkurl="https://bitbucket.org/opencast-community/apache-httpd-stream-security-plugin"
 align="left"
-backgroundcolor=site.data.colors.box
 imagewidth="50%"
 %}
