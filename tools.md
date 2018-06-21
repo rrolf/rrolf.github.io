@@ -89,7 +89,7 @@ backgroundcolor=site.data.colors.box
 title="Paella Player"
 description="The Paella Player is a free and open-source alternative player for Opencast. It is an alternative to the player included within Opencast and offers an appealing design and some unique features like virtual trimming. It is using HTML5 video with a fallback to Flash. The Paella Player can also be embedded into edX.
 
-## Now included in Opencast 5
+### Now included in Opencast 5
 
 [Paella Player Homepage](http://paellaplayer.upv.es/)"
 image="/assets/img/paellaplayer.png"
