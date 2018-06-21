@@ -43,7 +43,7 @@ imagewidth="40%"
 
 {% include fullsizebox.html 
 title="Conference Recordings"
-description="There are recordings from the annual Opencast Summit since 2012 in the [video archive of the ETH Zürich](https://www.video.ethz.ch/events/opencast.html). "
+description="There are recordings from the annual Opencast Summit since 2012 in the [video archive of the ETH Zürich](https://www.video.ethz.ch/events/opencast.html). You can find many interesting talks on the development of Opencast, user-stories from adopting institutions and many other topics here."
 image="/assets/img/recording.jpg"
 align="left"
 linktext="Conference Recordings"
