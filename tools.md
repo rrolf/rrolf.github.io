@@ -69,6 +69,8 @@ align="left"
 imagewidth="50%"
 %}
 
+---
+
 # Monitoring
 
 {% include fullsizebox.html 
@@ -82,6 +84,8 @@ align="left"
 imagewidth="50%"
 backgroundcolor=site.data.colors.box
 %}
+
+---
 
 # Player
 
@@ -110,6 +114,8 @@ align="left"
 imagewidth="50%"
 backgroundcolor=site.data.colors.box
 %}
+
+---
 
 # Security
 
