@@ -80,6 +80,8 @@ align="right"
 
 ---
 
+<i class="far fa-at" style="float: right; margin-left: 2rem;"></i>
+
 # Get Involved
 
 Opencast has an active, helpful and engaging community. [Here you can find information on how to get in contact with us](/communication).
