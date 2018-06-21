@@ -18,5 +18,5 @@ Please note that this website initializes Google Analytics with the setting
    anonymizeIp
 
 This guarantees anonymized data collection by masking the last part of your IP address.
-Further information concerning the terms and conditions of use and data privacy can be found at http://www.google.com/analytics/terms/gb.html or at http://www.google.com/intl/en_uk/analytics/privacyoverview.html
+Further information concerning the terms and conditions of use and data privacy can be found at [http://www.google.com/analytics/terms/gb.html](http://www.google.com/analytics/terms/gb.html) or at [http://www.google.com/intl/en_uk/analytics/privacyoverview.html](http://www.google.com/intl/en_uk/analytics/privacyoverview.html)
 
