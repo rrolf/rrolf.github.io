@@ -80,6 +80,10 @@ align="right"
 
 ---
 
+# Get Involved
+
+Opencast has an active, helpful and engaging community. [Here you can find information on how to get in contact with us](/communication).
+
 # Trusted by a Collection of Innovative Organizations including these 6 Institutions
 [<img class="center-image" src="/assets/img/opencast-homepage-logos-rev2.png">](/users)
 
