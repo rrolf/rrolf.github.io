@@ -4,6 +4,8 @@ description: The Opencast community offers several tools, mostly open source, th
 ---
 {% include marketplace_menu.html %}
 
+# Lecturer Tracking
+
 {% include fullsizebox.html 
 title="LectureSight"
 description="LectureSight is a free and open-source tracking tool that allows to steer a pan-tilt camera based on data gathered by a separate webcam. The aim of this project is to offer a more vivid video of the lecture and show more details of what is going on in the classroom. This will enable an automated recording of a lecture that uses the blackboard, i.e.
@@ -14,6 +16,8 @@ linkurl="https://opencast.jira.com/wiki/spaces/LECTURESIGHT/overview"
 align="left"
 imagewidth="50%"
 %}
+
+# Recording
 
 {% include fullsizebox.html 
 title="Galicaster"
@@ -52,6 +56,8 @@ backgroundcolor=site.data.colors.box
 imagewidth="50%"
 %}
 
+# Monitoring
+
 {% include fullsizebox.html 
 title="Galicaster Dashboard"
 description="The Galicaster Dashboard is designed to monitor Capture Agents, especially Galicaster Capture Agents. The Tool gives you an overview of your recording devices, with their current status and a preview of the signals that the agent is currently recording.
@@ -62,6 +68,8 @@ linkurl="https://wiki.teltek.es/display/Galicaster/Galicaster+Dashboard"
 align="left"
 imagewidth="50%"
 %}
+
+# Player
 
 {% include fullsizebox.html 
 title="Paella Player"
@@ -85,6 +93,8 @@ linkurl="https://bitbucket.org/opencast-community/annotation-tool"
 align="left"
 imagewidth="50%"
 %}
+
+# Security
 
 {% include fullsizebox.html 
 title="Opencast Stream Security Plugins"
