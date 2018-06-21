@@ -25,7 +25,6 @@ description="The website has recording of most of the sessions of this years con
 *Thanks to Austria’s Academic Moodle Cooperation for hosting the 2018 Opencast Summit at the University of Vienna.*"
 image="/assets/img/opencast2018wien.jpg"
 align="left"
-backgroundcolor=site.data.colors.box
 imagewidth="40%"
 %}
 
@@ -39,6 +38,7 @@ Last but not least, there is the annual Open Apereo Conference, with members of 
 image="/assets/img/opencast-summit-2017.jpg"
 align="left"
 imagewidth="40%"
+backgroundcolor=site.data.colors.box
 %}
 
 {% include fullsizebox.html 
