@@ -80,7 +80,7 @@ align="right"
 
 ---
 
-<i class="far fa-at" style="float: right; margin-left: 2rem;"></i>
+<i class="fas fa-at" style="float: right; margin-left: 2rem;"></i>
 
 # Get Involved
 
