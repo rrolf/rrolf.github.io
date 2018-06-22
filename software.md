@@ -57,7 +57,6 @@ description="Here are some frequently asked questions regarding Opencast. This w
 image="/assets/img/faq.png"
 linkurl="/software"
 align="right"
-backgroundcolor=site.data.colors.box
 %}
 
 # [Install Opencast](/install)
