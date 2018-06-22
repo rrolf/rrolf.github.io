@@ -17,7 +17,7 @@ backgroundcolor=site.data.colors.box
 {% include fullsizebox.html 
 title="Hardware Vendors"
 description="There are several hardware vendors that produce devices to record lectures based on a schedule and automatically upload them to Opencast. [Learn more...](/hardware)"
-image="/assets/img/free.png"
+image="/assets/img/hardware_vendor.png"
 linkurl="/software"
 align="right"
 %}
