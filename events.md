@@ -25,7 +25,6 @@ description="The website has recording of most of the sessions of this years con
 *Thanks to Austria’s Academic Moodle Cooperation for hosting the 2018 Opencast Summit at the University of Vienna.*"
 image="/assets/img/opencast2018wien.jpg"
 align="left"
-backgroundcolor=site.data.colors.box
 imagewidth="40%"
 %}
 
@@ -36,8 +35,19 @@ description="There is one major annual meeting, the Opencast Summit. While this 
 Plus, there are regional Opencast meetings. The German-speaking community for example meets once or twice a year for a workshop.
 
 Last but not least, there is the annual Open Apereo Conference, with members of the Opencast Community joining and – ideally – presenting or organizing seminars and workshops to inform the larger Apereo community about Opencast."
-image="http://www.opencast.org/wp-content/uploads/2017/03/opencast-summit-2017.jpg"
+image="/assets/img/opencast-summit-2017.jpg"
 align="left"
+imagewidth="40%"
+backgroundcolor=site.data.colors.box
+%}
+
+{% include fullsizebox.html 
+title="Conference Recordings"
+description="There are recordings from the annual Opencast Summit since 2012 in the [video archive of the ETH Zürich](https://www.video.ethz.ch/events/opencast.html). You can find many interesting talks on the development of Opencast, user-stories from adopting institutions and many other topics here."
+image="/assets/img/recording.jpg"
+align="left"
+linktext="Watch the Conference Recordings..."
+linkurl="https://www.video.ethz.ch/events/opencast.html"
 imagewidth="40%"
 %}
 
