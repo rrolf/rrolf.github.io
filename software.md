@@ -51,6 +51,15 @@ align="left"
 backgroundcolor=site.data.colors.box
 %}
 
+{% include fullsizebox.html 
+title="Frequently Asked Questions"
+description="Here are some frequently asked questions regarding Opencast. This will help you determine if it’s the right solution for your organization. [Read more...](/faq)"
+image="/assets/img/faq.png"
+linkurl="/software"
+align="left"
+backgroundcolor=site.data.colors.box
+%}
+
 # [Install Opencast](/install)
 Here you will find a test server, installation instructions and the general documenation for Opencast. [Read more...](/install)
 
