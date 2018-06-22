@@ -33,7 +33,7 @@ backgroundcolor=site.data.colors.box
 {% include fullsizebox.html 
 title="People"
 description="These are the people that keep the Opencast community and software alive. [Read more...](/people)"
-image="/assets/img/fopencast-summit.png"
+image="/assets/img/opencast-summit.png"
 linkurl="/software"
 align="left"
 %}
