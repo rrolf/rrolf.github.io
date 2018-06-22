@@ -23,6 +23,7 @@ description: Opencast is an open source solution for automated video capture and
 {% endfor %}
 
 ---
+<!-- Lizenzen unsplash.com: https://unsplash.com/license -->
 
 {% include fullsizebox.html 
 title="# [Install Opencast](/install)"
