@@ -16,7 +16,7 @@ backgroundcolor=site.data.colors.box
 {% include fullsizebox.html 
 title="Communication"
 description="Find out how to get in contact with the project to get support from the community or even get involved in the project. [Read more...](/communication)"
-image="/assets/img/communication.jpg"
+image="/assets/img/communication.png"
 linkurl="/software"
 align="left"
 %}
@@ -41,7 +41,7 @@ align="left"
 {% include fullsizebox.html 
 title="Governance"
 description="The rules and regulations of our community. [Read more](/governance)"
-image="/assets/img/governance.jpg"
+image="/assets/img/governance.png"
 linkurl="/software"
 align="right"
 backgroundcolor=site.data.colors.box
