@@ -36,7 +36,7 @@ align="left"
 {% include fullsizebox.html 
 title="Features"
 description="What makes Opencast such a great software? Have a look at out feature highlights. [Read more...](/features)"
-image="/assets/img/features.jpg"
+image="/assets/img/benefits.jpg"
 linkurl="/software"
 align="right"
 backgroundcolor=site.data.colors.box
@@ -45,7 +45,7 @@ backgroundcolor=site.data.colors.box
 {% include fullsizebox.html 
 title="Benefits"
 description="Additional to the features there are more reasons why Opencast is a reasonable choice for a video management system ant your institution. [Read more...](/benefits)"
-image="/assets/img/benefits.png"
+image="/assets/img/features.png"
 linkurl="/software"
 align="left"
 %}
