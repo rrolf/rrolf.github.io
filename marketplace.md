@@ -25,7 +25,7 @@ align="right"
 {% include fullsizebox.html 
 title="Commercial Support"
 description="The Opencast community is very helpful if you encounter problems with your Opencast installation. But if you are looking for a professional support that you could rely on. [Learn more...](/support)"
-image="/assets/img/support.png"
+image="/assets/img/support_02.png"
 linkurl="/software"
 align="left"
 backgroundcolor=site.data.colors.box
