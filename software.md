@@ -24,6 +24,23 @@ description: Opencast is an open source solution for automated video capture and
 
 ---
 
+{% include fullsizebox.html 
+title="# [Install Opencast](/install)"
+description="Here you will find a test server, installation instructions and the general documenation for Opencast. [Read more...](/install)"
+image="/assets/img/install.jpg"
+linkurl="/software"
+align="left"
+backgroundcolor=site.data.colors.box
+%}
+
+{% include fullsizebox.html 
+title="# [Features](/features)"
+description="What makes Opencast such a great software? Have a look at out feature highlights. [Read more...](/features)"
+image="/assets/img/install.jpg"
+linkurl="/software"
+align="right"
+%}
+
 # [Install Opencast](/install)
 Here you will find a test server, installation instructions and the general documenation for Opencast. [Read more...](/install)
 
