@@ -31,7 +31,6 @@ description="Here you will find a test server, installation instructions and the
 image="/assets/img/installing.jpg"
 linkurl="/software"
 align="left"
-backgroundcolor=site.data.colors.box
 %}
 
 {% include fullsizebox.html 
@@ -40,6 +39,7 @@ description="What makes Opencast such a great software? Have a look at out featu
 image="/assets/img/features.jpg"
 linkurl="/software"
 align="right"
+backgroundcolor=site.data.colors.box
 %}
 
 {% include fullsizebox.html 
@@ -48,7 +48,6 @@ description="Additional to the features there are more reasons why Opencast is a
 image="/assets/img/benefits.png"
 linkurl="/software"
 align="left"
-backgroundcolor=site.data.colors.box
 %}
 
 {% include fullsizebox.html 
@@ -57,6 +56,7 @@ description="Here are some frequently asked questions regarding Opencast. This w
 image="/assets/img/faq.png"
 linkurl="/software"
 align="right"
+backgroundcolor=site.data.colors.box
 %}
 
 # [Install Opencast](/install)
