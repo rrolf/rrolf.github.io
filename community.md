@@ -43,7 +43,7 @@ align="left"
 {% include fullsizebox.html 
 title="Governance"
 description="The rules and regulations of our community. [Read more](/governance)"
-image="/assets/img/governance.png"
+image="/assets/img/governance02.png"
 linkurl="/software"
 align="right"
 backgroundcolor=site.data.colors.box
