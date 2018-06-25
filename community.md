@@ -4,6 +4,8 @@ description: "The Opencast Project thrives off of community engagement, sharing 
 ---
 {% include community_menu.html %}
 
+<!-- Lizenzen unsplash.com: https://unsplash.com/license -->
+
 {% include fullsizebox.html 
 title="Users"
 description="As we are an free and open-source project, we cannot tell exactly how many institutions are using Opencast wordwide. But we have some reference users that are sharing their story how they use Opencast. [Read more...](/users)"
