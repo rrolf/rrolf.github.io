@@ -9,7 +9,7 @@ description: "The Opencast Project thrives off of community engagement, sharing 
 {% include fullsizebox.html 
 title="Users"
 description="As we are an free and open-source project, we cannot tell exactly how many institutions are using Opencast wordwide. But we have some reference users that are sharing their story how they use Opencast. [Read more...](/users)"
-image="/assets/img/eht_studenten.png"
+image="/assets/img/eht_studenten_02.png"
 linkurl="/software"
 align="right"
 backgroundcolor=site.data.colors.box
