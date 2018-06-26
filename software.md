@@ -45,7 +45,7 @@ backgroundcolor=site.data.colors.box
 {% include fullsizebox.html 
 title="Benefits"
 description="Additional to the features there are more reasons why Opencast is a reasonable choice for a video management system ant your institution. [Read more...](/benefits)"
-image="/assets/img/large-playback_install.png"
+image="/assets/img/benefits.png"
 linkurl="/software"
 align="right"
 %}
