@@ -36,7 +36,7 @@ align="right"
 {% include fullsizebox.html 
 title="Features"
 description="What makes Opencast such a great software? Have a look at out feature highlights. [Read more...](/features)"
-image="/assets/img/benefits.png"
+image="/assets/img/features.png"
 linkurl="/software"
 align="right"
 backgroundcolor=site.data.colors.box
