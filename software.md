@@ -30,7 +30,7 @@ title="Install Opencast"
 description="Here you will find a test server, installation instructions and the general documenation for Opencast. [Read more...](/install)"
 image="/assets/img/installing.jpg"
 linkurl="/software"
-align="left"
+align="right"
 %}
 
 {% include fullsizebox.html 
@@ -47,7 +47,7 @@ title="Benefits"
 description="Additional to the features there are more reasons why Opencast is a reasonable choice for a video management system ant your institution. [Read more...](/benefits)"
 image="/assets/img/features.jpg"
 linkurl="/software"
-align="left"
+align="right"
 %}
 
 {% include fullsizebox.html 

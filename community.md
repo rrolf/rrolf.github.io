@@ -20,7 +20,7 @@ title="Communication"
 description="Find out how to get in contact with the project to get support from the community or even get involved in the project. [Read more...](/communication)"
 image="/assets/img/communication.png"
 linkurl="/software"
-align="left"
+align="right"
 %}
 
 {% include fullsizebox.html 
@@ -37,7 +37,7 @@ title="People"
 description="These are the people that keep the Opencast community and software alive. [Read more...](/people)"
 image="/assets/img/opencast-summit.png"
 linkurl="/software"
-align="left"
+align="right"
 %}
 
 {% include fullsizebox.html 
